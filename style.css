@@ -1,0 +1,148 @@
+:root {
+  --bg: #0f0e12;
+  --bg-alt: #17151c;
+  --card: #1c1a22;
+  --text: #f2f0f5;
+  --text-dim: #a9a5b4;
+  --accent: #ff4d8d;
+  --accent-2: #7c5cff;
+  --border: #2b2833;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  padding: 56px 0 40px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.6rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.site-subtitle {
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.05rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 32px 0 8px;
+}
+
+.filter-btn {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-btn:hover {
+  color: var(--text);
+  border-color: var(--accent-2);
+}
+
+.filter-btn.active {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #fff;
+}
+
+.posts {
+  margin: 24px 0 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.post {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px 28px;
+}
+
+.post-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.post-date {
+  white-space: nowrap;
+}
+
+.post-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.post-tag {
+  background: rgba(124, 92, 255, 0.15);
+  color: var(--accent-2);
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.post-title {
+  margin: 0 0 10px;
+  font-size: 1.4rem;
+}
+
+.post-body {
+  color: var(--text);
+}
+
+.post-body p {
+  margin: 0 0 14px;
+}
+
+.post-body p:last-child {
+  margin-bottom: 0;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 60px 0;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hit Takes — 2020s Music Thoughts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">Hit Takes</h1>
+      <p class="site-subtitle">unfiltered thoughts on the hit music of the 2020s</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filter-bar">
+      <button class="filter-btn active" data-tag="all">All</button>
+    </section>
+
+    <section id="posts" class="posts">
+      <!-- Posts are rendered here by app.js from posts.js -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Hit Takes</p>
+    </div>
+  </footer>
+
+  <script src="posts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -39,9 +39,7 @@ function render(activeTag) {
       .map(t => `<span class="post-tag">${t}</span>`)
       .join("");
 
-    const bodyHtml = (post.body || [])
-      .map(p => `<p>${p}</p>`)
-      .join("");
+    const bodyHtml = (post.body || []).join("");
 
     article.innerHTML = `
       <div class="post-meta">

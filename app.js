@@ -37,11 +37,16 @@ function renderPost(post) {
   return article;
 }
 
-// The nav only has one tab per year a post is about (from its year tag),
-// newest first. The intro has no year tag, so it never gets a tab — it's
-// the home view instead, shown until a year tab is picked.
+// Tab strip: "Intro" first, then one tab per year a post is about (from
+// its year tag), oldest to newest.
 const years = [...new Set(sorted.map(getYearTag).filter(Boolean))]
-  .sort((a, b) => b.localeCompare(a));
+  .sort((a, b) => a.localeCompare(b));
+
+const introBtn = document.createElement("button");
+introBtn.className = "tab-btn";
+introBtn.dataset.year = "";
+introBtn.textContent = "Intro";
+tabsEl.appendChild(introBtn);
 
 for (const year of years) {
   const btn = document.createElement("button");
@@ -59,7 +64,7 @@ function setActiveTab(year) {
 
 function renderHome() {
   postsEl.innerHTML = "";
-  setActiveTab(null);
+  setActiveTab("");
 
   const intro = sorted.filter(p => (p.tags || []).includes("intro"));
   for (const post of intro) {
@@ -81,7 +86,11 @@ function renderYear(year) {
 tabsEl.addEventListener("click", (e) => {
   const btn = e.target.closest(".tab-btn");
   if (!btn) return;
-  renderYear(btn.dataset.year);
+  if (btn.dataset.year === "") {
+    renderHome();
+  } else {
+    renderYear(btn.dataset.year);
+  }
 });
 
 homeLink.addEventListener("click", renderHome);

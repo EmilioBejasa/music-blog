@@ -38,9 +38,9 @@ function renderPost(post) {
 }
 
 // Tab strip: "Intro" first, then one tab per year a post is about (from
-// its year tag), oldest to newest.
+// its year tag), newest to oldest (reverse chronological).
 const years = [...new Set(sorted.map(getYearTag).filter(Boolean))]
-  .sort((a, b) => a.localeCompare(b));
+  .sort((a, b) => b.localeCompare(a));
 
 const introBtn = document.createElement("button");
 introBtn.className = "tab-btn";

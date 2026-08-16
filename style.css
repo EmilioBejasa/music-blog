@@ -7,6 +7,14 @@
   --accent: #ff4d8d;
   --accent-2: #7c5cff;
   --border: #2b2833;
+
+  --tier-terrible: #ff5c5c;
+  --tier-bad: #ff9f43;
+  --tier-mid: #f4d35e;
+  --tier-decent: #6fcf6f;
+  --tier-good: #57a6ff;
+  --tier-excellent: #b088ff;
+  --tier-exceptional-plus: #e5c158;
 }
 
 * {
@@ -164,6 +172,25 @@ body {
 
 .post-body h3:first-child {
   margin-top: 0;
+}
+
+.post-body h3.tier-terrible { color: var(--tier-terrible); }
+.post-body h3.tier-bad { color: var(--tier-bad); }
+.post-body h3.tier-mid { color: var(--tier-mid); }
+.post-body h3.tier-decent { color: var(--tier-decent); }
+.post-body h3.tier-good { color: var(--tier-good); }
+.post-body h3.tier-excellent { color: var(--tier-excellent); }
+.post-body h3.tier-exceptional-plus { color: var(--tier-exceptional-plus); }
+
+/* Black text would vanish on this dark background, so the "exceptional-"
+   tier gets an inverted badge treatment instead of a plain color swap. */
+.post-body h3.tier-exceptional-minus {
+  display: inline-block;
+  color: #f2f0f5;
+  background: #000;
+  padding: 3px 12px;
+  border-radius: 4px;
+  border: 1px solid #333;
 }
 
 .post-body h4 {

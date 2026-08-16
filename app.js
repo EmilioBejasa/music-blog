@@ -15,6 +15,29 @@ function getYearTag(post) {
   return (post.tags || []).find(t => /^\d{4}$/.test(t));
 }
 
+// Ranking-tier section headers (e.g. "Terrible Tier", "Exceptional+ Tier")
+// get a color coded to their level. Matched by keyword since the heading
+// text is free-form HTML content, not a fixed enum.
+const TIER_KEYWORDS = [
+  ["exceptional-", "tier-exceptional-minus"],
+  ["exceptional+", "tier-exceptional-plus"],
+  ["terrible", "tier-terrible"],
+  ["bad", "tier-bad"],
+  ["mid", "tier-mid"],
+  ["decent", "tier-decent"],
+  ["good", "tier-good"],
+  ["excellent", "tier-excellent"],
+];
+
+function tierClassFor(headingText) {
+  const t = headingText.toLowerCase();
+  if (!t.includes("tier")) return null;
+  for (const [keyword, className] of TIER_KEYWORDS) {
+    if (t.includes(keyword)) return className;
+  }
+  return null;
+}
+
 function renderPost(post) {
   const article = document.createElement("article");
   article.className = "post";
@@ -33,6 +56,11 @@ function renderPost(post) {
     <h2 class="post-title">${post.title}</h2>
     <div class="post-body">${bodyHtml}</div>
   `;
+
+  article.querySelectorAll(".post-body h3").forEach(h3 => {
+    const tierClass = tierClassFor(h3.textContent);
+    if (tierClass) h3.classList.add(tierClass);
+  });
 
   return article;
 }

@@ -682,7 +682,7 @@ const POSTS = [
       `<h4>6. Too Sweet by Hozier</h4>`,
       `<p>The bassline is super infectious and is still stuck in my head, which is good in this case. The lyrics are kinda eh which is why it isn't in...</p>`,
 
-      `<h3>The Excellent Tier</h3>`,
+      `<h3>Excellent Tier</h3>`,
       `<p>Surprisingly, this OLIVIA RODRIGO song isn't higher.</p>`,
       `<h4>5. Obsessed by Olivia Rodrigo</h4>`,
       `<p>Yes, I've listened to the deluxe. I'm not sure of my thoughts on it. But I'm grateful that the rock song got pushed again, instead of songs like Vampire, which honestly have been shrinking on me to be her worst song period. It's not baaaad. The luster wore off FAST.</p>`,

@@ -176,6 +176,11 @@ body {
   margin-top: 0;
 }
 
+.post-body h3[class*="tier-"] {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .post-body h3.tier-terrible, .post-body h4.tier-terrible { color: var(--tier-terrible); }
 .post-body h3.tier-bad, .post-body h4.tier-bad { color: var(--tier-bad); }
 .post-body h3.tier-mid, .post-body h4.tier-mid { color: var(--tier-mid); }
@@ -189,6 +194,9 @@ body {
   color: transparent;
   font-weight: 700;
   text-shadow: 0 0 18px rgba(212, 175, 55, 0.35);
+  /* color is transparent for the gradient-clip effect, so the underline
+     (which defaults to currentcolor) needs its own explicit color. */
+  text-decoration-color: var(--tier-exceptional-plus-2);
 }
 
 /* Black text would vanish on this dark background, so the "exceptional-"

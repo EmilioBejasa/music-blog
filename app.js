@@ -24,6 +24,32 @@ function formatDate(dateStr) {
   return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
 }
 
+function getYearTag(post) {
+  return (post.tags || []).find(t => /^\d{4}$/.test(t));
+}
+
+function renderPost(post) {
+  const article = document.createElement("article");
+  article.className = "post";
+
+  const tagsHtml = (post.tags || [])
+    .map(t => `<span class="post-tag">${t}</span>`)
+    .join("");
+
+  const bodyHtml = (post.body || []).join("");
+
+  article.innerHTML = `
+    <div class="post-meta">
+      <span class="post-date">${formatDate(post.date)}</span>
+      <div class="post-tags">${tagsHtml}</div>
+    </div>
+    <h2 class="post-title">${post.title}</h2>
+    <div class="post-body">${bodyHtml}</div>
+  `;
+
+  return article;
+}
+
 function render(activeTag) {
   postsEl.innerHTML = "";
 
@@ -36,26 +62,42 @@ function render(activeTag) {
     return;
   }
 
-  for (const post of visible) {
-    const article = document.createElement("article");
-    article.className = "post";
+  // Pinned posts (e.g. the intro) render above any year sections.
+  const pinned = visible.filter(p => (p.tags || []).includes("intro"));
+  const rest = visible.filter(p => !(p.tags || []).includes("intro"));
 
-    const tagsHtml = (post.tags || [])
-      .map(t => `<span class="post-tag">${t}</span>`)
-      .join("");
+  for (const post of pinned) {
+    postsEl.appendChild(renderPost(post));
+  }
 
-    const bodyHtml = (post.body || []).join("");
+  // Group the remaining posts into sections by the year they're about
+  // (from the post's year tag), each internally newest-first — so a
+  // multi-part series like "Best Hit Songs of 2023... Part 3/2/1" lands
+  // in the "2023" section in reverse release-date order.
+  const years = [...new Set(rest.map(getYearTag).filter(Boolean))]
+    .sort((a, b) => b.localeCompare(a));
 
-    article.innerHTML = `
-      <div class="post-meta">
-        <span class="post-date">${formatDate(post.date)}</span>
-        <div class="post-tags">${tagsHtml}</div>
-      </div>
-      <h2 class="post-title">${post.title}</h2>
-      <div class="post-body">${bodyHtml}</div>
-    `;
+  for (const year of years) {
+    const heading = document.createElement("h2");
+    heading.className = "year-heading";
+    heading.textContent = year;
+    postsEl.appendChild(heading);
 
-    postsEl.appendChild(article);
+    for (const post of rest.filter(p => getYearTag(p) === year)) {
+      postsEl.appendChild(renderPost(post));
+    }
+  }
+
+  // Posts with no year tag (shouldn't normally happen) still render, at the end.
+  const other = rest.filter(p => !getYearTag(p));
+  if (other.length) {
+    const heading = document.createElement("h2");
+    heading.className = "year-heading";
+    heading.textContent = "Other";
+    postsEl.appendChild(heading);
+    for (const post of other) {
+      postsEl.appendChild(renderPost(post));
+    }
   }
 }
 

@@ -28,7 +28,7 @@ body {
 }
 
 .site-header {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  background: var(--accent-2);
   padding: 56px 0 40px;
   text-align: center;
 }
@@ -80,6 +80,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.year-heading {
+  margin: 40px 0 -4px;
+  font-size: 1.6rem;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.year-heading:first-child {
+  margin-top: 0;
 }
 
 .post {

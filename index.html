@@ -10,16 +10,20 @@
 
   <header class="site-header">
     <div class="wrap">
-      <h1 class="site-title">Hit Takes</h1>
+      <button class="site-title" id="home-link" type="button">Hit Takes</button>
       <p class="site-subtitle">unfiltered thoughts on the hit music of the 2020s</p>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="filter-bar">
-      <button class="filter-btn active" data-tag="all">All</button>
-    </section>
+  <nav class="site-tabs-wrap">
+    <div class="wrap">
+      <div class="site-tabs" id="site-tabs">
+        <!-- Year tabs are rendered here by app.js -->
+      </div>
+    </div>
+  </nav>
 
+  <main class="wrap">
     <section id="posts" class="posts">
       <!-- Posts are rendered here by app.js from posts.js -->
     </section>

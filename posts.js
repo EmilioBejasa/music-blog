@@ -1998,5 +1998,134 @@ const POSTS = [
       `<p>But nothing could taint this song. Even an extremely hamfisted marriage that we knew wasn't gonna work. This song is timeless.</p>`,
       `<p>And finally, the reason I've been so detached from the music scene. Time for what the fuck 2025 is.</p>`
     ]
+  },
+  {
+    title: "The Best Hit Songs of 2023... Part 5",
+    date: "2025-09-08",
+    tags: ["ranking", "2023", "best"],
+    body: [
+      `<p>This is like 2.5 years in the making, I again am so sorry for being this terribly late. I haven't even opened the document for this(which I will be having a shareable link for the process of creating the worst and best lists, it's a BEHEMOTH) in over 2 months. I still need to do a SEASONAL RANKING for the current year(which has been pretty slow outside of some(?) movement in the charts.</p>`,
+      `<p>Again 2023 is not the best year for music, which is mostly dragged down by the worst song to hit number 1 ever(this includes a literal pro-war anthem in the 1960s), and even the cream of the best songs crop includes some old-ass songs. But goddamn, the highs of this year are HIGH, containing probably one the best songs EVER, and this list is pretty much that song and other excellent songs around it that somehow AREN'T the best of all time. Seriously, this list is chock-full of all songs that are the best of the best of artists' pop catalogues, AND IT STILL ISN'T #1. Strap. THE FUCK. In.</p>`,
+
+      `<p>Oh right, this is an official top 10, starting with #9.5. Yes, I know. It's a bit of an oversight but it worked out, this is so good.</p>`,
+      `<p>The 2020s don't really have a defining sound, at least not yet. I don't think the horrible sampling from 2022 count(at least I hope it doesn't). It's pretty much whatever gets popular from TikTok and whatever the big labels push.</p>`,
+      `<p>That's why this spot is dedicated to the two movements that at least TRIED to be a defining sound.</p>`,
+      `<h4>9.5. Jersey Club and Drum and Bass</h4>`,
+      `<p>And I cannot begin to start talking about these sounds have improved the charts without talking about the biggest hits from them.</p>`,
+      `<h4>Just Wanna Rock by Lil Uzi Vert</h4>`,
+      `<p>This sounds like Eternal Atake 1's intro(we DO NOT talk about 2, do not take nitrous while making music, as evidenced by 2 and the Vultures project). I just love the revving energy of this, as the infectious bass compliments the glittery synths so well. Uzi does enough to make this banger pretty damn enjoyable too.</p>`,
+      `<h4>Boy's A Liar Pt. 2 by PinkPanthress ft. Ice Spice</h4>`,
+      `<p>This isn't an official cover, but it encapsulates what this song sounds like: an 8-bit Barbie game. The chiptune with the Jersey Club-esque bassline gives it such a unique and fresh, what this decade was desperately missing. And Pink's voice sounds really soft and bubbly, which is her usual shtick, but over this it sounds really good(as her voice pretty much compliment most of her own work). Somehow, the effortless cool of... fucking Ice Spice put this over the top. I honestly do not care that much about the lyrics because the sound is just that good and fresh and new. I might hammer this point a lot this segment.</p>`,
+      `<p>Speaking of fucking Ice Spice.</p>`,
+      `<h4>Princess Diana by Nicki Minaj & Ice Spice</h4>`,
+      `<p>I honestly don't have much to say about this, song is just really good, Nicki Minaj somehow is good for a feature on a hit for the second year in a row. This was an early contender for the top 10, but I don't feel as strongly about this as I used to(as it has been yunno... 2 years).</p>`,
+      `<p>But somehow, these songs and sounds are so great on their own, that it even can cross the language barrier.</p>`,
+      `<h4>WHERE SHE GOES by Bad Bunny</h4>`,
+      `<p>This just sounds great, the gun reload incorporating into the usual Jersey Club beat. And I can actually hide behind the fact that the lyrics don't matter because it's in a different language entirely! Just like the other two foreign language songs in this slot.</p>`,
+      `<h4>Super Shy by NewJeans</h4>`,
+      `<p>The sound that NewJeans is like the glittery adjacent of what PinkPanthress goes for honestly, and we need more shit like this, honestly. It's so bright and cute and we need a bit of that in our pop scene. Just like we need more calm and quiet instrumentals for these types of sounds as well, I like variety! Oh wait what's that. You're telling me the same band did that? Oh, ye!</p>`,
+      `<h4>Ditto by NewJeans</h4>`,
+      `<p>This is their best song too, easily would've made the list on its own without me shoehorning an entire style of music that defined a year. I fucking adore this song. The calm and collected vibe of a normally noisy sound is such a good choice to the pillowy soft vocals. And the lyrics, at least the English parts, have such a cute concept, hoping that the person you're crushing on is also sharing these feelings. Holy shit this song is so good. And somehow isn't the best song of this.</p>`,
+      `<h4>Strangers by Kenya Grace</h4>`,
+      `<p>Has any song been more perfect for night driving? Wow, I am kinda speechless when talking about the song. Its appeal is so simple. Again, another smaller-sounding drum-and-bass song that is about... a complete takedown of hookup culture and how it is destroying the psyche of the artist. And the ethereal energy of the beat making every relationship so finite and ephemeral is such a nice touch. I loved this song for a long ass time and I can finally gush about it fully. Can you tell that it's killing me writing this two years late, ultimately pushing everything else to the side. Thank god(and unfortunately) 2025 is turning out to be A NOTHING OF A YEAR. But that's for another time...</p>`,
+
+      `<p>This list is so stacked one of my favorite country songs of all time is only here. Well, this is also kinda folky, but I think I get to cheat here.</p>`,
+      `<p>So, HOW THE FUCK DID POST MALONE IMPROVE THIS SONG.</p>`,
+      `<h4>9. Dial Drunk by Noah Kahan ft. Post Malone</h4>`,
+      `<p>I am so goddamn happy this actually made the year-end list, even if Billboard is getting less and less indicative of what is actually big. Why is a song where its protagonist is unwaveringly pathetic so fucking fun to sing along to? The folk guitar line is so addictive it's crazy. Post Malone is making me realize the One Right Now of it all was a fucking fluke, he plays into the themes of this song of cops pulling you over and asking you why you're drunk and sad and alone and makes it, really fucking fun. And that's really it. The appeal being simple is probably why this is kind of low. I know I might've undersold it as one of my favorite country songs of all time, but yeah the list is pretty small as of right now. Still, cannot deny my love for this rush of happiness of a song.</p>`,
+
+      `<p>The Global Charts have helped me with following the new music, so much to the point where I might be using them as the chart for my top 20 rankings(especially with the increasing staleness of the Hot 100). But it has its own problem. A problem that has kinda spawned some... peculiarities of what we actually listen to. This problem, flaw is the no recurrency rules of the Global 200, where if a song is really popular for a very long time, it will STILL chart, even if it wasn't released that year or the previous, or wasn't ORIGINALLY popular until that year. Which means, if a song that was years old but finally gets popular in a random year, such as 2023, it can make the Global 200 Year End, when it would never touch the Year End. This is the main way I can "cheat" on the Year End Lists. But goddamn I love cheating if this is the result.</p>`,
+      `<h4>8. Money Trees by Kendrick Lamar ft. Jay Rock</h4>`,
+      `<p>This is one of Kendrick Lamar's most defining, and most streamed traditional non-hit, songs ever. And it's about bag-chasing and the lifestyle that came with it in Compton. And this song should've been a precursor to current-era, as the "ya bish" at the end of most lines in verses is similar to the other vocal stims that are rife in GNX. "MUSTARD", "hey now say now", need I say more, even if I'm getting a bit ahead of myself. That chorus line of "the one in front of the gun lives forever" grows even more haunting by the year, as more names are added to the hallowed list of race-related hate crimes, including famous celebrities(like the Xs and Takeoffs of the world). The hustle of the narrator and the violence that surrounds seems like just another day, another home invasion. This song surprisingly fits the bleakness of the current streaming era, as current events indicate. Oh, the Jay Rock verse sounds really nice.</p>`,
+      `<p>A never-forgotten gem from the GKMC era of Kendrick that resurged in the current decade shines through.</p>`,
+
+      `<p>Andddd another hard swerve into one of the most beautiful and lovely songs ever constructed in a studio. It's a fucking piano ballad. I love it.</p>`,
+      `<h4>7. In Your Love by Tyler Childers</h4>`,
+      `<p>The pedal drums, the piano, and even the synthesized keys gives it such a warm and genuine feel and touch. The rougher guitar right before the quieter bridge just accentuates how much the narrator loves whoever they love. Goddamn the lyrics are a little but basic, but the charm and folkiness of the entire song just overpowers it. This is a song of beauty of what one love can do to someone, because they love them that much. I adore this decree of passion so goddamn much.</p>`,
+
+      `<p>We need more country rock.</p>`,
+      `<h4>6. White Horse by Chris Stapleton</h4>`,
+      `<p>I need this shit in my veins. The crushing guitars and the grandiose framing of the song itself makes it TITANIC, seeming like the biggest hit song ever. It's so sweeping and huge. And it is about not being ready for a steady relationship when being swept up with someone else, them wanting this savior of a partner but Chris just isn't that. But he seems to really love his partner and is wanting his partner to hold for the better days ahead, as they mature together. But those damn guitars bring me back every time. And the instrumentation keeps building and building to the chorus every time. Fucking killer. Stapleton is one of the best country artists we have now, really hope this is indicative of signs to come.</p>`,
+
+      `<p>How is Billie Eilish's best song so far... at number 5.</p>`,
+      `<h4>5. What Was I Made For? by Billie Eilish</h4>`,
+      `<p>Of course her contribution to the Barbie Movie album is making one of the most devastating self-reflections, portraying her as a Barbie doll and spinning it into the premise of, what was she made for? What was her purpose? And man does this shit HIT. The piano, or more accurately, lack thereof just adds to the devastation.</p>`,
+      `<p>It also adds to the lack of knowledge that we the listeners know about an artist. They can have everything, the money, the popularity, even a relationship. But we never know if they are truly happy, goes to show how parasocial we are to artists. But yeah, this song is just heavy, and somehow Billie only gets better the years go by.</p>`,
+
+      `<p>Remember what I said about the Global Charts? They strike again.</p>`,
+      `<p>There has been one really notable song that has been inexplicably huge on Spotify throughout this decade, and is probably one of the biggest hits of all time on Spotify. And it's from an artist that hasn't really gotten a lot of mainstream success, but is a critic darling among his peers, ESPECIALLY among his peers honestly. This song isn't just ok, it's</p>`,
+      `<p><strong>OKOKOKOKOKOKOK</strong></p>`,
+      `<h4>4. See You Again by Tyler The Creator ft. Kali Uchis</h4>`,
+      `<p>This list has been chock-ful of different emotions, from love to devastation, to now just full-blown delusion about a love. The person that Tyler is in love with isn't even real, but is prepared to be in a relationship with them. The lush, summery atmosphere is also very jarring to hear, at least from Tyler himself. He usually has his lane(before 2018) of very harsh-sounding hip-hop, as seen off of Goblin.</p>`,
+      `<p>Another observation is that this song doesn't have any sort of pronouns, which is really important for Tyler, the Creator, as he came out around this time. This, AGAIN, was really jarring, juxtaposed to harsh, edgelord lyrics of his earlier work. His evolution into softer music exploring more emotional themes was evidently really surprising. Also, this type of unrequited love always becomes of these cult classics, even though it re-emerged through TikTok and a constant state of streaming off Spotify, appearing on its top 50 consistently there for THREE YEARS. It finally making the global YE in 2023 is miraculous. And this song almost wasn't his. It was originally... wait that can't be right... ZAYN'S FROM 1D????? Of course he flaked on the studio and that's the reason Tyler kept this generational masterpiece that only up being number 4.</p>`,
+
+      `<p>Cruel Summer only ended up being at #3, I am so sorry.</p>`,
+      `<h4>3. Cruel Summer by Taylor Swift</h4>`,
+      `<p>Yeah, the best Taylor Swift song, even better than All Too Well, Style, and many others, only #3. I can't believe there were 2 songs better than this one, but here we are. This is honestly shocking to even me, I thought this was a lock for #1 ever since it surged due to the Eras Tour and rediscovery due to... what else can it be other than TikTok.</p>`,
+      `<p>But why is this the best Taylor Swift I've ever heard. Well come on, every aspect of this pop song is pretty much perfect. And I don't want that label to be passed around everywhere. Here's the short list of every song I consider perfect(pulling from my Spotify Liked, also another recommendation list, and kinda spoils my future Top 20 pop songs of the 2010s):</p>`,
+      `<ul>
+        <li>world.execute(me); by Mili</li>
+        <li>Stan by Eminem</li>
+        <li>Green Light by Lorde</li>
+        <li>Need You Now by Lady A</li>
+        <li>Viva La Vida by Coldplay</li>
+        <li>Blinding Lights by the Weeknd</li>
+        <li>Adore You by Harry Styles</li>
+        <li>Good Days by SZA</li>
+        <li>All Too Well (10 minute version) by Taylor Swift</li>
+        <li>Adventure Of A Lifetime by Coldplay</li>
+        <li>Take Care by Drake and Rihanna</li>
+        <li>Hard Times by Paramore</li>
+        <li>夜に駆ける by YOASOBI</li>
+        <li>Seventeen Going Under by Sam Fender</li>
+        <li>Black Skinhead by Kanye West</li>
+        <li>PROVENZA by Karol G</li>
+        <li>Moth To A Flame by Swedish House Mafia and the Weeknd</li>
+        <li>Perfect by One Direction (ok this is one of the only joke entries because the song is literally named Perfect)</li>
+        <li>Instant Crush by Daft Punk ft. Julian Casablancas</li>
+        <li>Addicted to A Memory by Zedd ft. Bahari</li>
+        <li>Look At The Sky by Porter Robinson</li>
+        <li>Borderline by Tame Impala</li>
+        <li>ocean eyes by Billie Eilish</li>
+        <li>VOLVER by Tainy, Skrillex, Four Tet, and Rauw Alejandro</li>
+        <li>Not Strong Enough by boygenius</li>
+        <li>Goodbye To A World by Porter Robinson</li>
+        <li>The Less I Know The Better by Tame Impala</li>
+        <li>The Sound by the 1975</li>
+        <li>Curtains by Ed Sheeran</li>
+        <li>The best hit song of 2024, I cannot spoil it right now</li>
+        <li>nihilist blues by Bring Me The Horizon</li>
+        <li>Super Graphic Ultra Modern Girl by Chappell Roan</li>
+      </ul>`,
+      `<p>A bigger list than expected, and Cruel Summer is definitely part of this list as well. Every musical choice in this song is just right. The background robot voices, the chorus literally breaking down into millennial whoops rhyming with the title line, and that FUCKING BRIDGE playing twice, with one having half the instrumental, and the other having the full instrumental, it's one of the most iconic bridges of the modern day. Like... I know I shouldn't say this, but this is fucking Cruel Summer by Taylor Swift. You know this song. It's everything.</p>`,
+      `<p>And it got beat out by country songs.</p>`,
+
+      `<p>Yeah.</p>`,
+      `<h4>2. I Remember Everything by Zach Bryan ft. Kacey Musgraves</h4>`,
+      `<p>Seriously.</p>`,
+      `<h4>AND Dawns by Zach Bryan ft. Maggie Rogers</h4>`,
+      `<p>These are now my favorite country songs of all time.</p>`,
+      `<p>I Remember Everything is an anomaly of a song, in what it did and what it represents. First off, there was a stretch in late August- early September where the country scene was going through the worst discourse in their history, encompassing astroturfing, sundown towns, and straight up getting a cover into the top 5(although the cover of Fast Car was in fact really good). Then Zack Bryan drops this masterpiece of a song, album-bombs the charts, which a country artist whose name isn't Morgan Wallen has never done before, and gets a #1 hit with Kacey Musgraves off of it being an excellent song. Kacey Musgraves has been essentially blacklisted from the country scene for her previous two albums being "too pop"(because Music Row has been a toxic misogynistic place for YEARS on end, why do you think women in country get almost no spotlight compared to men).</p>`,
+      `<p>And why is it excellent? Well Zach's and Kacey's vocals are some of the most emotive and colorful vocals in the entire scene, reflecting on a dying relationship and despite the lump sums of alcohol they drink, they can't forget the fact that they have failed to keep promises, and repeated the patterns of their parent's dying relationship. The light strings and pedal steel just set in the devastation of the listener, almost eerily similar of the instrumentation's effect in Something In The Orange. And despite all the issues they had, the 88 Ford is a representation of the happy memories they had, but also an old pastime object that was handed down by his father. Jesus CHRIST. A song of this emotional weight IMMEDIATELY hitting #1 is something that really hasn't happened, usually these songs debut in the 50s, then slowly rise up to be generation-defining hits. I was wrong. It stayed for so long that it managed to make the 2024 YE list too.</p>`,
+      `<p>It's also NOT my favorite of the two. Dawns is somehow even better and goes even harder and heavier with a different female singer. And it has taken me 3 entire years to get to this one, charting in the 40s, never getting that push it so desperately deserves, but making it because the streaming numbers were just good enough. And my god this should BE the country song of this decade like Need You Now was a decade ago.</p>`,
+      `<p>A repeating theme of a dying relationship affected by parents is shown here. The ambulance wail in the beginning leading into the guitar is a great detail to even include, as the man's mother passes by a heart attack, and he is trying to save his relationship with this woman, begging for his dawns back. Zach Bryan's fraught, desperate, and pitchy vocals just gets me. This is somehow his worst and best vocal performance at the same time.</p>`,
+      `<p>The second part is where everything flips and tugs at my heart strings. This relationship cannot be saved, even if he wasted his dawns on his relationship in spite of his mother. He did everything to save what was left, but the woman realizes that her dawns were being wasted, even if the relationship started with them having fun, it seems t have taken a turn at some turn. The line of "life is as fleeting as a passing dawn" is used and executed so artfully both times, as one is based on the mother's passing and the other use is a stark realization that her time is better spent away from this relationship. The chorus itself can be a double meaning, where Zack loses her and his lover due to the same heart attack(or a literal and figurative one). This might be the best chorus ever written in any song.</p>`,
+      `<p>These songs, in a genre that I normally do not like, have wormed their way into my heart and into my personal all-time lists. AND THIS IS NUMBER 2. What can POSSIBLY be number 1.</p>`,
+      `<p>Side note: this list took so long that at the end of 2024, there were some abusive allegations that came out against Zach Bryan, and he himself confirmed he has split with his partner and has gone to therapy. This makes these songs EVEN MORE haunting, and in a sick, twisted way, possibly better. It's honestly like the 2013 controversy of "Do What I Want" by Lady Gaga ft. R. Kelly, where R. Kelly's verse completely twists her words and completely misses the point of the songs, and the euphemism of him being Gaga's relationship with the media getting even stronger when HIS allegations came out. His jarring switches to the songs portrays the media as an even more evil and overpowering figure, and there hasn't been a hit song that has even come close to this dynamic, but this situation and the whole Lizzo controversy has somewhat come close.</p>`,
+
+      `<p>I would say "my favorite pop song of all time", but that is so apparent. This ranked above my favorite country song, the best Taylor song, a cult classic, Billie's best song, and even one of the standouts of Kendrick's discography. It's about another break-up.</p>`,
+      `<p>But the context of this artist and the unique sound of this has rocketed this to a generational hit. And chart-wise it did nothing special. It started at #100, rose up all the way to 22, stayed for 22 weeks, and left. It means so much more, to me, and to another country themselves. Let me introduce you guys... to RAYE.</p>`,
+      `<h4>1. Escapism by RAYE ft. 070 Shake</h4>`,
+      `<p>RAYE is a British singer-songwriter that mixes a lot of different genres in her debut album last year, My 21st Century Blues, where Escapism resides. However, she has been in the industry for nearly a decade. So why the fuck did she just NOW release her debut album, you may ask? Her record label.</p>`,
+      `<p>Polydor signed her in 2014 when she featured on a 4-album deal, and kept on featuring on EDM hits and writing behind the scenes. During this time, she continued to feature on EDM hits and also honed her skills writing behind the scenes for other artists. While she was contributing to the music world, her own artistic voice wasn't taking center stage, often limited to dance tracks. By 2021, she had years of unreleased music and made her album contingent on the success of her latest single "Call On Me".</p>`,
+      `<p>It was in fact, not successful.</p>`,
+      `<p>The pressure to perform numbers-wise, her battle with addiction, and a past sexual assault incident with someone within the label led her to speak out in June of 2021, officially making her an independent artist. Her debut album, My 21st Century Blues, then released to a huge critical and commercial success, giving RAYE her first #1 UK single and the biggest hit by an independent artist in 10 years.</p>`,
+      `<p>Escapism itself is a song about a breakup and its drug-filled, depressing, and miserable aftermath. The strings and kick drum sounds like a spiral down into whatever fucked up shit she will get into. However, I also interpret as her escaping her contract as well, as that dispute is so inherently tied to this song. She does not have the industry backing her anymore. She's alone, but independent. And she chose to take all the emotion and release it in this one song. An anthem that is extremely raw, honest, dark, yet cathartic all at the same time. This is not a perfect, objectively good song. But goddamn, I felt this song A LOT. Getting out of a toxic situation and finally finding peace in her coping shows her talent, struggle to leave her label, and the catharsis to finally leave her label all at the same time and I FUCKING love it.</p>`,
+      `<p>Also this is now my favorite line in a pop song ever as well. The delivery of this line from 070 Shake gave me INSANE chills the first few times, it sounds like your internal thoughts are grounding you in a turbulent moment.</p>`,
+      `<p>And that is what makes this song my favorite pop song. Of all time. It was a slow burner at first. But I just kept on going back to it and every bit of info I found about this song made this creep up in my heart.</p>`,
+
+      `<p>Oh god, the 4 shadows from months have finally shown themselves. (note: this is why you don't write separate parts of a ranking with bits EIGHT MONTHS APART)</p>`,
+      `<p>Time for the 2024 Best List. God I hope I never have to catch up like this ever again.</p>`
+    ]
   }
 ];

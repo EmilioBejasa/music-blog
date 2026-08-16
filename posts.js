@@ -1641,9 +1641,9 @@ const POSTS = [
     ]
   },
   {
-    title: "The Best Hit Songs of 2024... Part 4",
+    title: "The Best Hit Songs of 2023... Part 4",
     date: "2025-01-07",
-    tags: ["ranking", "2024", "best"],
+    tags: ["ranking", "2023", "best"],
     body: [
       `<p>This part is dedicated to all the non-eligible songs and every song I recommended this year, with A LOT more included.</p>`,
       `<h3>HMs</h3>`,
@@ -1808,7 +1808,7 @@ const POSTS = [
       `<h4>Lets start here. by Lil Yachty</h4>`,
       `<p>I did not expect a funk rock album from the guy who featured on fucking Broccoli. The opener, the black seminole., best non-hit of the year. Hands down.</p>`,
       `<p>The last part to this list season will come... after a few others. I am waiting until February til the Winter Ranking because the charts have been so stale for about 5 months that it isn't worth talking about. But yes,</p>`,
-      `<img src="assets/posts/best-2024-part-4/img1.jpg" alt="Screenshot of two Spotify playlists by Asterisk: '2024 Best' and '2024 Worst'">`,
+      `<img src="assets/posts/best-2023-part-4/img1.jpg" alt="Screenshot of two Spotify playlists by Asterisk: '2024 Best' and '2024 Worst'">`,
       `<p>The process has started. DON'T worry, I am only do one part for each(at least the worst list) with expanded requirements(including all the rules I used but for the Global Year-end.</p>`,
       `<p>Time to close the last two years of music out.</p>`
     ]

@@ -4,7 +4,7 @@ const postsEl = document.getElementById("posts");
 const tabsEl = document.getElementById("site-tabs");
 const homeLink = document.getElementById("home-link");
 
-const sorted = [...POSTS].sort((a, b) => new Date(b.date) - new Date(a.date));
+const sorted = [...POSTS].sort((a, b) => new Date(a.date) - new Date(b.date));
 
 function formatDate(dateStr) {
   const d = new Date(dateStr + "T00:00:00");
@@ -38,9 +38,9 @@ function renderPost(post) {
 }
 
 // Tab strip: "Intro" first, then one tab per year a post is about (from
-// its year tag), newest to oldest (reverse chronological).
+// its year tag), oldest to newest.
 const years = [...new Set(sorted.map(getYearTag).filter(Boolean))]
-  .sort((a, b) => b.localeCompare(a));
+  .sort((a, b) => a.localeCompare(b));
 
 const introBtn = document.createElement("button");
 introBtn.className = "tab-btn";
@@ -76,8 +76,8 @@ function renderYear(year) {
   postsEl.innerHTML = "";
   setActiveTab(year);
 
-  // Newest-first within the year, so a multi-part series like
-  // "Best Hit Songs of 2023... Part 3/2/1" reads in reverse release-date order.
+  // Oldest-first within the year, so a multi-part series like
+  // "Best Hit Songs of 2023... Part 1/2/3" reads in chronological order.
   for (const post of sorted.filter(p => getYearTag(p) === year)) {
     postsEl.appendChild(renderPost(post));
   }

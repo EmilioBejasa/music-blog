@@ -488,7 +488,6 @@ const POSTS = [
     date: "2024-02-18",
     tags: ["ranking", "2024", "winter"],
     body: [
-      `<img src="assets/posts/worst-2023-part-1/img1.jpg" alt="Selfie of the author passed out asleep, again">`,
       `<p>Will be a LOT shorter due to the ambitious list season I have willfully undertaken. Plus I don't have a LOT of thoughts on most of the songs here.</p>`,
       `<p>That being said, pop music is...</p>`,
 
@@ -501,6 +500,7 @@ const POSTS = [
 
       `<h3>Bad Tier</h3>`,
       `<h4>18. FTCU by Nicki Minaj and Everybody by Nicki Minaj and Lil Uzi Vert</h4>`,
+      `<img src="assets/posts/worst-2023-part-1/img1.jpg" alt="Selfie of the author passed out asleep, again">`,
 
       `<h3>Mid Tier</h3>`,
       `<p>Well this is disappointing.</p>`,

@@ -3,7 +3,12 @@ document.getElementById("year").textContent = new Date().getFullYear();
 const postsEl = document.getElementById("posts");
 const filterBar = document.querySelector(".filter-bar");
 
-const sorted = [...POSTS].sort((a, b) => new Date(b.date) - new Date(a.date));
+const sorted = [...POSTS].sort((a, b) => {
+  const aPinned = (a.tags || []).includes("intro");
+  const bPinned = (b.tags || []).includes("intro");
+  if (aPinned !== bPinned) return aPinned ? -1 : 1;
+  return new Date(b.date) - new Date(a.date);
+});
 
 const allTags = [...new Set(sorted.flatMap(p => p.tags || []))].sort();
 for (const tag of allTags) {

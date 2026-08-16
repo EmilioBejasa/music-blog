@@ -1812,5 +1812,191 @@ const POSTS = [
       `<p>The process has started. DON'T worry, I am only do one part for each(at least the worst list) with expanded requirements(including all the rules I used but for the Global Year-end.</p>`,
       `<p>Time to close the last two years of music out.</p>`
     ]
+  },
+  {
+    title: "The Best Hit Songs of 2024",
+    date: "2025-09-08",
+    tags: ["ranking", "2024", "best"],
+    body: [
+      `<p>This year was the BEST year of pop music of the 2020s, easily. It had the best pop music phenomenon in years, a meteoric rise of new talent, and of course, brat summer. It made the Taylor Swift album release not feel as big as it would've been in previous years(or this one). Let's not waste time.</p>`,
+
+      `<p>This song might be the first true hit of 2024, going to the top 10 in the first week of January. And it still held up throughout.</p>`,
+      `<h4>15. Water by Tyla</h4>`,
+      `<p>It's so calming and simmers with its shuffling percussion, drums, and Tyla's bright vocals. The lyrics are simple but fit so thematically to the beachy instrumental that its genre, amapiano, reflects. The entire vibe of this song is... well a vibe, but at the same time, inviting and warm. Honestly, this is just a worse version of PROVENZA, and that is HIGH praise.</p>`,
+      `<p>Also, when she says the word "setttt" it actually just makes me smile, the rolling of a single letter just makes this song even cuter.</p>`,
+
+      `<p>SPEAKING of cute.</p>`,
+      `<h4>14. Magnetic by ILLIT</h4>`,
+      `<p>Probably one of the two simplest picks on the list. I listened to it a lot. It was addictive. That's mostly it. The youthful and bubbly vocals just fly on this synthy beat. From the few lyrics I do understand, the magnetism from the song's title is reflective of... I mean what did you expect. Fucking Coulomb's Law? NO, of course it's about a relationship, or a potential one. This is just so goddamn fun to listen.</p>`,
+
+      `<p>So now take the last two entries combined and... well.</p>`,
+      `<p>She finally got me. She made it onto the list.</p>`,
+      `<h4>13. Feather by Sabrina Carpenter</h4>`,
+      `<p>(I can't believe this is the vinyl cover for this song)</p>`,
+      `<p>And this is her ONLY entry. I think the reason why Please Please Please missed the list is the opening is too much after repeat listens. Oh and this song is just way better. The light and airiness of the instrumental with the lyrics being a fleeting relationship and being better off without it is weirdly positive and catchy. I just really the melodies and the experience of listening to it. This is a GREAT song to listen with headphones.</p>`,
+
+      `<p>Andddd into the darkest-sounding song so far.</p>`,
+      `<h4>12. CHIHIRO by Billie Eilish</h4>`,
+      `<p>Shit, I just realized I might have to use this image lat... OK WHAT THE FUCK. THESE 4 SHADOWS NEED TO CALM THE FUCK DOWN PLEASE. LET ME FINISH THE GODDAMN LIST.</p>`,
+      `<p>Anyways, this song might the first pop song in history to be inspired by Spirited Away. the most well-known Studio Ghibli movie. The title itself is the name of its protagonist, and Billie uses all these genius references to Spirited Away that tells me that she really valued this movie in her album, as themes of it bleed into all of the songs, but especially this song, where the darkly magical feel of the track is extremely apparent. She made such a concept of a song, and I feel bad now. I have it 12.</p>`,
+
+      `<p>AND I FEEL EVEN WORSE for putting this at 11. This is probably the fastest rise to superstardom in a while.</p>`,
+      `<h4>11. Good Luck Babe! by Chappell Roan</h4>`,
+      `<p>Man I love Dan Nigro, her and OLIVIA RODRIGO'S producer. And she opened the Guts World Tour, and has never looked back. Never have I remembered an album getting traction an entire year later and her debut single, which flopped and got her signed to Atlantic, getting popular FIVE YEARS LATER.</p>`,
+      `<p>Ok that's a first.</p>`,
+      `<p>This song is her only actual release of this year, too. And what a fucking song it is. An ex-partner that's suppressing her own queerness and the narrator cathartically letting her go is potent. And that goddamn BRIDGE man. HOLY. And having a song that made the VMAs relevant??? Chappell Roan is so goddamn talented to make an anthem of forced hetero relationships of a former lover this good. The fact this didn't make the top 10 is my fault.</p>`,
+
+      `<p>Writing this ranking is 2025 when this song is inexplicably STILL in the top 15 is partly why I haven't wrote anything about this year. But the chart holding over this still brings me joy.</p>`,
+      `<h4>10. Die With A Smile by Bruno Mars ft. Lady Gaga</h4>`,
+      `<p>Of course this song is good, you have two of the most talented voices of the previous decade coming together to make the best "live like were dying" type of songs. It's somehow bombastic, yet quaint. Emotional, yet wistful. And somehow still holding up to personal overplay. The opening guitar riff has me gripped every damn time. The instrumental and vocals and lyrics aren't challenging or anything, it's pretty much THE simple pop song of this year. But DAMN can that still be good, from the greatest to do it previously as well.</p>`,
+
+      `<p>Jesus Christ I still need to catch up with Stranger Things. Shit is gonna end soon and what, I'm just not doing it. Definitely not indicative of anything.</p>`,
+      `<p>C'mon yall know where I am going with this.</p>`,
+      `<h4>9. End Of Beginning by Djo</h4>`,
+      `<p>The glimmery, nostalgic-sounding song just hit, honestly. Joe Keery, or "Steve from Stranger Things" really wrote a song about being appreciative and wanting the past back, after physically being away from it for a while. Hm, it's almost like it kinda spoke to me, being even a mere few hours away from home at college. Also, it sounds great.</p>`,
+
+      `<p>Time to get a monkey off my back from about a year ago, putting this not in the Excellent Tier immediately is wild in hindsight.</p>`,
+      `<h4>8. Agora Hills by Doja Cat</h4>`,
+      `<p>Everything in this song snapped into place. Doja Cat has her fair share of... weird crashouts, I guess is the best way to put it...</p>`,
+      `<p>And it seems like her success is kind of getting to her. She tries to sabotage the song by singing in a "supposedly annoying" voice, but I feel like the contrast between her natural voice and the beat and this voice is genuinely very entertaining. The voicemails should NOT work. But no, in a song where they are trying to keep a relationship but don't want to because of their shared exhibitionist tendencies that sounds fucking magical is fucking magical. SHE IS TOO GOOD AT HER FUCKING JOB TO NOT BE SUCCESSFUL AND ITS TO HER OWN DETRIMENT.</p>`,
+
+      `<p>In any other year, this is the biggest triumph that a hip-hop artist has this year. It's not. For obvious reasons. Doesn't change that he finally, FINALLY got the pop crossover that I've wanted for years.</p>`,
+      `<h4>7. Sticky AND Noid AND St. Chroma by Tyler, the Creator</h4>`,
+      `<p>Chromakopia getting the success that IGOR should've gotten and that See You Again inexplicably gotten is so fucking great. Tyler is so good that his recent album is just a collection of bangers and some randos complained the album was too shallow for his standards. Surely that exact pattern doesn't occur, especially later on this list!</p>`,
+      `<p>Oh and:</p>`,
+      `<p>Is a line that ONLY Tyler can say and get away with it. Almost maes you forget about that random, stupid rumor that he and Jaden Smith were dating before he came out with IGOR.</p>`,
+
+      `<p>The other simple choice on the list.</p>`,
+      `<h4>6. Luna by Feid and ATL Draco</h4>`,
+      `<p>ATL Jacob created a great reggaeton beat that just exudes summer nights. It just sounds so warm and calm, and it came from a fucking hip-hop producer. That's kinda it, there isn't really any deep lyrical meaning as my enjoyment is very separate from that, it being in another language and all. That's all I need from this year. The song quality was so high overall and sometimes that's all that's needed. 2024 was just so great, but we're getting into the meat soon.</p>`,
+
+      `<p>[twister subsides] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH. [splat]</p>`,
+      `<p>Ok jesus christ I was in that for HOW LONG. Why the FUCK is it almost the end of the charting year, lazy FUCK. ANYWAYS.</p>`,
+      `<p>Country had an excellent landmark year last year. We had the biggest pop stars crossing over in Beyonce and Post Malone. A guy named SHABOOZEY got one of the biggest songs of the decade by sampling a CRUNK song in country(and also won't go the fuck away)... But of course the best coutnry artist had something in store.</p>`,
+      `<p>Oh shit... the Zach Bryan abuse allegations. Riiiight. Welp the next best artist that isn't problematic(YET) can take his place.</p>`,
+      `<h4>5. Ain't No Love In Oklahoma AND Where the Wild Things Are by Luke Combs</h4>`,
+      `<p>First off, I can't believe something from the soundtrack of Twisters got popular. After the Spiderverse tracks flopped(after producing a top 10 most popular song of the 2010s in Sunflower), I didn't think ANY movie tracks would have motion. I was very wrong.</p>`,
+      `<p>Thank god for it. This shit ROCKS man. The smoky and twangy guitar fits so well with Luke Combs' deeper belting. The chorus is bombastic, but not even that loud and flashy like most traditional rock. Country rock being somewhat successful in 2024 is great.</p>`,
+      `<p>And the other reason Luke Combs is one of the best artists working right now: his ability to write the most heart-wrenching, devastating shit ever. This ode to his brother moving out to the West, "where the wild things are", and eventually meeting up with him again years later and him saying he will never leave. But that's where everyone would get got, as the reminiscent instrumental cuts out and the first two lines of the chorus hit, the instrumental picks back up... and you get hit with the swerve. His brother, in the song AND in real life, tragically passes away from a motorcycle accident, which completely flips the chorus lines on his head. Every subsequent listen of this song, having the knowledge the death happens, just kinda puts everything in perspective. This is genuinely the first song that has this unique type of replayability.</p>`,
+      `<p>The versatility of this man is important to a country scene that's usually stale and not guilty replaying trends(see: the jelly roll of it all for the last 3 years[note: I do NOT hate jelly roll as an artist on principle, just his overexposure is getting a bit ridiculous]). I really look forward to what he does next.</p>`,
+
+      `<p>From two hits that just rock and rocked me into tears into a song that sounds like cotton candy.</p>`,
+      `<h4>4. Igual Que Un Angel by Kali Uchis ft. Peso Pluma</h4>`,
+      `<p>NOW THIS is the easiest one to explain. Kali Uchis just has this warm and sultry voice over this heavenly instrumental. I feel like I'm floating through clouds.</p>`,
+      `<p>And... that's kinda it. Peso Pluma is fine here. The entire appeal of the song is the sound; it's this high because it has stuck with me the entire year, and it's great. Another foreign-language song that just has a great sound.</p>`,
+
+      `<p>I honestly didn't expect this song to be this high. But yeah. Easily the best country hit of the year. Done by two women who may or may not be gay for each other.</p>`,
+      `<h4>3. II Most Wanted by Beyonce ft. Miley Cyrus</h4>`,
+      `<p>AT LEAST THAT'S THE WAY IT READS IN THE SONG. Kinda. Maybe I'm forcing it a little. Maybe this is a friends anthem that could read that way.</p>`,
+      `<p>Uhhhhh alright.</p>`,
+      `<p>This song is a very simple, stripped-back, guitar-driven anthem, with their vocals blended seamlessly. The vocal chemistry of Miley's rougher, rock-ish vocals and Beyonce's more clean vocals work really well off of each other.</p>`,
+
+      `<p>You know who was gonna be here eventually.</p>`,
+      `<h4>2. Kendrick Lamar</h4>`,
+      `<p>Let's take it back to around March of 2024. I'm still in a pretty uneventful spring semester, when the Future and Metro album starting to blow up. And surprisingly, Kendrick pops up for his first feature since Mr. Morale and The Big Steppers and the one-off single with Baby Keem, "The Hillbillies", nearly a year before this. And he fired back HUGE at Drake and J. Cole, claiming there was no "Big 3", only HE was the first. This SHATTERED the hip-hop landscape, as Lamar did this on a song with known Drake collaborators Future and Metro Boomin.</p>`,
+      `<p>This then turned into the craziest month in pop history between pop music's biggest rapper and most acclaimed rapper. There were 8 songs from early April to early May between Drake And Kendrick detailing moles in their labels, fake allegations on domestic abuse, and ANOTHER secret child. And while Drake came out with the weak response of "The Heart Part 6", Kendrick DOMINATED the summer with a club anthem with major quotable lines, calling Drake a PEDOPHILE(which should've been a fact since 2018 but I guess).</p>`,
+      `<p>Then Kendrick came out with a surprise album, and that's kinda where we are today. That Super Bowl performance where everyone in the stadium, no, in AMERICA, called Drake a pedophile. It was GLORIOUS. Meanwhile Drake has even lesser connections, got a diss BEAT on him, used that beat in a HORRIBLE song, and created one of the worst songs of 2025 by doing the shit Kendrick criticized him for in the first place. Oh and he mention Millie Bobbie Brown BY NAME.</p>`,
+      `<p>Every song from Kendrick is great, so I will talk about every qualifying hit right now:</p>`,
+      `<ul>
+        <li><strong>Not Like Us</strong> — The aforementioned song of the summer, the accompanying video is also one of the greatest easter-egg-filled music videos of all time.</li>
+        <li><strong>Like That</strong> — GODDAMN this metro beat is good. Can he do every Spiderverse</li>
+        <li><strong>Euphoria</strong> — Somehow everyone's favorite of the three tracks released this week. Meet The Grahams is my favorite by far, that horrorcore-ass song is genuinely terrifying and Kendrick talking to Drake's family as a concept is diabolical behavior.</li>
+        <li><strong>Squabble Up</strong> — GNX has so many vocal clips that have to become memes.</li>
+        <li><strong>TV Off</strong> — MUSTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARD. Sorry, force of habit.</li>
+        <li><strong>Wacced Out Murals</strong> — A very good intro to the album.</li>
+        <li><strong>Hey Now</strong> — Underrated song honestly, great flows and more vocal iconic clips and deadbeat delivery by dody.</li>
+        <li><strong>Reincarnated</strong> — THE BEST song on the album.</li>
+        <li><strong>Man at the Garden</strong> — Probably the worst song on here, but it's fine honestly, just a precursor to reincarnated.</li>
+        <li><strong>Luther</strong> — The second best song album, of course the SZA collab that sounds amazing is Kendrick's biggest of all time.</li>
+      </ul>`,
+      `<p>The entirety of Kendrick's contributions this year is a pop anomaly we may never see in our lifetimes.</p>`,
+
+      `<h3>Honorable Mentions</h3>`,
+      `<ul>
+        <li><strong>Lose Control</strong> by Teddy Swims</li>
+        <li><strong>A Bar Song (Tipsy)</strong> by Shaboozey</li>
+        <li><strong>Too Sweet</strong> by Hozier</li>
+        <li><strong>Please Please Please</strong> by Sabrina Carpenter</li>
+        <li><strong>Saturn</strong> by SZA</li>
+        <li><strong>Pink Skies</strong> by Zach Bryan</li>
+        <li><strong>Is It Over Now?</strong> by Taylor Swift</li>
+        <li><strong>Wanna Be</strong> AND <strong>Yeah Glo!</strong> by GloRilla</li>
+        <li><strong>Houdini</strong> by Dua Lipa</li>
+        <li><strong>Redrum</strong> by 21 Savage</li>
+        <li><strong>Lunch</strong> by Billie Eilish</li>
+        <li><strong>Type Shit</strong> by Future, Metro Boomin, Travis Scott, and Playboi Carti</li>
+        <li><strong>Made for Me</strong> by Muni Long</li>
+        <li><strong>I Like the Way You Kiss Me</strong> by artemas</li>
+        <li><strong>Timeless</strong> by Playboy Carti ft. the Weeknd</li>
+        <li><strong>Bling-Bang-Bang-Born</strong> by Creepy Nuts</li>
+        <li><strong>Unwritten</strong> by Natasha Bedingfield (YES THE ONE FROM THE 2000s)</li>
+        <li><strong>Yellow</strong> by Coldplay (would be eligible but made the Global YE in 2021)</li>
+        <li><strong>Murder On The Dancefloor</strong> by Sophie Ellis-Bextor (my real #1)</li>
+        <li><strong>Pedro</strong> by Jaxomy, Agatino Romero, and Raffaella Carra</li>
+        <li><strong>Guess</strong> by Charli XCX ft. Billie Eilish</li>
+        <li><strong>The Emptiness Machine</strong> by Linkin Park</li>
+        <li>17. <strong>Hiss</strong> by Megan Thee Stallion</li>
+        <li>16. <strong>Million Dollar Baby</strong> by Tommy Richman</li>
+      </ul>`,
+
+      `<h3>Non-Eligibles</h3>`,
+      `<ul>
+        <li><strong>Girl Next Door</strong> by Tyla and Ayra Starr</li>
+        <li><strong>Overcompensate</strong> AND <strong>Midwest Indigo</strong> by Twenty One Pilots</li>
+        <li><strong>Obsessed</strong> by Olivia Rodrigo</li>
+        <li><strong>Places to be</strong> by Fred again... ft. Anderson .paak and CHIKA</li>
+        <li><strong>Go Back</strong> by John Summit and Sub Focus ft. Julia Church</li>
+        <li><strong>Let It Burn</strong> by Shaboozey</li>
+        <li><strong>Red Wine Supernova</strong> by Chappell Roan</li>
+        <li><strong>Super Graphic Ultra Modern Girl</strong> by Chappell Roan</li>
+        <li><strong>L'AMOUR DE MA VIE</strong> by Billie Eilish</li>
+        <li><strong>Halfway To Hell</strong> by Jelly Roll</li>
+        <li><strong>The Door</strong> by Teddy Swims</li>
+        <li><strong>Jump</strong> by Tyla ft. Gunna and Skillibeng</li>
+        <li><strong>Addicted</strong> by Zerb ft. the Chainsmokers and Ink</li>
+        <li>Runner-up for Eurovision 2024: <strong>Rim Tim Tagi Dim</strong> by Baby Lasagna</li>
+        <li><strong>Mind Still</strong> by Sonny Fodera ft. Blythe</li>
+        <li><strong>How Sweet</strong> by NewJeans</li>
+        <li><strong>BANDIT</strong> by Don Toliver</li>
+        <li><strong>If u think i'm pretty</strong> by Artemas</li>
+        <li><strong>Mmhmm</strong> by BigXthaPlug</li>
+        <li><strong>PUNK TACTICS</strong> by Joey Valence & Brae</li>
+        <li><strong>On My Body</strong> by Tyla ft. Becky G</li>
+        <li><strong>Nasty</strong> by Tinashe</li>
+        <li><strong>Apple</strong> by Charli XCX</li>
+        <li><strong>M-E-X-I-C-O</strong> by Post Malone ft. Billy Strings</li>
+        <li><strong>Nosedive</strong> by Post Malone ft. Lainey Wilson</li>
+        <li><strong>Napalm</strong> by Pendulum ft. Joey Valence & Brae</li>
+        <li><strong>SURFING A TSUNAMI</strong> and <strong>PLUTOSKI</strong> by Future</li>
+        <li><strong>Heatstroke</strong> by Khalid</li>
+        <li><strong>Crazy</strong> by LE SSERAFIM ft. PinkPanthress</li>
+        <li><strong>BIG PRESSURE TRILL MIX</strong> (Swerve Strickland's theme from AEW All In 2024)</li>
+        <li><strong>Mantra</strong> by JENNIE</li>
+        <li><strong>I LUV HER</strong>, <strong>HOW I LOOK</strong>, <strong>DON'T DESERVE</strong> by GloRilla ft. Various Artists</li>
+        <li><strong>Ego</strong> by Halsey</li>
+        <li><strong>ART</strong> by Tyla</li>
+        <li><strong>So Much In Love</strong> by D.O.D.</li>
+        <li><strong>Cold Reactor</strong> by Everything, Everything</li>
+        <li><strong>Into The Storm</strong> by Marianas Trench</li>
+        <li><strong>GOT ME GEEKED</strong> by Denzel Curry</li>
+      </ul>`,
+
+      `<h3>Albums</h3>`,
+      `<ul>
+        <li><strong>NO HANDS</strong> by Joey Valence & Brae</li>
+        <li><strong>SMILE! :D</strong> by Porter Robinson</li>
+        <li><strong>I LAY DOWN MY LIFE FOR YOU</strong> by JPEGmafia</li>
+      </ul>`,
+
+      `<p>And what beat Kendrick, you may all be wondering. Honestly, this was the latest switch I could've made. I just liked a singular song better.</p>`,
+      `<p>The best song from Billie Eilish.</p>`,
+      `<p>Yup, this is that tool, in a sense.</p>`,
+      `<h4>1. BIRDS OF A FEATHER by Billie Eilish</h4>`,
+      `<p>Now that these 4 shadows have finally dissipated. I don't have much to say about this. It sounds fucking beautiful and perfect and ethereal. Actually, just listen to this. "It sounds like Hamilton". YEAH AND HAMILTON IS A GOATED MUSICAL. This is the best hit from Billie, and it doesn't even sound like a Billie song at all, even through all of her musical evolution.</p>`,
+      `<p>I would've had nothing to say but... a recent use of the song made me so fucking mad.</p>`,
+      `<p>LIKE RIGHT AFTER THE PROPOSAL TOO ARE WE FUCKING DEADASS. I was VISIBLY upset while watching this scene to open episode 3. Deadass almost tainted the song for me.</p>`,
+      `<p>But nothing could taint this song. Even an extremely hamfisted marriage that we knew wasn't gonna work. This song is timeless.</p>`,
+      `<p>And finally, the reason I've been so detached from the music scene. Time for what the fuck 2025 is.</p>`
+    ]
   }
 ];

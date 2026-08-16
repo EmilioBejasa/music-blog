@@ -176,13 +176,13 @@ body {
   margin-top: 0;
 }
 
-.post-body h3.tier-terrible { color: var(--tier-terrible); }
-.post-body h3.tier-bad { color: var(--tier-bad); }
-.post-body h3.tier-mid { color: var(--tier-mid); }
-.post-body h3.tier-decent { color: var(--tier-decent); }
-.post-body h3.tier-good { color: var(--tier-good); }
-.post-body h3.tier-excellent { color: var(--tier-excellent); }
-.post-body h3.tier-exceptional-plus {
+.post-body h3.tier-terrible, .post-body h4.tier-terrible { color: var(--tier-terrible); }
+.post-body h3.tier-bad, .post-body h4.tier-bad { color: var(--tier-bad); }
+.post-body h3.tier-mid, .post-body h4.tier-mid { color: var(--tier-mid); }
+.post-body h3.tier-decent, .post-body h4.tier-decent { color: var(--tier-decent); }
+.post-body h3.tier-good, .post-body h4.tier-good { color: var(--tier-good); }
+.post-body h3.tier-excellent, .post-body h4.tier-excellent { color: var(--tier-excellent); }
+.post-body h3.tier-exceptional-plus, .post-body h4.tier-exceptional-plus {
   background: linear-gradient(100deg, var(--tier-exceptional-plus-2) 0%, var(--tier-exceptional-plus-1) 45%, var(--tier-exceptional-plus-3) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -193,13 +193,27 @@ body {
 
 /* Black text would vanish on this dark background, so the "exceptional-"
    tier gets an inverted badge treatment instead of a plain color swap. */
-.post-body h3.tier-exceptional-minus {
+.post-body h3.tier-exceptional-minus, .post-body h4.tier-exceptional-minus {
   display: inline-block;
   color: #f2f0f5;
   background: #000;
   padding: 3px 12px;
   border-radius: 4px;
   border: 1px solid #333;
+}
+
+/* Some h4 titles (e.g. linked YouTube titles) wrap part of the text in
+   an <a>, which otherwise stays default-colored — carry the tier color
+   (or gradient) onto the link too so the whole heading matches. */
+.post-body h4[class*="tier-"] a {
+  color: inherit;
+}
+
+.post-body h4.tier-exceptional-plus a {
+  background: linear-gradient(100deg, var(--tier-exceptional-plus-2) 0%, var(--tier-exceptional-plus-1) 45%, var(--tier-exceptional-plus-3) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .post-body h4 {

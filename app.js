@@ -57,10 +57,17 @@ function renderPost(post) {
     <div class="post-body">${bodyHtml}</div>
   `;
 
-  article.querySelectorAll(".post-body h3").forEach(h3 => {
-    const tierClass = tierClassFor(h3.textContent);
-    if (tierClass) h3.classList.add(tierClass);
-  });
+  // Color each tier's h3 heading, then carry that same color onto every
+  // h4 song title that follows it, up until the next h3 (tier or not).
+  let currentTier = null;
+  for (const el of article.querySelector(".post-body").children) {
+    if (el.tagName === "H3") {
+      currentTier = tierClassFor(el.textContent);
+      if (currentTier) el.classList.add(currentTier);
+    } else if (el.tagName === "H4" && currentTier) {
+      el.classList.add(currentTier);
+    }
+  }
 
   return article;
 }

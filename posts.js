@@ -444,7 +444,6 @@ const POSTS = [
     date: "2024-02-10",
     tags: ["ranking", "2023", "worst"],
     body: [
-      `<img src="assets/posts/worst-2023-part-1/img1.jpg" alt="Selfie of the author passed out asleep mid-write-up">`,
       `<p>Finally, I have listened to all the qualifying hits for 2023 and WOW this year was EXTREMELY up and down.</p>`,
       `<p>Here's my summary of just the pop scene in general this year: it is just the same as its movie industry; it is just content that rips off older genres and songs because this country seems creatively bankrupt for no reason, to the point where I almost made songs from the Global 200 and the UK Official Charts eligible (my non-eligible honorable mentions will be littered with those). I really thought LAST YEAR had run out of ideas, but somehow we are scraping below the bottom of the barrel.</p>`,
       `<p>Rap is fucking struggling, to the point where its biggest hit also was part of this 2-year-long sampling trend. Until that ONE album (and no this is actually not Drake related).</p>`,
@@ -455,12 +454,14 @@ const POSTS = [
       `<h4>22. PAINTING PICTURES by Superstar Pride</h4>`,
       `<img src="assets/posts/worst-2023-part-1/cover-deezer-7-0.jpg" alt="PAINTING PICTURES by Superstar Pride single cover art">`,
       `<p><em>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz...</em></p>`,
+      `<img src="assets/posts/worst-2023-part-1/img1.jpg" alt="Selfie of the author passed out asleep mid-write-up">`,
 
       `<h4>21. Eyes Closed by Ed Sheeran</h4>`,
       `<img src="assets/posts/worst-2023-part-1/cover-2.jpg" alt="Eyes Closed by Ed Sheeran single cover art">`,
       `<p><em>zzzzzzzzzzz...</em> Oh sorry I'm supposed to actually be writing for this. What number are we on? Oh 21, can you do something for me?</p>`,
       `<p>21. Rich Fl... Wait it's not that time yet. What time is it actuall... OH WTF ED SHEE...</p>`,
       `<p><em>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz...</em></p>`,
+      `<img src="assets/posts/worst-2023-part-1/img1.jpg" alt="Selfie of the author passed out asleep mid-write-up">`,
 
       `<p>Alright I believe I've fully woken up.</p>`,
       `<h4>20. Snooze by SZA</h4>`,
@@ -496,7 +497,7 @@ const POSTS = [
 
       `<p>Ah yes, the first Morgy Worgy hit on the list. Mans released a 36-song album, of course SOMETHING had to be bad from it.</p>`,
       `<h4>16. Ain't That Some by Morgan Wallen</h4>`,
-      `<img src="assets/posts/worst-2023-part-1/cover-8.jpg" alt="Ain't That Some by Morgan Wallen single cover art">`,
+      `<img src="assets/posts/worst-2023-part-1/cover-otat.jpg" alt="One Thing At A Time album cover art by Morgan Wallen">`,
       `<p>Great, an ACTUAL trap country hit. This man singlehandedly ruined music this year I swear, how did he have a #1 hit stay for 3 straight months, apparently pop music does not have any pulse anymore. Also, can we PLEASE ban the use of spelling in music, this shit is lame EVERY TIME, especially on hits like ME!</p>`,
       `<img src="assets/posts/worst-2023-part-1/img4.jpg" alt="Screenshot of lyrics: Ain't that some C-O-U-N-T-R-Y... There's folks out there ain't T-R-Y-D this">`,
       `<p>AND HE SPELLED THE WORD WRONG.</p>`,
@@ -1096,7 +1097,6 @@ const POSTS = [
       `<p>Speaking of that first single and song that SHOULD be the second single.</p>`,
       `<h4>8. LUNCH and 7. CHIHIRO by Billie Eilish</h4>`,
       `<img src="assets/posts/summer-2024/cover-deezer-54-0.jpg" alt="LUNCH by Billie Eilish single cover art">`,
-      `<img src="assets/posts/summer-2024/cover-deezer-54-1.jpg" alt="CHIHIRO by Billie Eilish single cover art">`,
       `<p>Starting with LUNCH. There hasn't been anything this gay this high on charts since fucking MONTERO. The instrumental on this is fantastic, who knew that having a really groovy bass a la Too Sweet sounds great? Then it breakdowns into a rougher sound at the very end and it's also really good. This is kind of a return to form in turns of her album success, her last one has two hits and only one made the Year-End being Happier Than Ever.</p>`,
       `<p>CHIHIRO is the best sounding hit I've heard from Billie. Even better than Happier Than Ever. I just really like the synth permeating throughout the song. And the other part of this instrumental sounds like a really cool underwater beat that reminds me of DAKITI by Bad Bunny. Finneas keeps on impressing throughout his sister's entire discography.</p>`,
       `<p>More lesbians on the charts???</p>`,
@@ -1316,6 +1316,7 @@ const POSTS = [
       `<p>Should've put this in a worse tier.</p>`,
 
       `<h4>7mindrill) Who by Jimin</h4>`,
+      `<img src="assets/posts/worst-2024/cover-jimin-who.jpg" alt="Who by Jimin single cover art">`,
       `<p>Dogshit vocal processing, the keys are fucking irritating, and Like Crazy deserved to be more of a hit than this, even though this qualified through the Global 200, where Like Crazy was ACTUALLY A HIT. Somehow a rare America L in pop music this year, which feels WEIRD to say. Already said what I needed today in a previous ranking so, moving on.</p>`,
 
       `<h4>6) I Had Some Help by Post Malone ft. Morgan Wallen</h4>`,

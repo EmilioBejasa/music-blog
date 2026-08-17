@@ -929,7 +929,7 @@ const POSTS = [
       `<p>Yes, I have found THIRTY FIVE songs(with a few painful cuts along the way that I will get into). Without further ado...</p>`,
       `<p>Wait, what's the reverse of 35? The first big musical moment of 2023.</p>`,
       `<h4>35. Bizarrap Music Sessions Vol. 53 by Bizarrap ft. Shakira</h4>`,
-      `<img src="assets/posts/best-2023-part-1/cover-1.jpg" alt="Bizarrap Music Sessions Vol. 53 by Bizarrap ft. Shakira single cover art">`,
+      `<img src="assets/posts/best-2023-part-1/cover-bzrp-53.jpg" alt="Bizarrap Music Sessions Vol. 53 by Bizarrap ft. Shakira single cover art">`,
       `<p>I haven't formally introduced the biggest thing on the Global charts in 2023... Bizarrap.</p>`,
       `<p>He's a Colombian DJ whose whole gimmick is to create electronic and house beats and lesser-known artists jump on his beat and freestyle over it. However, the Music Sessions became so popular that the most popular Spanish artists collaborated with him, like Nicky Jam, Anuel AA, Rauw Alejandro, and the biggest one of all... no NOT Bad Bunny somehow... Shakira.</p>`,
       `<p>Shakira had two MASSIVE hits globally with this and TQG with Karol G, the artist who made my #1 best hit of 2022. And they are both about the same thing: her ex, Gerald Pique, CHEATED on her. She and Karol G both TORCHED their exes (Karol G's happened to be Anuel AA funnily enough), and Shakira straight up NAME DROPS the ex AND HIS NEW GIRLFRIEND(Clara Chia Marte).</p>`,

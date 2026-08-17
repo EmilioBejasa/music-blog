@@ -246,6 +246,15 @@ body {
   border: 1px solid var(--border);
 }
 
+/* Song/album cover art gets a standardized thumbnail size instead of
+   stretching to the full post width — matched via alt text since that's
+   the only thing that reliably distinguishes covers from screenshots,
+   memes, and other inline images. */
+.post-body img[alt*="cover art" i] {
+  width: 220px;
+  height: auto;
+}
+
 .post-body ul {
   margin: 0 0 14px;
   padding-left: 20px;

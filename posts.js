@@ -542,7 +542,7 @@ const POSTS = [
       `<p>He went from dominating 2020-2021 to not having a sizable hit this year. And now, he has hits like California Breeze, Freestyle, Low Down, Your Turn??? I made that last one up too, but his hits are just the same EVERY TIME now, no beat and wack flows.</p>`,
       `<h4>Love Again by the Kid LAROI</h4>`,
       `<p>Speaking about falloffs, jesus. The "can't make a wife out of a hoe-oh" guy has now completely disappeared from the mainstream and is now pulling shit like this:</p>`,
-      `<img src="assets/posts/worst-2023-part-1/img7.jpg" alt="Paris To Tokyo single cover, Fivio Foreign and the Kid Laroi">`,
+      `<img src="assets/posts/worst-2023-part-1/img7.jpg" alt="Paris To Tokyo single cover art by Fivio Foreign and the Kid Laroi">`,
       `<p>(this samples Rocketeer btw)</p>`,
       `<img src="assets/posts/worst-2023-part-1/img8.jpg" alt="Too Much single collage, Jung Kook, the Kid Laroi, and Central Cee">`,
       `<p>Like this is so DESPERATE.</p>`,

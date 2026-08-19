@@ -115,7 +115,13 @@ function renderPost(post) {
 
   // The ranking's intro (everything before the first song entry) becomes
   // page one of the click-through, rather than being shown all at once.
-  const slides = leadingBlocks.length ? [leadingBlocks.flat(), ...entryBlocks] : entryBlocks;
+  // Recommendations (and any other trailing sections) become their own
+  // page(s) at the end, after the last song entry.
+  const slides = [
+    ...(leadingBlocks.length ? [leadingBlocks.flat()] : []),
+    ...entryBlocks,
+    ...trailingBlocks,
+  ];
 
   if (slides.length > 1) {
     bodyEl.appendChild(buildEntrySlideshow(slides));
@@ -123,23 +129,14 @@ function renderPost(post) {
     slides.forEach(appendBlock);
   }
 
-  // Recommendations (and any other trailing sections) are never part of
-  // the numbered countdown — each renders as its own separate section
-  // after it, not gated behind another click.
-  trailingBlocks.forEach(block => {
-    const extra = document.createElement("div");
-    extra.className = "post-extra";
-    block.forEach(node => extra.appendChild(node));
-    bodyEl.appendChild(extra);
-  });
-
   return article;
 }
 
 // Countdown-style posts (multiple h4 song entries) reveal one page at a
-// time with Prev/Next controls — the ranking's intro as page one, then
-// one song entry per page — so scrolling ahead can't spoil the rest of
-// the ranking. Plain posts with 0 or 1 entries render inline as usual.
+// time with Prev/Next controls — the ranking's intro as page one, one
+// song entry per page after that, then recommendations as a final page —
+// so scrolling ahead can't spoil the rest of the ranking. Plain posts
+// with 0 or 1 entries render inline as usual.
 function buildEntrySlideshow(entryBlocks) {
   const wrap = document.createElement("div");
   wrap.className = "entry-slideshow";

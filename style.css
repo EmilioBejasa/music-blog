@@ -241,6 +241,52 @@ body {
   vertical-align: top;
 }
 
+.entry-slideshow {
+  margin: 20px 0 4px;
+}
+
+.entry-slide h4:first-child {
+  margin-top: 0;
+}
+
+.entry-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.entry-nav-btn {
+  background: var(--accent-2);
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  padding: 9px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.entry-nav-btn:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.entry-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.entry-nav-count {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 .post-body ul {
   margin: 0 0 14px;
   padding-left: 20px;

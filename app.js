@@ -54,22 +54,109 @@ function renderPost(post) {
       <span class="post-date">${formatDate(post.date)}</span>
     </div>
     <h2 class="post-title">${post.title}</h2>
-    <div class="post-body">${bodyHtml}</div>
+    <div class="post-body"></div>
   `;
 
-  // Color each tier's h3 heading, then carry that same color onto every
-  // h4 song title that follows it, up until the next h3 (tier or not).
+  const bodyEl = article.querySelector(".post-body");
+  const temp = document.createElement("div");
+  temp.innerHTML = bodyHtml;
+
+  // Split the body into blocks, breaking right before each h3 (tier
+  // header) and each h4 (song entry) — while also carrying each tier's
+  // color onto its h3 and every h4 that follows, up until the next h3.
+  // A tier header with no h4 yet folds into the entry it precedes
+  // (that's the "intro" line for the upcoming song); a block only
+  // becomes a complete entry once it contains an h4.
   let currentTier = null;
-  for (const el of article.querySelector(".post-body").children) {
+  const blocks = [];
+  let current = [];
+  for (const el of [...temp.children]) {
     if (el.tagName === "H3") {
       currentTier = tierClassFor(el.textContent);
       if (currentTier) el.classList.add(currentTier);
-    } else if (el.tagName === "H4" && currentTier) {
-      el.classList.add(currentTier);
+      if (current.length) { blocks.push(current); current = []; }
+      current.push(el);
+    } else if (el.tagName === "H4") {
+      if (currentTier) el.classList.add(currentTier);
+      if (current.some(n => n.tagName === "H4")) { blocks.push(current); current = []; }
+      current.push(el);
+    } else {
+      current.push(el);
     }
   }
+  if (current.length) blocks.push(current);
+
+  const appendBlock = (block) => block.forEach(node => bodyEl.appendChild(node));
+
+  const firstEntryIdx = blocks.findIndex(b => b.some(n => n.tagName === "H4"));
+  if (firstEntryIdx === -1) {
+    // No song entries (a plain essay-style post) — nothing to hide behind clicks.
+    blocks.forEach(appendBlock);
+    return article;
+  }
+  let lastEntryIdx = firstEntryIdx;
+  blocks.forEach((b, i) => { if (b.some(n => n.tagName === "H4")) lastEntryIdx = i; });
+
+  blocks.slice(0, firstEntryIdx).forEach(appendBlock);
+
+  const entryBlocks = blocks.slice(firstEntryIdx, lastEntryIdx + 1);
+  if (entryBlocks.length > 1) {
+    bodyEl.appendChild(buildEntrySlideshow(entryBlocks));
+  } else {
+    entryBlocks.forEach(appendBlock);
+  }
+
+  blocks.slice(lastEntryIdx + 1).forEach(appendBlock);
 
   return article;
+}
+
+// Countdown-style posts (multiple h4 song entries) reveal one entry at a
+// time with Prev/Next controls, so scrolling ahead can't spoil the rest
+// of the ranking. Plain posts with 0 or 1 entries render inline as usual.
+function buildEntrySlideshow(entryBlocks) {
+  const wrap = document.createElement("div");
+  wrap.className = "entry-slideshow";
+
+  const slide = document.createElement("div");
+  slide.className = "entry-slide";
+
+  const nav = document.createElement("div");
+  nav.className = "entry-nav";
+  nav.innerHTML = `
+    <button type="button" class="entry-nav-btn entry-prev">&larr; Prev</button>
+    <span class="entry-nav-count"></span>
+    <button type="button" class="entry-nav-btn entry-next">Next &rarr;</button>
+  `;
+
+  wrap.appendChild(slide);
+  wrap.appendChild(nav);
+
+  const prevBtn = nav.querySelector(".entry-prev");
+  const nextBtn = nav.querySelector(".entry-next");
+  const countEl = nav.querySelector(".entry-nav-count");
+
+  let index = 0;
+
+  function show(i) {
+    index = i;
+    slide.innerHTML = "";
+    entryBlocks[index].forEach(node => slide.appendChild(node));
+    countEl.textContent = `${index + 1} / ${entryBlocks.length}`;
+    prevBtn.disabled = index === 0;
+    nextBtn.disabled = index === entryBlocks.length - 1;
+  }
+
+  prevBtn.addEventListener("click", () => {
+    if (index > 0) { show(index - 1); wrap.scrollIntoView({ behavior: "smooth", block: "start" }); }
+  });
+  nextBtn.addEventListener("click", () => {
+    if (index < entryBlocks.length - 1) { show(index + 1); wrap.scrollIntoView({ behavior: "smooth", block: "start" }); }
+  });
+
+  show(0);
+
+  return wrap;
 }
 
 // Tab strip: "Intro" first, then one tab per year a post is about (from

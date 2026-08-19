@@ -23,11 +23,11 @@ const POSTS = [
   // The "All Articles" index shown under the Intro tab is generated
   // automatically from this array by app.js — no need to maintain it here.
   {
-    title: "Welcome to Hit Takes",
+    title: "Welcome to Chris' Music Review",
     date: "2026-08-13",
     tags: ["intro"],
     body: [
-      `<p>This is where the takes on 2020s hit music live. Reviews, rankings, hot takes, whatever comes to mind after a song won't leave your head.</p>`
+      `<p>My thoughts on the pop music of today.</p>`
     ]
   },
   {

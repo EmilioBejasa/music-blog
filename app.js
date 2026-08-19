@@ -73,25 +73,33 @@ function renderPost(post) {
   // color onto its h3 and every h4 that follows, up until the next h3.
   // A tier header with no h4 yet folds into the entry it precedes
   // (that's the "intro" line for the upcoming song); a block only
-  // becomes a complete entry once it contains an h4.
+  // becomes a complete entry once it contains an h4. Blocks under an
+  // "...Mentions" heading are tagged so consecutive ones can be merged
+  // into a single page in place, instead of one page per bonus pick —
+  // a numbered entry (a real ranked spot) always ends that tagging, even
+  // without a new heading, so the real countdown is never swept in.
   let currentTier = null;
+  let inMentions = false;
   const blocks = [];
   let current = [];
+  const flush = () => { if (current.length) { current.isMentions = inMentions; blocks.push(current); current = []; } };
   for (const el of [...temp.children]) {
     if (el.tagName === "H3") {
       currentTier = tierClassFor(el.textContent);
       if (currentTier) el.classList.add(currentTier);
-      if (current.length) { blocks.push(current); current = []; }
+      flush();
+      inMentions = /mention/i.test(el.textContent);
       current.push(el);
     } else if (el.tagName === "H4") {
       if (currentTier) el.classList.add(currentTier);
-      if (current.some(n => n.tagName === "H4")) { blocks.push(current); current = []; }
+      if (current.some(n => n.tagName === "H4")) flush();
+      if (/^\d/.test(el.textContent.trim())) inMentions = false;
       current.push(el);
     } else {
       current.push(el);
     }
   }
-  if (current.length) blocks.push(current);
+  flush();
 
   const appendBlock = (block) => block.forEach(node => bodyEl.appendChild(node));
 
@@ -110,8 +118,29 @@ function renderPost(post) {
   blocks.forEach((b, i) => { if (b.some(n => n.tagName === "H4")) lastEntryIdx = i; });
 
   const leadingBlocks = blocks.slice(0, firstEntryIdx);
-  const entryBlocks = blocks.slice(firstEntryIdx, lastEntryIdx + 1);
+  const rangeBlocks = blocks.slice(firstEntryIdx, lastEntryIdx + 1);
   const trailingBlocks = blocks.slice(lastEntryIdx + 1);
+
+  // Merge adjacent blocks in place — without moving or reordering
+  // anything — in two cases: a single ranked spot told across several
+  // consecutive h4s (e.g. three versions of the same #4 song), and a
+  // run of "...Mentions" bonus picks, which each land on their own page
+  // otherwise. Everything else stays exactly where it was written.
+  const rankOf = (block) => block.find(n => n.tagName === "H4")?.textContent.match(/^(\d+)[.)]/)?.[1];
+  const entryBlocks = [];
+  for (const block of rangeBlocks) {
+    const prev = entryBlocks[entryBlocks.length - 1];
+    const rank = rankOf(block);
+    const sameRank = rank && prev && rank === rankOf(prev);
+    const bothMentions = block.isMentions && prev && prev.isMentions;
+    if (prev && (sameRank || bothMentions)) {
+      prev.push(...block);
+    } else {
+      const copy = [...block];
+      copy.isMentions = block.isMentions;
+      entryBlocks.push(copy);
+    }
+  }
 
   // The ranking's intro (everything before the first song entry) becomes
   // page one of the click-through, rather than being shown all at once.

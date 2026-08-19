@@ -15,6 +15,10 @@ function getYearTag(post) {
   return (post.tags || []).find(t => /^\d{4}$/.test(t));
 }
 
+function slugify(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
 // Ranking-tier section headers (e.g. "Terrible Tier", "Exceptional+ Tier")
 // get a color coded to their level. Matched by keyword since the heading
 // text is free-form HTML content, not a fixed enum.
@@ -41,17 +45,13 @@ function tierClassFor(headingText) {
 function renderPost(post) {
   const article = document.createElement("article");
   article.className = "post";
-
-  const tagsHtml = (post.tags || [])
-    .map(t => `<span class="post-tag">${t}</span>`)
-    .join("");
+  article.id = `post-${slugify(post.title)}`;
 
   const bodyHtml = (post.body || []).join("");
 
   article.innerHTML = `
     <div class="post-meta">
       <span class="post-date">${formatDate(post.date)}</span>
-      <div class="post-tags">${tagsHtml}</div>
     </div>
     <h2 class="post-title">${post.title}</h2>
     <div class="post-body">${bodyHtml}</div>
@@ -97,6 +97,27 @@ function setActiveTab(year) {
   });
 }
 
+function renderArticleIndex() {
+  const section = document.createElement("section");
+  section.className = "post";
+
+  const items = sorted
+    .filter(p => !(p.tags || []).includes("intro"))
+    .map(p => {
+      const year = getYearTag(p);
+      const targetId = `post-${slugify(p.title)}`;
+      return `<li><a href="#" class="article-link" data-year="${year}" data-target="${targetId}"><strong>${p.title}</strong></a> — ${formatDate(p.date)}</li>`;
+    })
+    .join("");
+
+  section.innerHTML = `
+    <h2 class="post-title">All Articles</h2>
+    <div class="post-body"><ul>${items}</ul></div>
+  `;
+
+  return section;
+}
+
 function renderHome() {
   postsEl.innerHTML = "";
   setActiveTab("");
@@ -105,6 +126,7 @@ function renderHome() {
   for (const post of intro) {
     postsEl.appendChild(renderPost(post));
   }
+  postsEl.appendChild(renderArticleIndex());
 }
 
 function renderYear(year) {
@@ -129,6 +151,14 @@ tabsEl.addEventListener("click", (e) => {
 });
 
 homeLink.addEventListener("click", renderHome);
+
+postsEl.addEventListener("click", (e) => {
+  const link = e.target.closest(".article-link");
+  if (!link) return;
+  e.preventDefault();
+  renderYear(link.dataset.year);
+  document.getElementById(link.dataset.target)?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
 
 const backToTopBtn = document.getElementById("back-to-top");
 

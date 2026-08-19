@@ -62,12 +62,6 @@ body {
   opacity: 0.85;
 }
 
-.site-subtitle {
-  margin: 8px 0 0;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.05rem;
-}
-
 .site-tabs-wrap {
   background: var(--bg-alt);
   border-bottom: 1px solid var(--border);
@@ -131,20 +125,6 @@ body {
 
 .post-date {
   white-space: nowrap;
-}
-
-.post-tags {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.post-tag {
-  background: rgba(124, 92, 255, 0.15);
-  color: var(--accent-2);
-  padding: 2px 9px;
-  border-radius: 999px;
-  font-size: 0.75rem;
 }
 
 .post-title {
@@ -249,10 +229,16 @@ body {
 /* Song/album cover art gets a standardized thumbnail size instead of
    stretching to the full post width — matched via alt text since that's
    the only thing that reliably distinguishes covers from screenshots,
-   memes, and other inline images. */
+   memes, and other inline images. Displayed inline-block so back-to-back
+   covers (an entry covering multiple songs) sit on the same line instead
+   of stacking; a lone cover still gets its own line since it's flanked
+   by block-level headings/paragraphs. */
 .post-body img[alt*="cover art" i] {
+  display: inline-block;
   width: 220px;
   height: auto;
+  margin-right: 10px;
+  vertical-align: top;
 }
 
 .post-body ul {
@@ -266,6 +252,16 @@ body {
 
 .post-body li strong {
   color: var(--text);
+}
+
+.post-body .article-link,
+.post-body .article-link strong {
+  color: var(--accent-2);
+}
+
+.post-body .article-link:hover,
+.post-body .article-link:hover strong {
+  text-decoration: underline;
 }
 
 .empty-state {

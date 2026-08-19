@@ -216,15 +216,19 @@ function buildIndexList(posts) {
   return `<ul>${items}</ul>`;
 }
 
-function renderArticleIndex() {
+// Points the reader at the year tabs, where each year's rankings now
+// live as their own index (replacing one giant All Articles list here).
+function renderYearNav() {
   const section = document.createElement("section");
   section.className = "post";
 
-  const items = sorted.filter(p => !(p.tags || []).includes("intro"));
+  const links = years
+    .map(year => `<a href="#" class="year-link" data-year="${year}">${year}</a>`)
+    .join(", ");
 
   section.innerHTML = `
-    <h2 class="post-title">All Articles</h2>
-    <div class="post-body">${buildIndexList(items)}</div>
+    <h2 class="post-title">Browse by Year</h2>
+    <div class="post-body"><p>Every ranking is sorted into its own year tab above — ${links} — oldest to newest.</p></div>
   `;
 
   return section;
@@ -248,7 +252,7 @@ function renderHome() {
   for (const post of intro) {
     postsEl.appendChild(renderPost(post));
   }
-  postsEl.appendChild(renderArticleIndex());
+  postsEl.appendChild(renderYearNav());
 }
 
 function renderYear(year) {
@@ -310,6 +314,15 @@ tabsEl.addEventListener("click", (e) => {
 
 homeLink.addEventListener("click", () => {
   currentYear = "";
+  if (location.hash) location.hash = "";
+  else renderCurrentTab();
+});
+
+postsEl.addEventListener("click", (e) => {
+  const link = e.target.closest(".year-link");
+  if (!link) return;
+  e.preventDefault();
+  currentYear = link.dataset.year;
   if (location.hash) location.hash = "";
   else renderCurrentTab();
 });

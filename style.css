@@ -326,6 +326,10 @@ body {
   text-decoration: underline;
 }
 
+.post-body .year-link:hover {
+  text-decoration: underline;
+}
+
 .empty-state {
   text-align: center;
   color: var(--text-dim);

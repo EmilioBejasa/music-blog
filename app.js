@@ -42,6 +42,13 @@ function tierClassFor(headingText) {
   return null;
 }
 
+// Posts that stay a single flowing page instead of a click-through
+// countdown — e.g. a giant honorable-mentions dump where paging through
+// 100+ entries one at a time isn't worth it.
+const SINGLE_PAGE_TITLES = new Set([
+  "The Best Hit Songs of 2023... Part 4",
+]);
+
 function renderPost(post) {
   const article = document.createElement("article");
   article.className = "post";
@@ -88,6 +95,11 @@ function renderPost(post) {
 
   const appendBlock = (block) => block.forEach(node => bodyEl.appendChild(node));
 
+  if (SINGLE_PAGE_TITLES.has(post.title)) {
+    blocks.forEach(appendBlock);
+    return article;
+  }
+
   const firstEntryIdx = blocks.findIndex(b => b.some(n => n.tagName === "H4"));
   if (firstEntryIdx === -1) {
     // No song entries (a plain essay-style post) — nothing to hide behind clicks.
@@ -97,23 +109,37 @@ function renderPost(post) {
   let lastEntryIdx = firstEntryIdx;
   blocks.forEach((b, i) => { if (b.some(n => n.tagName === "H4")) lastEntryIdx = i; });
 
-  blocks.slice(0, firstEntryIdx).forEach(appendBlock);
-
+  const leadingBlocks = blocks.slice(0, firstEntryIdx);
   const entryBlocks = blocks.slice(firstEntryIdx, lastEntryIdx + 1);
-  if (entryBlocks.length > 1) {
-    bodyEl.appendChild(buildEntrySlideshow(entryBlocks));
+  const trailingBlocks = blocks.slice(lastEntryIdx + 1);
+
+  // The ranking's intro (everything before the first song entry) becomes
+  // page one of the click-through, rather than being shown all at once.
+  const slides = leadingBlocks.length ? [leadingBlocks.flat(), ...entryBlocks] : entryBlocks;
+
+  if (slides.length > 1) {
+    bodyEl.appendChild(buildEntrySlideshow(slides));
   } else {
-    entryBlocks.forEach(appendBlock);
+    slides.forEach(appendBlock);
   }
 
-  blocks.slice(lastEntryIdx + 1).forEach(appendBlock);
+  // Recommendations (and any other trailing sections) are never part of
+  // the numbered countdown — each renders as its own separate section
+  // after it, not gated behind another click.
+  trailingBlocks.forEach(block => {
+    const extra = document.createElement("div");
+    extra.className = "post-extra";
+    block.forEach(node => extra.appendChild(node));
+    bodyEl.appendChild(extra);
+  });
 
   return article;
 }
 
-// Countdown-style posts (multiple h4 song entries) reveal one entry at a
-// time with Prev/Next controls, so scrolling ahead can't spoil the rest
-// of the ranking. Plain posts with 0 or 1 entries render inline as usual.
+// Countdown-style posts (multiple h4 song entries) reveal one page at a
+// time with Prev/Next controls — the ranking's intro as page one, then
+// one song entry per page — so scrolling ahead can't spoil the rest of
+// the ranking. Plain posts with 0 or 1 entries render inline as usual.
 function buildEntrySlideshow(entryBlocks) {
   const wrap = document.createElement("div");
   wrap.className = "entry-slideshow";
@@ -184,28 +210,40 @@ function setActiveTab(year) {
   });
 }
 
+// Builds an "index" list of article titles/dates that link to each
+// article's own page (#/post/<slug>), rather than embedding full bodies.
+function buildIndexList(posts) {
+  const items = posts
+    .map(p => `<li><a href="#/post/${slugify(p.title)}" class="article-link"><strong>${p.title}</strong></a> — ${formatDate(p.date)}</li>`)
+    .join("");
+  return `<ul>${items}</ul>`;
+}
+
 function renderArticleIndex() {
   const section = document.createElement("section");
   section.className = "post";
 
-  const items = sorted
-    .filter(p => !(p.tags || []).includes("intro"))
-    .map(p => {
-      const year = getYearTag(p);
-      const targetId = `post-${slugify(p.title)}`;
-      return `<li><a href="#" class="article-link" data-year="${year}" data-target="${targetId}"><strong>${p.title}</strong></a> — ${formatDate(p.date)}</li>`;
-    })
-    .join("");
+  const items = sorted.filter(p => !(p.tags || []).includes("intro"));
 
   section.innerHTML = `
     <h2 class="post-title">All Articles</h2>
-    <div class="post-body"><ul>${items}</ul></div>
+    <div class="post-body">${buildIndexList(items)}</div>
   `;
 
   return section;
 }
 
+// currentYear tracks the active tab ("" = Intro) so the router knows what
+// to fall back to once the reader leaves a single-article page.
+let currentYear = "";
+
+function renderCurrentTab() {
+  if (currentYear) renderYear(currentYear);
+  else renderHome();
+}
+
 function renderHome() {
+  currentYear = "";
   postsEl.innerHTML = "";
   setActiveTab("");
 
@@ -217,34 +255,66 @@ function renderHome() {
 }
 
 function renderYear(year) {
+  currentYear = year;
   postsEl.innerHTML = "";
   setActiveTab(year);
 
   // Oldest-first within the year, so a multi-part series like
-  // "Best Hit Songs of 2023... Part 1/2/3" reads in chronological order.
-  for (const post of sorted.filter(p => getYearTag(p) === year)) {
-    postsEl.appendChild(renderPost(post));
-  }
+  // "Best Hit Songs of 2023... Part 1/2/3" is listed in chronological order.
+  const items = sorted.filter(p => getYearTag(p) === year);
+  const section = document.createElement("section");
+  section.className = "post";
+  section.innerHTML = `
+    <h2 class="post-title">${year}</h2>
+    <div class="post-body">${buildIndexList(items)}</div>
+  `;
+  postsEl.appendChild(section);
 }
+
+// Each article gets its own page at #/post/<slug>, so it's bookmarkable
+// and shareable, and only that one article (with its own click-through
+// countdown) is on screen — nothing from other articles to scroll past.
+function renderPostPage(slug) {
+  const post = sorted.find(p => slugify(p.title) === slug);
+  if (!post) { renderCurrentTab(); return; }
+
+  const year = getYearTag(post);
+  postsEl.innerHTML = "";
+  setActiveTab(year || "");
+
+  const back = document.createElement("button");
+  back.type = "button";
+  back.className = "back-link";
+  back.textContent = year ? `← Back to ${year}` : "← Back";
+  back.addEventListener("click", () => {
+    currentYear = year || "";
+    if (location.hash) location.hash = "";
+    else renderCurrentTab();
+  });
+  postsEl.appendChild(back);
+  postsEl.appendChild(renderPost(post));
+}
+
+function handleRoute() {
+  const match = location.hash.match(/^#\/post\/(.+)$/);
+  if (match) renderPostPage(decodeURIComponent(match[1]));
+  else renderCurrentTab();
+}
+
+window.addEventListener("hashchange", handleRoute);
 
 tabsEl.addEventListener("click", (e) => {
   const btn = e.target.closest(".tab-btn");
   if (!btn) return;
-  if (btn.dataset.year === "") {
-    renderHome();
-  } else {
-    renderYear(btn.dataset.year);
-  }
+  currentYear = btn.dataset.year;
+  if (location.hash) location.hash = "";
+  else renderCurrentTab();
 });
 
-homeLink.addEventListener("click", renderHome);
-
-postsEl.addEventListener("click", (e) => {
-  const link = e.target.closest(".article-link");
-  if (!link) return;
-  e.preventDefault();
-  renderYear(link.dataset.year);
-  document.getElementById(link.dataset.target)?.scrollIntoView({ behavior: "smooth", block: "start" });
+homeLink.addEventListener("click", () => {
+  currentYear = "";
+  if (location.hash) location.hash = "";
+  else renderCurrentTab();
 });
 
 const backToTopBtn = document.getElementById("back-to-top");
@@ -257,4 +327,4 @@ backToTopBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-renderHome();
+handleRoute();

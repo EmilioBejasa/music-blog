@@ -922,6 +922,8 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-2/img10.jpg" alt="Screenshot of the awkward line sung by Joe Jonas in Waffle House">`,
       `<p>It's always love huh? Jesus...</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Hi Erin, ready to be pissed off again?</p>`,
       `<h4>7. Nonsense by Ariana Gr... I mean Sabrina Carpenter</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-nonsense.jpg" alt="Nonsense by Sabrina Carpenter single cover art">`,

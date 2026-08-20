@@ -941,6 +941,8 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-2/img15.jpg" alt="Screenshot of more Nonsense lyrics by Sabrina Carpenter">`,
       `<p>It should've not made it...</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I thought we as a society got rid of him for good. Like come on. I have been ranting about cancel culture and WE STILL HAVEN'T GOTTEN RID OF HIM. AND we gave him his biggest hit in years.</p>`,
       `<h4>6. Under The Influence by Chris Brown</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-deezer-64-0.jpg" alt="Under The Influence by Chris Brown single cover art">`,

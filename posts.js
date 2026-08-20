@@ -940,6 +940,8 @@ const POSTS = [
       `<p>FINALLY. After 6 months I finally have gotten a list of hit songs together in order to even write it. I have gone through almost 300 ELIGIBLE songs due to Billboard's screwy tracking year. I am also terrified to write this, as I don't know if I can fully convey how much I do love these songs on the list.</p>`,
       `<p>One way that is definitive of this though, the sheer length. The best list itself will be 5 parts, where part 4 is dedicated to all the non-eligible songs I listened to. Most songs I discovered this year were not even released or popular this year. And we will start at number... 35.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Yes, I have found THIRTY FIVE songs(with a few painful cuts along the way that I will get into). Without further ado...</p>`,
       `<p>Wait, what's the reverse of 35? The first big musical moment of 2023.</p>`,
       `<h4>35. Bizarrap Music Sessions Vol. 53 by Bizarrap ft. Shakira</h4>`,
@@ -951,6 +953,8 @@ const POSTS = [
       `<img src="assets/posts/best-2023-part-1/img2.jpg" alt="Screenshot of lyrics naming Clara Chía">`,
       `<p>Shakira plays off this bouncy beat perfectly to complement the scathing lyricism, leading to one of the biggest hits of the year... except in America where it hit 97 on the Year End. Yeah we as a nation need better taste in music.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Do we even HAVE a DJ or a producer as big and can make quality music like Bizarrap?</p>`,
       `<p>YES.</p>`,
       `<h4>34. Too Many Nights by Metro Boomin, Don Toliver, and Future</h4>`,
@@ -958,10 +962,14 @@ const POSTS = [
       `<p>Heroes and Villains by Metro Boomin was surprisingly a smash hit machine of an album. It had the sample-flip, pop hit Creepin, the sticky banger of Superhero, a song I'll talk about later, and this as the main 4 hits, where the others were fairly successful sleeper. This was such a success that Metro made the soundtrack of the Spiderman movie, which is honestly a HUGE deal because of how goddamn huge the LAST soundtrack was(Sunflower is still one of the best hits of all time and will never age badly). That soundtrack SHOULD'VE been as big as the last one too, Annihilate is still really good.</p>`,
       `<p>This song is kind of the introduction to the Spiderman soundtrack, extremely dark sounding and chilled out, this whole album is full of nighttime vibes. And of course Don Toliver and Future fit perfectly in this atmosphere, although other artists can compete as I've referenced before. Nothing much else to say, except that talking about Metro now considering everything that happened WHICH I WILL GET TO IN THE SUMMER RANKING. Of course everything in the event just blew up further and out of proportion.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I did not expect Gunna to make any song of quality. Like EVER.</p>`,
       `<h4>33. Fukumean by Gunna</h4>`,
       `<img src="assets/posts/best-2023-part-1/cover-deezer-17-0.jpg" alt="Fukumean by Gunna single cover art">`,
       `<p>And this is his biggest hit because everyone seemed to like this, being extremely strong of streaming for an entire year, making this year's YE list as well. Who could blame them, he just casually made one of the stickiest hooks of all time while introducing the mainstream to a new WORD. And a new ad lib, the nyeahh after every line is just... chef's kiss. Again, this is a vibe. I will try to explain beyond this, but for this song, this set of nothing lyrics? It's so self-evidently a vibe, and needs no explanation. And fucking GUNNA made this. AKA the most mid rapper ever conceived. Who knew.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>So I already referenced the second-least relevant #1 hit ever being My Universe by Coldplay ft. BTS. The reason I said that is because it crashed out of the Hot 100 fast, and had the farthest fall from its #1 debut to #22, something that even the worst hit couldn't even beat, and that #1 wasn't even debut. The stan manipulation of buying songs is the biggest impact on the charts, especially when we have pop song dead periods like 2022-23, where not a lot of big events happen. Even the Shakira song didn't last that long on the Hot 100. So what else could make a historical fall from #1? A member of BTS. Such a shame, this is easily the biggest grower of the year for me.</p>`,
       `<h4>32. Like Crazy by Jimin</h4>`,
@@ -970,6 +978,8 @@ const POSTS = [
       `<p>The synth work in this song is pretty good, especially after the first pre-chorus, and Jimin just sounds great, and contributes to the best part of the song: the bridge. That shit sounds magical with the synths and the upward melodies, I can feel my body float.</p>`,
       `<p>This whole song feels like a soft pillow putting me to rest.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>You know who's NOT the most mid rapper ever. He's not even a rapper. Post Malone. He's very above average, and his hits are legendary, like the aforementioned Sunflower. But holy shit, has he gone on a cold streak. It all started with the much forgotten flop, Motley Crew, where he ATTEMPTED to be a rapper and failed with this chorus that sounds like he's squealing like a pig. Then, he had the worst hit of 2021 of One Right Now, where he somehow made a song with the Weeknd and made the sludgiest song ever.</p>`,
       `<p>The cold streak stopped this year.</p>`,
       `<h4>31. Chemical by Post Malone</h4>`,
@@ -977,11 +987,15 @@ const POSTS = [
       `<p>I wasn't behind this song at first, I really wasn't. But something about this driving flow and simple lyrics and structure made me drawn to it. It's almost like Post Malone KNOWS HOW TO MAKE POP HITS. Maybe he should stop collaborating with other pop stars like Morgan Wallen, the Weeknd, and even Taylor Swift now. Just make pop songs about being miserable like Circles. ABUSE THOSE DRUGS POSTY.</p>`,
       `<p>Ok that's a little too far. But the theme of the song is the played-out "relationships are drugs" that Eminem always references in an album cut, but it's done right this time, there aren't any obvious, shoehorned references to it this time. It's a METAPHOR not a SIMILE.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Now for the first country song on the list. And it's from the best... SECOND-best country artist on the list.</p>`,
       `<h4>30. Love You Anyway by Luke Combs</h4>`,
       `<img src="assets/posts/best-2023-part-1/cover-deezer-30-0.jpg" alt="Love You Anyway by Luke Combs single cover art">`,
       `<p>Here's a cheat code to make ANY good pop song. Listen to this: add violins. Just do it. I swear that every pop song that has this that I've listened to is good. YES THIS INCLUDES Said Sum by Moneybagg Yo, how did you make that example. Huh. Anyways.</p>`,
       `<p>The violins already drew me to this because they already made me think the song is in a somber tone. And the lyrics are surprisingly... defeatist? This is supposed to be a LOVE song about how all these things that this woman would do to him and he would love her anyway. But the tone set makes him sound... like a simp? This reason is the only reason this isn't at least 20 spots higher, because it sounds fantastic with the pedal steel underlying the whole rich mix of the song.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>We immediately follow this with the best country artist in the mainstream today. Zach Bryan.</p>`,
       `<h4>29. Hey Driver by Zach Bryan ft. The War and Treaty</h4>`,
@@ -989,11 +1003,15 @@ const POSTS = [
       `<p>Country is ruled by these extremely husky and gritty-voiced singers that convey a more natural tone in country, not the schlock that Nashville fed us for a long time. Zach Bryan is the best of these, and he made a song about goddamn HITCHHIKING be great.</p>`,
       `<p>The funny thing is Zach Bryan is the worst part of the song, the War and Treaty, an African American country duo(that also sang the national anthem for the Super Bowl off the popularity of this song), is just fantastic. They made a hitchhiking song sound like it was important and grand with the booming gritty voice of Mike Trotter. Zach Bryan is the cherry on top, being in a hilarious fight with God, and telling the driver this. Great song, not the best Zach Bryan hit of the year.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>How the FUCK have we not gotten an Afro RnB hit until now?</p>`,
       `<h4>28. People by Libianca</h4>`,
       `<img src="assets/posts/best-2023-part-1/cover-deezer-38-0.jpg" alt="People by Libianca single cover art">`,
       `<p>This is an excellent example of that genre, from Cameroonian-American singer Libianca. HOLY SHIT is this a personal song, and it blew up on the Global chart enough to make it. This is about wondering if the people around her are getting the wrong impression of her because of her hiding her own mental condition for everyone. JESUS. And the detail that hits the hardest is right after saying she drinks a lot of alcohol, is that people think she smokes because of how red her eyes are, but that was just her crying.</p>`,
       `<p>The instrumental is an extremely laid-back drum beat that just knew it was background noise for the gut punch that was these lyrics. With everyone checking up on their own mental health, we need a song like this.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>I can't believe this sentence is real but: a KPOP hit SLOWLY rose up the charts because the mass majority like it. It's so unfortunate that a bunch of label drama just made sure this group is now a one-hit wonder now.</p>`,
       `<h4>27. Cupid by FIFTY FIFTY</h4>`,
@@ -1001,6 +1019,8 @@ const POSTS = [
       `<p>The label drama being 3/4 members were kicked out due to breach of contract because the label did not disclose financial information and neglected their mental health(it's the KPOP industry, they PUMP out artists like no tomorrow). The agency terminated their contracts and the 3 singers' reputations were ruined.</p>`,
       `<p>They made a really, REALLY good song. It is a song about how we are never gonna find love over this bubbly pop song, pretty basic formula. But it works. It even has a KPOP girl group RAP verse as usual, and it's ACTUALLY good. Plus the key change(which I'm still mad the English version doesn't have) is so good.</p>`,
       `<p>One of my old rankings had this song in the top 5. IM TELLING YALL this list is stacked, and we have one more song in this part.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>I fucking hate UTOPIA by Travis Scott. Somehow this is a hot take. We need someone ELSE to make Travis Scott hits. I did not think that person is SZA.</p>`,
       `<h4>26. Low by SZA</h4>`,

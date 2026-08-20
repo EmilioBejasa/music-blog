@@ -83,6 +83,7 @@ function renderPost(post) {
   const blocks = [];
   let current = [];
   const flush = () => { if (current.length) { current.isMentions = inMentions; blocks.push(current); current = []; } };
+  let suppressNextH4Flush = false;
   for (const el of [...temp.children]) {
     if (el.tagName === "HR" && el.classList.contains("page-break")) {
       // A manual page-break marker: force a split here without adding any
@@ -91,6 +92,11 @@ function renderPost(post) {
       // merge below (used to separate two entries tied at the same rank).
       flush();
       current.forceBreak = true;
+    } else if (el.tagName === "HR" && el.classList.contains("no-split")) {
+      // The opposite marker: keeps the upcoming h4 (e.g. an unranked
+      // song-breakdown sub-heading inside one ranked entry) from starting
+      // its own page, folding it into the entry already in progress.
+      suppressNextH4Flush = true;
     } else if (el.tagName === "H3") {
       currentTier = tierClassFor(el.textContent);
       if (currentTier) el.classList.add(currentTier);
@@ -99,7 +105,8 @@ function renderPost(post) {
       current.push(el);
     } else if (el.tagName === "H4") {
       if (currentTier) el.classList.add(currentTier);
-      if (current.some(n => n.tagName === "H4")) flush();
+      if (current.some(n => n.tagName === "H4") && !suppressNextH4Flush) flush();
+      suppressNextH4Flush = false;
       if (/^\d/.test(el.textContent.trim())) inMentions = false;
       current.push(el);
     } else {

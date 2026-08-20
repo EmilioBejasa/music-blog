@@ -1711,14 +1711,17 @@ const POSTS = [
       `<p>AND FINALLY the album.</p>`,
       `<p>It's fucking AWFUL, and the main three songs from this album sums up why.</p>`,
 
+      `<hr class="no-split">`,
       `<h4>MELTDOWN ft. Drake</h4>`,
       `<p>Wow. I guess Drake is stuck making SICKO MODE clones, just waiting for another beat switch to completely revive his reputation. HE'S STILL BORING. He is just COASTING on his reputation. Also why the fuck are the Star Wars lasers being used in this production? Just why.</p>`,
 
+      `<hr class="no-split">`,
       `<h4>I KNOW ?</h4>`,
       `<p>Yes the question mark is spaced, THAT'S HOW HE SPELLED IT. Honestly I was gonna talk about the song, but the lullaby-ass beat and the dragged-out monotone voice of Travis just makes me want to use a certain image. I'm just gonna use the image and move on the most egregious example of all.</p>`,
       `<p><em>ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</em></p>`,
       `<img src="assets/posts/worst-2023-part-3/img5.jpg" alt="Sleeping/boredom reaction meme image">`,
 
+      `<hr class="no-split">`,
       `<h4>FE!N ft. Playboy Carti</h4>`,
       `<p>UGHHHHHHHHHHHHHHHHHHH. This goes HARD... to listen to. Fein ain't even a WORD. This is supposed to be a rage beat???</p>`,
       `<img src="assets/posts/worst-2023-part-3/img6.jpg" alt="Screenshot referencing the FE!N production">`,
@@ -1728,6 +1731,8 @@ const POSTS = [
       `<p>And the feature, Carti. THIS IS THE WORST FEATURE PERIOD. I thought he was supposed to said more like a baby over time???(refer to Magnolia and Pain 1993) Why the FUCK is he using a deep voice for this, or AT ALL. His appeal was that crazy ass voice. But he sounds like a blubbering dog spewing his spit everywhere. I DO NOT UNDERSTAND A SINGLE THING YOU ARE SAYING.</p>`,
       `<p>Overall this album was fucking BORING with BORING beats and BORING delivery that was FIVE YEARS in waiting.</p>`,
       `<p>MAKE BETTER SHIT MAN, YOU MADE SICKO MODE AND 90210.</p>`,
+
+      `<hr class="page-break">`,
 
       `<blockquote>"HE'S STILL BORING. He is just COASTING on his reputation."</blockquote>`,
       `<h4>4. Drake</h4>`,
@@ -1824,6 +1829,8 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-3/img67.jpg" alt="Screenshot of the final Drake lyric from the speed round">`,
       `<p>AND THAT'S IT. I don't know when I'm gonna do this again, but with RECENT EVENTS he might be obligated to.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Part 1:</p>`,
       `<blockquote>WHAT THE <strong>loud metal pipe</strong> <strong>portal opens</strong> <strong>mysterious figures throws me through the portal</strong></blockquote>`,
       `<p><strong>BANG</strong></p>`,
@@ -1839,6 +1846,8 @@ const POSTS = [
       `<p>He also doesn't care for my ears BECAUSE HOLY SHIT THAT LAST CHORUS IS REASON NUMBER 2. Of course country and rock work but country and METAL, oh hell no. His strained vocals and this blown out instrumental are just UNLISTENABLE.</p>`,
       `<p>Hardy can't sell anything, he can't sell country, rap, rock, or metal. FRAUDULENT.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>But of course that song had the decency to not be big enough to be that insufferable. But what if a song that also tried to be multiple genres executes on none of them.</p>`,
       `<p>And what if it was the biggest hit of the year?</p>`,
       `<h4>2. Last Night by Morgan Wallen</h4>`,
@@ -1853,26 +1862,36 @@ const POSTS = [
       `<p>The worst of the worst.</p>`,
       `<h4>Toxic Gossip Train by Colleen Ballinger</h4>`,
       `<p>This is the worst YouTube apology ever. Nothing is gonna beat this... I think.</p>`,
+      `<hr class="no-split">`,
       `<h4>The Color Violet by Tory Lanez</h4>`,
       `<p>This is just In Your Eyes by the Weeknd but like 100x more watered down. Thank god this guy is in jail, he ain't doing shit as an artist.</p>`,
+      `<hr class="no-split">`,
       `<h4>We Didn't Start The Fire by Fall Out Boy</h4>`,
       `<p>Um... you didn't list every event in order AND YOU DID NOT MENTION COVID???</p>`,
+      `<hr class="no-split">`,
       `<h4>Endless Fashion by Lil Uzi Vert and Nicki Minaj</h4>`,
       `<p>Nicki you can't even properly gender your own collaborator, the fuck? Still the most toxic artist around.</p>`,
+      `<hr class="no-split">`,
       `<h4>MATHEMATICAL DISRESPECT by Lil Mabu</h4>`,
       `<p>This is a kid making a drill song and has the most DISMAL bars I've ever heard.</p>`,
+      `<hr class="no-split">`,
       `<h4>Let Go by Central Cee</h4>`,
       `<p>Sample drill gotta be the WORST sampling genre, and this song sampling PASSENGER is the worst song in this lane, with these extremely toxic, misogynistic lyrics.</p>`,
+      `<hr class="no-split">`,
       `<h4>Mother by Meghan Trainor</h4>`,
       `<p>Just listen to this. I'm not spoiling any of this. It's too insane to say here.</p>`,
+      `<hr class="no-split">`,
       `<h4>Watch the World Burn by Falling In Reverse</h4>`,
       `<p>This is HILARIOUSLY atrocious rap rock.</p>`,
+      `<hr class="no-split">`,
       `<h4>Style (Taylor's Version) by Taylor... wait</h4>`,
       `<p>I'm just gonna say this once, the guitars on this sound AWFUL, the original were minor key and down tune, and it sounded LITERALLY perfect.</p>`,
+      `<hr class="no-split">`,
       `<h4>Whistle by Jax Jones and Calum Scott</h4>`,
       `<p>This is just hilarious.</p>`,
 
       `<p>And finally, probably the worst hit of the year...</p>`,
+      `<hr class="no-split">`,
       `<h4>Ecstasy by SUICIDAL-IDOL</h4>`,
       `<p>This hit the bubbling under, and it is the ugliest song about the fetishization about WANTING TO BE... yeah I'm not going further than that. This is song is legitimately disgusting.</p>`,
 

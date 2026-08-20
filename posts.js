@@ -856,11 +856,15 @@ const POSTS = [
       `<p>Oh wow, they actually used it as advertisement for the song.</p>`,
       `<p>Now, the main issue I have is that, unlike La Diabla, the guitar playing is so aimless and scattered to the point where it doesn't have a melody. And the main guy's voice does not emote anything interesting or... anything really. This is just really bad.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>This is probably more eligible for next year, but no. This provoked such a VISCERAL reaction out of me that I couldn't leave it off the list this time.</p>`,
       `<p>And people seem to like it???</p>`,
       `<h4>13. Lil Boo Thang by Paul Russell</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-deezer-8-0.jpg" alt="Lil Boo Thang by Paul Russell single cover art">`,
       `<p>At first, this is just a song that samples an old song, but its lyrics provoked this reaction. This is lyrically the same as Treat You Better. Just some "nice guy" trying to steal away someone else's girlfriend. The fact that it is done in this cheery ass tone makes this even worse, as it's trying to trick everyone else that it has any sort of goodwill. I mean how else was it able to convince TikTok that this was JUST a danceable jam and nothing else other than its runtime being 2 minutes. I hate the TikTokification of music where everything is built around a 7 second clip and has no substance outside of it.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>We need to ban sampling.</p>`,
       `<h4>12. Red Ruby Da Sleaze by Nicki Minaj</h4>`,
@@ -873,12 +877,17 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-2/img4.jpg" alt="Screenshot of Nicki Minaj lyrics referencing Karl Malone">`,
       `<p>Can we get this woman off the charts... oh wait Pink Friday 2 became a commercial success... <strong>SIGHS</strong>.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I am including both of these in one spot because they are pretty minor hits of 2022 more than 2023, but somehow got onto this list. Our first stinker is pretty... conspiracy-theory-core.</p>`,
       `<h4>11. Victoria's Secret by Jax</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-deezer-20-0.jpg" alt="Victoria's Secret by Jax single cover art">`,
       `<p>God I thought I would never cover this song. But here I am.</p>`,
       `<p>The premise of this song is calling out standards by fashion magazines and brands. But it is executed SO POORLY, it seems like a revelaion that Victoria's Secret was founded by a man and that was the most evil thing they have heard. It does nothing to actually call out this, such poor framing.</p>`,
       `<p>It also doesn't help that the chorus sounds ass. I guess it's really supposed to be punk rock and standing up against the man but like... it only has that guitar that just leaves absolutely zero punch. This is the most nothing song about something that should be cared about more, but isn't performed in the most engaging way.</p>`,
+
+      `<hr class="page-break">`,
+
       `<p>Now 10 is actually just by a despicable person.</p>`,
       `<h4>10. Unstoppable by Sia</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-deezer-25-0.jpg" alt="Unstoppable by Sia single cover art">`,

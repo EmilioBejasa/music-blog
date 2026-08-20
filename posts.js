@@ -223,6 +223,8 @@ const POSTS = [
       `<p>Ryan Tedder is only good for writing songs now. The industry rewarded him with the main theme song for Top Gun: Maverick, and made a song several stratospheres worse than Danger Zone. This is like a McDonalds Playpen more than a Danger Zone.</p>`,
       `<p>So what's wrong with it... Oh yeah it's just Sucker, which was just Feel It Still. It's also the worst out of all these generic white-people-band songs with the whistling (I still have no idea how this is an actual genre in the mainstream now). The lyrics are impressively brain-rotting with, you guessed it, a completely DOGSHIT chorus. This chorus somehow makes me feel absolutely NOTHING and ANNOY me to no end. Tedder just cannot hit high notes, he sounds like he got castrated in the recording studio. All appeal for this band is bleached out of existence if they keep making schlock like this.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>The other problem with popular music right now, and the other reason the industry is sampling every old song right now, is TikTok. Once thought as the birthplace for random artists out of nowhere getting hits, is now just another form of promotion by big artists to boost their own sales, as every song seems designed for TikTok. And what was the catalyst for this?</p>`,
       `<h4>8. abcdefu by GAYLE</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-4.jpg" alt="abcdefu by GAYLE single cover art">`,
@@ -248,6 +250,8 @@ const POSTS = [
       `<p>Let me get this out of the way, this song was made to help process Spears' stress about her whole conservatorship BS, and that is really sweet. I think that's a great way to help someone going through something life-altering.</p>`,
       `<p>It does not make the song better. He just took the lyrics of three of his songs AGAIN and remade it to Cold Heart 2.0. And I already despised 1.0, way too generous with it last year. This chorus has the worst vocal laceration I've ever heard, it sounds like they both were strangled and gasping for air. The verses don't sound any better, and with boring-ass instrumentation on top of it, this is the definition of music that isn't real.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Unholy did not make the list. It was on my previous iteration of it, but over time I grew a little fond of the goofy, silly, coy vibe it had (at least on Smith's part, Petras still sounds dogshit). I used to call this song washing-machine-core (even though that's usually saved for drill not songs that literally sound like washing machines), but there was a MUCH worse example.</p>`,
       `<h4>5. Get Into It (Yuh) by Doja Cat</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-7.jpg" alt="Get Into It (Yuh) by Doja Cat single cover art">`,
@@ -267,6 +271,8 @@ const POSTS = [
       `<img src="assets/posts/best-worst-2022/cover-10.jpg" alt="Big Energy Remix by Latto ft. Mariah Carey and DJ Khaled (for some reason) single cover art">`,
       `<p>Yeah what even is this lineup. And yes this counts as the hit, I remember this remix boosting the original song to #3. This is a perfect example of why remix-gaming is goddamn annoying, a remix is meant to be a spin on a song that has a reason to be changed or add another artist to it, not JUST to boost streams.</p>`,
       `<p>But anyways the production and groove is stiff as shit. Latto can't save this song, just overall sounds bad. And WHY THE HELL is DJ Khaled here to brag about his watch. And he does absolutely nothing. I can't believe I forgot this remix existed on the original draft of the list. I am embarrassed. Everyone involved in this remix should be embarrassed.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>Wow this entire list hasn't included a country hit. Country has been HUGE this decade; in 2023, it had its commercial peak (but that's a topic for another time). There has been a lot of fluctuation of quality within the genre, and the genre has finally warmed up to me somewhat.</p>`,
       `<p>But jesus christ, the second-least eligible hit of all time is also THE WORST COUNTRY SONG I'VE EVER HEARD.</p>`,

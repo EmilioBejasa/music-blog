@@ -84,7 +84,14 @@ function renderPost(post) {
   let current = [];
   const flush = () => { if (current.length) { current.isMentions = inMentions; blocks.push(current); current = []; } };
   for (const el of [...temp.children]) {
-    if (el.tagName === "H3") {
+    if (el.tagName === "HR" && el.classList.contains("page-break")) {
+      // A manual page-break marker: force a split here without adding any
+      // visible heading, and prevent the block right after it from being
+      // folded back into the previous entry by the same-rank/mentions
+      // merge below (used to separate two entries tied at the same rank).
+      flush();
+      current.forceBreak = true;
+    } else if (el.tagName === "H3") {
       currentTier = tierClassFor(el.textContent);
       if (currentTier) el.classList.add(currentTier);
       flush();
@@ -133,7 +140,7 @@ function renderPost(post) {
     const rank = rankOf(block);
     const sameRank = rank && prev && rank === rankOf(prev);
     const bothMentions = block.isMentions && prev && prev.isMentions;
-    if (prev && (sameRank || bothMentions)) {
+    if (prev && !block.forceBreak && (sameRank || bothMentions)) {
       prev.push(...block);
     } else {
       const copy = [...block];

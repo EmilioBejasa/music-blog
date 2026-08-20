@@ -194,8 +194,9 @@ const POSTS = [
     body: [
       `<p>That's right, I am COMBINING both of last year's lists into one, mostly because I have nothing to change from the best list. Without further ado...</p>`,
 
-      `<h3>Worst List — 2022</h3>`,
       `<p>This is the worst list for the 2022 year end Billboard chart, where all songs on it qualify, and any song that hit the top 10 in 2022 first counts as well (for example if a song already hit the top 10 in 2021, it wouldn't count for this list). There might be some exceptions if my opinion evolved from 2021 to 2022. That should be all, now let's start counting down...</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>One of the new sounds of the 2020s, as few as those new sounds are, is Afrobeats. Of course, America has a tendency to not immediately catch on to this (as this country is to ANYTHING), but overall every Afrobeats hit that's crossed over to America has been mostly okay to very good.</p>`,
       `<p>Except one.</p>`,
@@ -205,6 +206,8 @@ const POSTS = [
       `<p>Alright, I need to stop beating around the bush. This chorus is AWFUL, HORRENDOUS even. Goddamn, why I would want to hear someone moan in my ear for 30 seconds and PRETEND that's an actual musical idea. I kinda don't have much to say about this; the chorus is definitely the worst of the year, or so you think.</p>`,
       `<p>The sad part is that's only one of the brain-destroying choruses that we have to cover, there will be much, MUCH worse.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>The theme for this worst list is this: America has officially run out of ideas.</p>`,
       `<p>For years, I have seen so much remakes of Disney's beloved animated films get completely remade into these live-action money printers, which completely miss the point of why people loved the original in the first place. This rehashing of old material and remaking has leaked into this year of pop music, moreso than any year of pop music of recent.</p>`,
       `<p>What happens if a sequel to a movie no one wanted included a song on its soundtrack that is from someone who is clearly past their prime and is just getting a free paycheck? A disaster.</p>`,
@@ -212,9 +215,15 @@ const POSTS = [
       `<img src="assets/posts/best-worst-2022/cover-2.jpg" alt="Hold My Hand by Lady Gaga single cover art">`,
       `<p>What is she doing on here. Why is she making a rock ballad for the TOP GUN SEQUEL about being a military wi-</p>`,
       `<p>**ring-ring** Hello? Wait say that again? This isn't the right song from that soundtrack? OH, right. The Lady Gaga song isn't even close to the year end. And this is also clearly worse.</p>`,
+
+      `<hr class="page-break">`,
+
       `<h4>9. I Ain't Worried by OneRepublic</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-3.jpg" alt="I Ain't Worried by OneRepublic single cover art">`,
       `<p>Ryan Tedder is only good for writing songs now. The industry rewarded him with the main theme song for Top Gun: Maverick, and made a song several stratospheres worse than Danger Zone. This is like a McDonalds Playpen more than a Danger Zone.</p>`,
+
+      `<hr class="page-break">`,
+
       `<p>So what's wrong with it... Oh yeah it's just Sucker, which was just Feel It Still. It's also the worst out of all these generic white-people-band songs with the whistling (I still have no idea how this is an actual genre in the mainstream now). The lyrics are impressively brain-rotting with, you guessed it, a completely DOGSHIT chorus. This chorus somehow makes me feel absolutely NOTHING and ANNOY me to no end. Tedder just cannot hit high notes, he sounds like he got castrated in the recording studio. All appeal for this band is bleached out of existence if they keep making schlock like this.</p>`,
 
       `<p>The other problem with popular music right now, and the other reason the industry is sampling every old song right now, is TikTok. Once thought as the birthplace for random artists out of nowhere getting hits, is now just another form of promotion by big artists to boost their own sales, as every song seems designed for TikTok. And what was the catalyst for this?</p>`,
@@ -225,6 +234,8 @@ const POSTS = [
       `<p>So, "someone" suggested the idea of making a breakup song using the alphabet and a day later, she somehow made up the song, and that post blew up. Little did we know at the time that that someone was an Atlantic executive and the song was always coming out, the record label faked the whole story that GAYLE just came up with abcdefu out of the blue.</p>`,
       `<p>Honestly, that makes it worse. How did Atlantic get that nursery-rhyme, blackbear-core, SOUR-core of a song come out as the finished product. This is an EMBARRASSMENT to punk rock, as this pretty much killed the movement that fucking MGK and, ironically, blackbear revived. First of all, another completely ASS chorus, but the verses are so petty and childish. I mean I expect this out of a teenage breakup song, but then why is she complaining about the ex's means of living as a negative and not about anything the guy specifically. And then the "becoming the bitch" line is just cringe. This entire song is cringe, and it is not even GAYLE's fault, she seems like a nice person, even touring with Taylor Swift. But this is the industry-driven shitstain of a TikTok hit as it has ever been.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>And we are back to the sampling, to probably the worst sample of the year.</p>`,
       `<h4>7. I'm Good (Blue) by David Guetta and Bebe Rexha</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-5.jpg" alt="I'm Good (Blue) by David Guetta and Bebe Rexha single cover art">`,
@@ -232,10 +243,15 @@ const POSTS = [
       `<p>Also, let's give the original Blue (Da Ba Dee) credit, it has one of the stickiest hooks of all time. And David Guetta creates one of the worst beats and drops this year. My god. Everything is just bad, there is nothing redeeming about this.</p>`,
       `<p>Surely David Guetta doesn't do this formula again in 2023 right?</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Elton John really said this wave of recent music isn't real. Then he dropped this.</p>`,
       `<h4>6. Hold Me Closer by Elton John and Britney Spears</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-6.jpg" alt="Hold Me Closer by Elton John and Britney Spears single cover art">`,
       `<p>Let me get this out of the way, this song was made to help process Spears' stress about her whole conservatorship BS, and that is really sweet. I think that's a great way to help someone going through something life-altering.</p>`,
+
+      `<hr class="page-break">`,
+
       `<p>It does not make the song better. He just took the lyrics of three of his songs AGAIN and remade it to Cold Heart 2.0. And I already despised 1.0, way too generous with it last year. This chorus has the worst vocal laceration I've ever heard, it sounds like they both were strangled and gasping for air. The verses don't sound any better, and with boring-ass instrumentation on top of it, this is the definition of music that isn't real.</p>`,
 
       `<p>Unholy did not make the list. It was on my previous iteration of it, but over time I grew a little fond of the goofy, silly, coy vibe it had (at least on Smith's part, Petras still sounds dogshit). I used to call this song washing-machine-core (even though that's usually saved for drill not songs that literally sound like washing machines), but there was a MUCH worse example.</p>`,
@@ -246,6 +262,8 @@ const POSTS = [
       `<blockquote>"Call your mama and your papa like I'm finna take your daughter<br>Turn that b- into a soccer ball and rocka, rocka, rocka (brrr)"</blockquote>`,
       `<p>This is just a colossal failure on every front. This is the worst of the old Doja. Fuck America for making Attention flop by the way.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I'm Good had the worst sample, but this is the most EMBARRASSING one of the year.</p>`,
       `<h4>4. Big Energy by Latto</h4>`,
       `<p>Oh not this version. This version is still Dishonorable Mention-worthy but this inexplicably got a remix with the person THE SAMPLE IT'S BASED AROUND.</p>`,
@@ -253,6 +271,9 @@ const POSTS = [
       `<p>So yeah the song based around "Fantasy" by Mariah Carey got her on the song. Oh wait. I forgot another feature. Like ANOTHER ONE.</p>`,
       `<h4>4. Big Energy Remix by Latto ft. Mariah Carey and DJ Khaled (for some reason)</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-10.jpg" alt="Big Energy Remix by Latto ft. Mariah Carey and DJ Khaled (for some reason) single cover art">`,
+
+      `<hr class="page-break">`,
+
       `<p>Yeah what even is this lineup. And yes this counts as the hit, I remember this remix boosting the original song to #3. This is a perfect example of why remix-gaming is goddamn annoying, a remix is meant to be a spin on a song that has a reason to be changed or add another artist to it, not JUST to boost streams.</p>`,
       `<p>But anyways the production and groove is stiff as shit. Latto can't save this song, just overall sounds bad. And WHY THE HELL is DJ Khaled here to brag about his watch. And he does absolutely nothing. I can't believe I forgot this remix existed on the original draft of the list. I am embarrassed. Everyone involved in this remix should be embarrassed.</p>`,
 
@@ -263,6 +284,8 @@ const POSTS = [
       `<p>No exaggeration, I think this is the worst country hit song of all time. Well, at least before this year. OH GOD I am scared to talk about those songs (not even joking I am terrified about talking about the baggage around... that song, thank god you guys have NO idea what song I am referencing... hopefully).</p>`,
       `<p>This song makes me extremely uncomfortable. There's this guitar that plays one godforsaken melody that peaks at the wrong places, and the two men sing with a different looping melody that skeeves me out. Every time I ATTEMPT to listen to this song I am VISIBLY uncomfortable from the aforementioned elements, along with a goddamn 808 for some reason; it's almost like trap elements in country were never meant to work. This is meant to be a song saying how you love your wife like Chance the Rapper, but all I can say about this song is "GET AWAY FROM THAT WOMAN YOU ARE HARASSING HER." It sounds like they never got the consent from the tone the song is in. It sounds like they are assuming that she likes everything they are doing and not listening, it is just so creepy.</p>`,
       `<p>Oh yeah and that second-least-qualifying hit of all time. This peaked at 63 and somehow made the year end. Another song on the same year end at 64 made it as well. This just doesn't make any sense. I'm done talking about this song, more brain cells contributed to this song are wasted.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>This man needs to take a goddamn BREAK.</p>`,
       `<h4>2. Drake, just all of the Drake songs</h4>`,
@@ -304,7 +327,8 @@ const POSTS = [
         <li><strong>True Love</strong> by Kanye West and XXXTentacion, and <strong>Eazy</strong> by Kanye West and The Game — Kanye in 2022. Need I say more.</li>
       </ul>`,
 
-      `<h3>Worst List — Number 1</h3>`,
+      `<hr class="page-break">`,
+
       `<p>The only reason this is at number 1 is that I made a mistake in my 2021 worst list by not covering it there. Artists are making the worst shit they have ever made because of the creative bankruptcy of the music industry, just rehashing the same shit they have done, or doing a trend that they don't fit. I feel like this song is the embodiment of that assessment, and it features two artists that should not be close to the worst list. However, this collaboration is the worst thing they have ever done, and might have singlehandedly killed their popstar status.</p>`,
       `<h4>1. One Right Now by Post Malone and the Weeknd</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-12.jpg" alt="One Right Now by Post Malone and the Weeknd single cover art">`,
@@ -317,7 +341,6 @@ const POSTS = [
       `<blockquote>"That I broke my hand on the same wall<br>That you told me that he fucked you on"</blockquote>`,
       `<p>This might be the worst set of lyrics in a pop song, who let these two get away with these lyrics. Maybe the failure of Twelve Carat Toothache, Dawn FM, and more recently AUSTIN was deserved because they made a song so vile. I absolutely HATE this song. This is the worst song of the year, and the worst hit song of all time, I'm serious. Well, at least before 2023.</p>`,
 
-      `<h3>Best List — 2022</h3>`,
       `<p>Finally, the BEST list. I can finally tell you guys about the songs I highly recommend. But this best list is kinda empty in comparison to the year before, where we had Olivia Rodrigo, Lil Nas X, Happier than Ever, Good Days, and so many quality songs, half of the songs on the YEAR END are excellent. But here? You guys are gonna question my choices.</p>`,
 
       `<p>So Olivia Rodrigo didn't have a hit in 2022, but another Disney star subverting the typical Disney-pipelined popstar sound had one. And you guys are not gonna believe it.</p>`,
@@ -325,10 +348,14 @@ const POSTS = [
       `<img src="assets/posts/best-worst-2022/cover-13.jpg" alt="Boyfriend by Dove Cameron single cover art">`,
       `<p>Easily the most contentious hit of the year except one of the HMs (FOR SOME REASON). People have been calling this the lesbian version of Treat You Better, and I refuse to believe that this is true. I legitimately think this is a song about someone longing for one of their friends of the same gender and that friend having the shittiest partner. Dove at LEAST lists reasons for why this guy's an ass, Shawn just says the partner in question is toxic without any convincing argument that he isn't the same. The James Bond-esque beat also indicates that this is something pretty thrilling and exciting. The discourse around this song shouldn't exist.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>A no namer got a hit off of TikTok again, and it is pretty incredible.</p>`,
       `<h4>9. Numb Little Bug by Em Beihold</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-14.jpg" alt="Numb Little Bug by Em Beihold single cover art">`,
       `<p>Damn this really is Gen Z as a hit, but the sentiments in this song are pretty relatable and needed for a time as tumultuous as this one. I really don't need to go further, there's just a lot of quotables from this song that makes me go "SO TRUE." This song is representative of the exhaustion that the current generation experiences. It's almost like the previous one promised us a better life than theirs but we get a global pandemic, racial tensions being shoved to the forefront, and economic crises one after another. And the song telling us to roll with the punches is honestly pretty cathartic to hear.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>Told you guys, country was growing on me.</p>`,
       `<h4>8. One Mississippi by Kane Brown AND Damn Strait by Scotty McCreery</h4>`,
@@ -336,11 +363,15 @@ const POSTS = [
       `<img src="assets/posts/best-worst-2022/cover-16.jpg" alt="Damn Strait by Scotty McCreery single cover art">`,
       `<p>So country had a BANNER year, completely recovering from last year, and these two songs I kinda discovered when making this list. And boy I am FUCKING glad I did. One Mississippi is Kane Brown's best hit and it probably isn't close (you think the collab with MARSHMELLO would be good?). The violins and drums just create this atmosphere of thrill that comes with feelings, whereas songs in the Never Say Never and the You Should Probably Leave lane play into the sadness of it all (two country songs that are really good). The song is just a rush. Oh yeah, SCOTTY FUCKING MCREERY MADE THE YEAR END IN 2022; this is a miracle in and of itself. The former American Idol contestant hasn't been hugely mainstream, and even this was a sleeper hit, and I'm glad it made the YE because damnnnnnn this song. The title itself has a double meaning, ultimately resulting in Scotty not being able to listen to certain songs because it reminds him of her and him just accepting that it'll keep being this way until he gets over her. Even though this specific situation is not relatable, wallowing in misery while acknowledging it's not anyone's fault but his that he is feeling this way is. These songs are two sides of the same coin, and tying these two as the few excellent country songs feels right.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I have been waiting to use <a href="https://www.youtube.com/watch?v=1acWg-c5Buo" target="_blank" rel="noopener">that clip</a>.</p>`,
       `<h4>7. PUFFIN ON ZOOTIEZ by Future</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-17.jpg" alt="PUFFIN ON ZOOTIEZ by Future single cover art">`,
       `<p>The first hot take of the list, and definitely not the worst. This song is like imagining First Class with every single element of it upgraded, yes I am including the performers. Future had the most CRIMINALLY underrated 2022, with I NEVER LIKED YOU album-bombing the high end of the charts (mostly because the big hit had Drake and Tems but whatever), and I like all the hits that hit the top 10 (May 2022 was one of the craziest months, with it having FIVE ALBUM-BOMBS in a row). Anyways, the song's druggy atmosphere and kinda dead tone play really well, this LITERALLY feels like I am sleeping in a private jet, and I returned to this song a lot over the year, it's just the right amount of chilled out. I still can't believe to this day Future made a chill song that I genuinely still like.</p>`,
       `<p><em>Editor's note: wanted to include the fact that Future's ex-wife's husband is Russell Wilson, who was ASS at the time, but first of all, it's not a sports rant, and second, he's actually playing well again.</em></p>`,
+
+      `<hr class="page-break">`,
 
       `<p>Before revealing this to you guys, I want to apologize. This is the single worst take I will ever have. I can't believe I have to vehemently defend the song, and I don't feel good defending it. But here it goes.</p>`,
       `<p>Morgan Wallen made a song with a black man after he said the N word and it goes hard.</p>`,
@@ -349,16 +380,22 @@ const POSTS = [
       `<p>Every YouTube critic put this on their top 3 of their WORST LISTS, and the worst part is I completely understand all of the criticisms, I HATED this song on first listen. The vocals for Morgan are completely over the top and Lil Durk sounds washed out (also him saying "you see me with Morgan and you know that I rap" is GENUINELY one of the cringiest things I have ever heard). But this is the song I returned to the most in the year 2022, like there was something fascinating about it, or I just Stockholm-Syndromed myself. There was just something about it that made me return and not skip it. I also think if it wasn't released in the second week of January this would be a Dishonorable Mention, time was very on its side. So why do I like this to the point where I think this is the best country hit of the year? Well...</p>`,
       `<p>The one criticism that I used to get when I hated it was it sounds like ass, but those washed-out guitars just got to me, creating this weird banger of a trap beat. Their vocals are technically bad, but they are so ridiculous and out there that I enjoyed them. And the chorus... just wants to make me scream TWOOOOOOOOOOOOOOOOOOOOOOO THAAAAAAAAAAAAAAAAAAAAAAAANGS. This song is honestly the best example of being better than the sum of its parts, isolate any element in the song and it is very likely to be terrible and horrifying. I can't hate this anymore, and I hate admitting I now unironically love this song. Fuck...</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>With THAT out of the way, I want to make an agreeable opinion. What if the same man on the last song made an extremely thoughtful song about enjoying all the possessions that rappers usually brag about before they died.</p>`,
       `<h4>5. What Happened to Virgil by Lil Durk</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-19.jpg" alt="What Happened to Virgil by Lil Durk single cover art">`,
       `<p>First of all, OH My god is another contender for the best two seconds of the year. The sad piano sets the mood very well. The lyrics just reflect on many that have died and makes everyone appreciate everything that they have. Oh yeah and we get a GOOD GUNNA VERSE. This is honestly like Uproar in the way that it rides one flow and rhyme scheme (but Uproar is wayyyyyy better).</p>`,
       `<p><em>Editor's note: I wrote most of the best list a year ago, and this is probably the most underwritten segment of the entire list but I don't feel like changing it a lot because of the year end lists for this year which I will talk about later. Also there isn't really that much to say about the song, it is literally if Uproar by Lil Wayne had a darker, more thoughtful tone. Also probably wanted a shorter segment after the essay I wrote to defend what is still my worst take of all time.</em></p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I hate that Billboard didn't find a way to put this on the 2021 year end, because it fits in with that year much better.</p>`,
       `<h4>4. Meet Me At Our Spot by THE ANXIETY</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-20.jpg" alt="Meet Me At Our Spot by THE ANXIETY single cover art">`,
       `<p>This song though, is pretty special, and is like an indie-like song made by... Willow Smith. There's all these obvious jokes to her parents and the corresponding slap and all, but I won't make them. The best way to describe this song is being tired with all the shit that the world throws at you and finding a special place with just you and your partner, like another Numb Little Bug with more intimacy that plays into the song's strength. And both of them sound great on here, capturing the escape that needed to be felt by the world around them, and the joy they have when they are together away from all the world's problems.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>The Anti-Drake that out-Draked Drake.</p>`,
       `<h4>3. Anti-Hero (or the entirety of Midnights) by Taylor Swift</h4>`,
@@ -405,7 +442,6 @@ const POSTS = [
       `<p>I don't like saying this, but you NEED to go to the music video and watch it, genuinely a masterpiece.</p>`,
       `<p>Ok, READY FOR THE WEIRDEST #1 YET.</p>`,
 
-      `<h3>Best List — Number 1</h3>`,
       `<p>There was a lot of Bad Bunny this year. He defined that summer with his whole album Un Verano Sin Ti, with about 7-8 hits making the Year End.</p>`,
       `<p>What if I told you the summeriest song ever recorded was made in the summer of 2022. And it was in Spanish.</p>`,
       `<p>And it wasn't made by Bad Bunny at all.</p>`,

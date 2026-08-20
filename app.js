@@ -177,7 +177,7 @@ function buildEntrySlideshow(entryBlocks) {
   nav.className = "entry-nav";
   nav.innerHTML = `
     <button type="button" class="entry-nav-btn entry-prev">&larr; Prev</button>
-    <select class="entry-nav-count"></select>
+    <span class="entry-nav-count">Page <input type="number" class="entry-nav-page-input" min="1"> of <span class="entry-nav-total"></span></span>
     <button type="button" class="entry-nav-btn entry-next">Next &rarr;</button>
   `;
 
@@ -186,14 +186,10 @@ function buildEntrySlideshow(entryBlocks) {
 
   const prevBtn = nav.querySelector(".entry-prev");
   const nextBtn = nav.querySelector(".entry-next");
-  const countEl = nav.querySelector(".entry-nav-count");
+  const pageInput = nav.querySelector(".entry-nav-page-input");
 
-  entryBlocks.forEach((_, i) => {
-    const opt = document.createElement("option");
-    opt.value = i;
-    opt.textContent = `${i + 1} / ${entryBlocks.length}`;
-    countEl.appendChild(opt);
-  });
+  pageInput.max = entryBlocks.length;
+  nav.querySelector(".entry-nav-total").textContent = entryBlocks.length;
 
   let index = 0;
 
@@ -201,9 +197,19 @@ function buildEntrySlideshow(entryBlocks) {
     index = i;
     slide.innerHTML = "";
     entryBlocks[index].forEach(node => slide.appendChild(node));
-    countEl.value = index;
+    pageInput.value = index + 1;
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === entryBlocks.length - 1;
+  }
+
+  function jumpToInput() {
+    const n = Math.min(Math.max(Math.round(Number(pageInput.value)) || 1, 1), entryBlocks.length);
+    if (n - 1 !== index) {
+      show(n - 1);
+      wrap.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      pageInput.value = index + 1;
+    }
   }
 
   prevBtn.addEventListener("click", () => {
@@ -212,9 +218,9 @@ function buildEntrySlideshow(entryBlocks) {
   nextBtn.addEventListener("click", () => {
     if (index < entryBlocks.length - 1) { show(index + 1); wrap.scrollIntoView({ behavior: "smooth", block: "start" }); }
   });
-  countEl.addEventListener("change", () => {
-    show(Number(countEl.value));
-    wrap.scrollIntoView({ behavior: "smooth", block: "start" });
+  pageInput.addEventListener("change", jumpToInput);
+  pageInput.addEventListener("keydown", e => {
+    if (e.key === "Enter") { e.preventDefault(); pageInput.blur(); jumpToInput(); }
   });
 
   show(0);

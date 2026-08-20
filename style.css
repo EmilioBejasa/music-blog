@@ -297,19 +297,31 @@ body {
 }
 
 .entry-nav-count {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   color: var(--text-dim);
   font-size: 0.85rem;
   font-weight: 600;
   white-space: nowrap;
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 6px 12px;
-  cursor: pointer;
 }
 
-.entry-nav-count option {
-  color: #000;
+.entry-nav-page-input {
+  width: 3ch;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 4px;
+  -moz-appearance: textfield;
+}
+
+.entry-nav-page-input::-webkit-inner-spin-button,
+.entry-nav-page-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .post-body ul {

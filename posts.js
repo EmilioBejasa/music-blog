@@ -911,6 +911,8 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-2/img8.jpg" alt="Screenshot referencing the producer's past work with Katy Perry">`,
       `<p>Oh god...</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Let's go back to a late night in 2023, where I watched SNL for the first time in a long time. And I saw the most incomprehensible performance I've ever seen. And I thought I would never, NEVER think about that song. Funny thing about SNL, all the songs performed have some sort of popularity. And well...</p>`,
       `<h4>8. Waffle House by the Jonas Brothers</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-deezer-42-0.jpg" alt="Waffle House by the Jonas Brothers single cover art">`,

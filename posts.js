@@ -899,6 +899,8 @@ const POSTS = [
       `<p>This is the chorus, so meaningless and powerless.</p>`,
       `<p>That's most of the song, and it also sounds bad, the most basic Sia song, and her worst.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>I once again apologize for my horrendous take on last year's best list. Now what if I told you they another song, with none of the personality and character that made the last song interesting.</p>`,
       `<h4>9. Stand by Me by Lil Durk ft. Morgan Wallen</h4>`,
       `<img src="assets/posts/worst-2023-part-2/cover-deezer-34-0.jpg" alt="Stand by Me by Lil Durk ft. Morgan Wallen single cover art">`,

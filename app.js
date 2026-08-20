@@ -285,6 +285,7 @@ function renderYearNav() {
 let currentYear = "";
 
 function renderCurrentTab() {
+  window.scrollTo(0, 0);
   if (currentYear) renderYear(currentYear);
   else renderHome();
 }
@@ -325,6 +326,7 @@ function renderPostPage(slug) {
   const post = sorted.find(p => slugify(p.title) === slug);
   if (!post) { renderCurrentTab(); return; }
 
+  window.scrollTo(0, 0);
   const year = getYearTag(post);
   postsEl.innerHTML = "";
   setActiveTab(year || "");

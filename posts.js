@@ -221,9 +221,6 @@ const POSTS = [
       `<h4>9. I Ain't Worried by OneRepublic</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-3.jpg" alt="I Ain't Worried by OneRepublic single cover art">`,
       `<p>Ryan Tedder is only good for writing songs now. The industry rewarded him with the main theme song for Top Gun: Maverick, and made a song several stratospheres worse than Danger Zone. This is like a McDonalds Playpen more than a Danger Zone.</p>`,
-
-      `<hr class="page-break">`,
-
       `<p>So what's wrong with it... Oh yeah it's just Sucker, which was just Feel It Still. It's also the worst out of all these generic white-people-band songs with the whistling (I still have no idea how this is an actual genre in the mainstream now). The lyrics are impressively brain-rotting with, you guessed it, a completely DOGSHIT chorus. This chorus somehow makes me feel absolutely NOTHING and ANNOY me to no end. Tedder just cannot hit high notes, he sounds like he got castrated in the recording studio. All appeal for this band is bleached out of existence if they keep making schlock like this.</p>`,
 
       `<p>The other problem with popular music right now, and the other reason the industry is sampling every old song right now, is TikTok. Once thought as the birthplace for random artists out of nowhere getting hits, is now just another form of promotion by big artists to boost their own sales, as every song seems designed for TikTok. And what was the catalyst for this?</p>`,
@@ -249,9 +246,6 @@ const POSTS = [
       `<h4>6. Hold Me Closer by Elton John and Britney Spears</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-6.jpg" alt="Hold Me Closer by Elton John and Britney Spears single cover art">`,
       `<p>Let me get this out of the way, this song was made to help process Spears' stress about her whole conservatorship BS, and that is really sweet. I think that's a great way to help someone going through something life-altering.</p>`,
-
-      `<hr class="page-break">`,
-
       `<p>It does not make the song better. He just took the lyrics of three of his songs AGAIN and remade it to Cold Heart 2.0. And I already despised 1.0, way too generous with it last year. This chorus has the worst vocal laceration I've ever heard, it sounds like they both were strangled and gasping for air. The verses don't sound any better, and with boring-ass instrumentation on top of it, this is the definition of music that isn't real.</p>`,
 
       `<p>Unholy did not make the list. It was on my previous iteration of it, but over time I grew a little fond of the goofy, silly, coy vibe it had (at least on Smith's part, Petras still sounds dogshit). I used to call this song washing-machine-core (even though that's usually saved for drill not songs that literally sound like washing machines), but there was a MUCH worse example.</p>`,
@@ -271,9 +265,6 @@ const POSTS = [
       `<p>So yeah the song based around "Fantasy" by Mariah Carey got her on the song. Oh wait. I forgot another feature. Like ANOTHER ONE.</p>`,
       `<h4>4. Big Energy Remix by Latto ft. Mariah Carey and DJ Khaled (for some reason)</h4>`,
       `<img src="assets/posts/best-worst-2022/cover-10.jpg" alt="Big Energy Remix by Latto ft. Mariah Carey and DJ Khaled (for some reason) single cover art">`,
-
-      `<hr class="page-break">`,
-
       `<p>Yeah what even is this lineup. And yes this counts as the hit, I remember this remix boosting the original song to #3. This is a perfect example of why remix-gaming is goddamn annoying, a remix is meant to be a spin on a song that has a reason to be changed or add another artist to it, not JUST to boost streams.</p>`,
       `<p>But anyways the production and groove is stiff as shit. Latto can't save this song, just overall sounds bad. And WHY THE HELL is DJ Khaled here to brag about his watch. And he does absolutely nothing. I can't believe I forgot this remix existed on the original draft of the list. I am embarrassed. Everyone involved in this remix should be embarrassed.</p>`,
 
@@ -340,6 +331,8 @@ const POSTS = [
       `<p>And the infamous:</p>`,
       `<blockquote>"That I broke my hand on the same wall<br>That you told me that he fucked you on"</blockquote>`,
       `<p>This might be the worst set of lyrics in a pop song, who let these two get away with these lyrics. Maybe the failure of Twelve Carat Toothache, Dawn FM, and more recently AUSTIN was deserved because they made a song so vile. I absolutely HATE this song. This is the worst song of the year, and the worst hit song of all time, I'm serious. Well, at least before 2023.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>Finally, the BEST list. I can finally tell you guys about the songs I highly recommend. But this best list is kinda empty in comparison to the year before, where we had Olivia Rodrigo, Lil Nas X, Happier than Ever, Good Days, and so many quality songs, half of the songs on the YEAR END are excellent. But here? You guys are gonna question my choices.</p>`,
 
@@ -451,8 +444,6 @@ const POSTS = [
       `<p>Again an extremely unconventional pick, but my best song nonetheless.</p>`,
 
       `<p>Alright WOW that took longer than I thought to get done. But now the updates to the 2023 list rules and eligibility. Billboard released their year end lists super early. To my horror, it covered 49 weeks on the chart, since they wanted to sync up the end of the year with their awards show for some reason. So because Billboard is being super goofy with their year end, I am not using it as the main metric for this year. Instead, I found a predicted, 52-week year end list that includes 250 songs. And yes I will be listening to ALL OF THEM and seeing if anything new catches my ears in a good or bad way. Hopefully this will make both lists more interesting. And since there are 250 songs, with fluctuating quality between the worst and best hits (especially this year) each year end list might unironically be a top 25 or 30 even. So I might get these lists out in 1-2 months, or maybe I give up and decide to use the extended eligibility on songs I was gonna talk about in the non-hits section that made it (I already know at least 3 songs per list that fit under this category). Either way, also expect the list to be separated into a worst and best section, with a possible part 1 and 2 to each list. It's gonna be crazy.</p>`,
-      `<p>Also, would you guys like to read the Spring and Summer 2023 rankings I made, it does spoil some of the picks I have for both lists, although the placements may or may not be different? Let me know.</p>`,
-      `<p>But yeah I know this will be a behemoth of an email, so also let me know what else I can maybe improve on (more visuals, maybe even a few clips I can put for songs, like someone sleeping whenever a boring song comes on).</p>`,
       `<p>Hope y'all enjoyed this long-winding review of 2022's worst and best.</p>`
     ]
   },

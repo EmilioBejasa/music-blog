@@ -177,7 +177,7 @@ function buildEntrySlideshow(entryBlocks) {
   nav.className = "entry-nav";
   nav.innerHTML = `
     <button type="button" class="entry-nav-btn entry-prev">&larr; Prev</button>
-    <span class="entry-nav-count"></span>
+    <select class="entry-nav-count"></select>
     <button type="button" class="entry-nav-btn entry-next">Next &rarr;</button>
   `;
 
@@ -188,13 +188,20 @@ function buildEntrySlideshow(entryBlocks) {
   const nextBtn = nav.querySelector(".entry-next");
   const countEl = nav.querySelector(".entry-nav-count");
 
+  entryBlocks.forEach((_, i) => {
+    const opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = `${i + 1} / ${entryBlocks.length}`;
+    countEl.appendChild(opt);
+  });
+
   let index = 0;
 
   function show(i) {
     index = i;
     slide.innerHTML = "";
     entryBlocks[index].forEach(node => slide.appendChild(node));
-    countEl.textContent = `${index + 1} / ${entryBlocks.length}`;
+    countEl.value = index;
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === entryBlocks.length - 1;
   }
@@ -204,6 +211,10 @@ function buildEntrySlideshow(entryBlocks) {
   });
   nextBtn.addEventListener("click", () => {
     if (index < entryBlocks.length - 1) { show(index + 1); wrap.scrollIntoView({ behavior: "smooth", block: "start" }); }
+  });
+  countEl.addEventListener("change", () => {
+    show(Number(countEl.value));
+    wrap.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   show(0);

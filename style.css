@@ -301,6 +301,15 @@ body {
   font-size: 0.85rem;
   font-weight: 600;
   white-space: nowrap;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.entry-nav-count option {
+  color: #000;
 }
 
 .post-body ul {

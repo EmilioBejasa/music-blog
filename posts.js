@@ -492,6 +492,8 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-1/img3.jpg" alt="Screenshot: Side A, Fortnight (feat. Post Malone)">`,
       `<p>WAIT THAT'S REAL.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Speaking about 19, 2019 seems like an EON ago, where names like Billie Eilish were fresh blood, Taylor released Lover and surely no hit from that misfire of an album would go #1, and Post Malone released Hollywood's Bleeding, which contained new songs like Circles which definitely won't be THAT huge. You know who else was very 2019, YOUR MO..</p>`,
       `<p>You know who stayed in and REFUSED TO LEAVE 2019. DaBaby.</p>`,
       `<h4>19. SHAKE SUMN by DaBaby</h4>`,
@@ -500,17 +502,23 @@ const POSTS = [
       `<p>Then 2021 Rolling Loud happened. He said homophobic statements and his career just tanked.</p>`,
       `<p>And we arrive here. At the worst Jersey Club hit of the year. A genre that actually made pop music enjoyable this year (and that we will get into on the best list), but DaBaby used it for trend chasing and trying to capture his initial success, without having any of the initial charisma. In fact, this is the most checked out Mr. Kirk has ever seemed on a hit. "Just shake sumn" sounds so lifeless. Thank god we left this guy in '19, at 19.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Another interesting trend that popped up this year was the Regional Mexican wave of music. It seemingly came out of nowhere too, but it seems like the traditional, country-esque genre that really was tailor-made to the American people, who chose to listen to country the most this year. And of course, like country, within the regional Mexican movement, there were a significant amount of them that took aspects of other genres and mashed them up. Their version of country trap has these extremely farty horns for some reason? And a lot of these hits involved a single dude that had double-digit hits on the Year End. That one dude is named... **flipping through notes** am I reading this right? Featherweight? ... OH, right, Peso Pluma. Most of his hits are pretty same-sounding, but there's at least some variation.</p>`,
       `<p>However, with how it usually is with trends nowadays in pop music, it was used aesthetically by people that have NO FUCKING CLUE what they are doing.</p>`,
       `<h4>18. CHANEL by Peso Pluma and Becky G</h4>`,
       `<img src="assets/posts/worst-2023-part-1/cover-6.jpg" alt="CHANEL by Peso Pluma and Becky G single cover art">`,
       `<p>She just doesn't fit at all with this song, and Peso Pluma seems more checked out on all songs, which is rare for him, with his usual raw, unpolished and aggressive delivery. This also doesn't sound like his version of Regional Mexican, it sounds like another group that does this uncharismatic machismo, strings that are plucked way too far, and nonexistent farty horns. It really felt like no one tried here, unlike the next one.</p>`,
 
+      `<hr class="page-break">`,
+
       `<p>Again, no FUCKING CLUE WHAT THEY ARE DOING.</p>`,
       `<h4>17. Bzrp Music Sessions Vol. 55 by Bizarrap and Peso Pluma</h4>`,
       `<img src="assets/posts/worst-2023-part-1/cover-deezer-33-0.jpg" alt="Bzrp Music Sessions Vol. 55 by Bizarrap and Peso Pluma single cover art">`,
       `<p>Alright, more context to this. Bizarrap started doing these freestyle music sessions where he was promoting smaller Spanish artists, which is pretty cool. So cool in fact, that megastars like SHAKIRA did it, and the one before her was THE BIGGEST hit of last year, well if you don't include America. But then he released 55, where he admitted to coasting off his success because he knew that his collab with the biggest Spanish artist at the time would guarantee a number 1 hit.</p>`,
       `<p>He mixed Peso Pluma like he was swift to get BACK INTO bed. The horns are so loud and he's somehow mixed down but on the chorus he is just shrill. Probably the most grating performance of the entire year. Plus, his style does not do well when trying to be professionally mixed. Nothing sticks, it isn't fun at all. It has an anti-hook. This isn't even a Regional Mexican hit, this is an interpolation of it gone wrong.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>Ah yes, the first Morgy Worgy hit on the list. Mans released a 36-song album, of course SOMETHING had to be bad from it.</p>`,
       `<h4>16. Ain't That Some by Morgan Wallen</h4>`,
@@ -523,6 +531,8 @@ const POSTS = [
       `<img src="assets/posts/worst-2023-part-1/img6.jpg" alt="Screenshot of lyrics: Yeah">`,
       `<blockquote>"Yeah! Yeah! Shorty got down low, said, 'Come and get me'<br>(Yeah) Yeah<br>I got so caught up, I forgot she told me..."</blockquote>`,
       `<p>This is really convincing me that Morgan is really no antihero of the genre, he is just coasting on his past success. Anyways onto MORE shit.</p>`,
+
+      `<hr class="page-break">`,
 
       `<p>And to think that all this country really got started off with these two hits. They both include one of the better country singers in the business, and trucks.</p>`,
       `<h4>15. Heart Like a Truck by Lainey Wilson AND Wait In the Truck by Lainey Wilson and HARDY</h4>`,

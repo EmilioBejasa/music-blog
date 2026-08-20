@@ -213,17 +213,17 @@ function buildEntrySlideshow(entryBlocks) {
     const n = Math.min(Math.max(Math.round(Number(pageInput.value)) || 1, 1), entryBlocks.length);
     if (n - 1 !== index) {
       show(n - 1);
-      wrap.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       pageInput.value = index + 1;
     }
   }
 
   prevBtn.addEventListener("click", () => {
-    if (index > 0) { show(index - 1); wrap.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    if (index > 0) { show(index - 1); window.scrollTo({ top: 0, behavior: "smooth" }); }
   });
   nextBtn.addEventListener("click", () => {
-    if (index < entryBlocks.length - 1) { show(index + 1); wrap.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    if (index < entryBlocks.length - 1) { show(index + 1); window.scrollTo({ top: 0, behavior: "smooth" }); }
   });
   pageInput.addEventListener("change", jumpToInput);
   pageInput.addEventListener("keydown", e => {

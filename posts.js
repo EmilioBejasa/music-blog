@@ -462,6 +462,9 @@ const POSTS = [
       `<p>Here's my summary of just the pop scene in general this year: it is just the same as its movie industry; it is just content that rips off older genres and songs because this country seems creatively bankrupt for no reason, to the point where I almost made songs from the Global 200 and the UK Official Charts eligible (my non-eligible honorable mentions will be littered with those). I really thought LAST YEAR had run out of ideas, but somehow we are scraping below the bottom of the barrel.</p>`,
       `<p>Rap is fucking struggling, to the point where its biggest hit also was part of this 2-year-long sampling trend. Until that ONE album (and no this is actually not Drake related).</p>`,
       `<p>Kpop had its most commercially successful year, but that success was invisible on Billboard, to the point where Like Crazy by Jimin is quite literally the least successful #1 hit of all time, falling to #42 (the biggest dropoff for a #1 debut of all time), then disappeared. There have been exciting girl groups popping up, but the one who actually has a song has now split up due to label issues. Country had its best commercial year in this millennium. A quarter of the songs of the year end are country. But it has had the WORST DISCOURSE since like 2019 where we were arguing about what genre Old Town Road is, and we WISH we were arguing about that today.</p>`,
+
+      `<hr class="page-break">`,
+
       `<p>This year was chaotic. I said this was gonna be a top 30 list, which is still somewhat true, but we are starting off at #22.</p>`,
 
       `<p>Hmm, we're starting with a song that starts nice enough with a sample as its intro. In fact, it's a pretty good intro. Wait why is this on he...</p>`,

@@ -743,6 +743,7 @@ const POSTS = [
       `<p>This was a pretty tame, cloudy RnB-esque song from 4Batz, who has a interesting voice. It gave it some bounce. But THEN. He came along with the most forgettable verse in a while.</p>`,
       `<p>"Stand-up guy like Dave Chappelle", REALLY. And you have a song where you claim that you J. Cole are the top 2 of the Big 3?</p>`,
       `<p>That third member definitely won't torch that claim and make one of the most defining moments of 2024 in the process. Definitely. No such thing happened. :)</p>`,
+      `<hr class="page-break">`,
       `<p>From Drake to an act propped up by Drake.</p>`,
 
       `<h4>17. Get It Sexyy by SexyyRed</h4>`,
@@ -763,6 +764,7 @@ const POSTS = [
       `<h4>14. Austin by Dasha</h4>`,
       `<img src="assets/posts/spring-2024/cover-deezer-24-0.jpg" alt="Austin by Dasha single cover art">`,
       `<p>Nice strumming guitars beat complemented by lyrics that's telling off a guy that's he would wash back up in Texas. Funny as hell</p>`,
+      `<hr class="page-break">`,
       `<p>So yes, and? has been heavily shrinking on me. The next single is better.</p>`,
 
       `<h4>13. we can't be friends (wait for your love) by Ariana Grande</h4>`,
@@ -778,17 +780,20 @@ const POSTS = [
       `<h4>11. Saturn by SZA</h4>`,
       `<img src="assets/posts/spring-2024/cover-deezer-33-0.jpg" alt="Saturn by SZA single cover art">`,
       `<p>The chilled out hit hasn't really fully set in for me yet, but I still really liked the vibe. Will definitely grow on me soon.</p>`,
+      `<hr class="page-break">`,
       `<p>This song does not sound like it was released in the 2020s, it sounds like a 2000s RnB hit</p>`,
 
       `<h4>10. Made For Me by Muni Long</h4>`,
       `<img src="assets/posts/spring-2024/cover-deezer-36-0.jpg" alt="Made For Me by Muni Long single cover art">`,
       `<p>AND THIS IS THE SAME WOMAN that has written behind the scenes for a long time including... New Truck by Florida Georgia Line, which I heard is a pretty fun hit and one of their best. And their writer has dropped some decent RnB hits. That chorus is kinda magical.</p>`,
+      `<hr class="page-break">`,
       `<p>And here is the GloRilla two-fer.</p>`,
 
       `<h4>9 and 8. Yeah Glo! by GloRilla and Wanna Be by GloRilla and Megan Thee Stallion</h4>`,
       `<img src="assets/posts/spring-2024/cover-yeah-glo.jpg" alt="Yeah Glo! by GloRilla single cover art">`,
       `<img src="assets/posts/spring-2024/cover-wanna-be.jpg" alt="Wanna Be by GloRilla and Megan Thee Stallion single cover art">`,
       `<p>GloRilla said that she was inspired by crunk, that she wanted a dominant sound. These two hits prove it. Two of the stickiest and commanding hooks of the year.</p>`,
+      `<hr class="page-break">`,
       `<p>Here is the biggest surprise of the year: Hozier is officially not a one hit wonder anymore, and is now, at the time of writing this, at #1.</p>`,
 
       `<h4>6. Too Sweet by Hozier</h4>`,
@@ -800,12 +805,14 @@ const POSTS = [
       `<h4>5. Obsessed by Olivia Rodrigo</h4>`,
       `<img src="assets/posts/spring-2024/cover-deezer-46-0.jpg" alt="Obsessed by Olivia Rodrigo single cover art">`,
       `<p>Yes, I've listened to the deluxe. I'm not sure of my thoughts on it. But I'm grateful that the rock song got pushed again, instead of songs like Vampire, which honestly have been shrinking on me to be her worst song period. It's not baaaad. The luster wore off FAST.</p>`,
+      `<hr class="page-break">`,
       `<p>Ok WHAT THE FUCK is this and where can I get MORE of it.</p>`,
 
       `<h4>4. i like the way you kiss me by Artemas</h4>`,
       `<img src="assets/posts/spring-2024/cover-deezer-49-0.jpg" alt="i like the way you kiss me by Artemas single cover art">`,
       `<p>This ACTUALLY came out of nowhere, even more than Hozier. At least the band actually released singles in the past few years that charted. This though? Like who even is this.</p>`,
       `<p>Anyways, this comes out of the genre known as darkwave, and I am already hoping for more songs in this lane, kind of like the Jersey Club movement of 2023(uh oh spoilers?). This song seems so ephemeral, like it's always fading into the background, but somehow in a good way. Idk, but inject this into my veins NOW.</p>`,
+      `<hr class="page-break">`,
       `<p>Another song responsible because of Stranger Things, but not because of the show itself. The bully of the show actually has a music career, and wow.</p>`,
 
       `<h4>3. End of Beginning by Djo</h4>`,
@@ -1379,11 +1386,13 @@ const POSTS = [
       `<p>This song, the song after that… Snoop Dogg and Tupac AI disaster… was good. I actually liked it. Then the song aged like fucking milk in the sun. The flaws were exacerbated and then I realized, OH YEAH, Drake's diss towards the Weeknd IS JUST HOMOPHOBIC. The song also just doesn't matter. It's almost like 40 minutes after this was released, Kendrick released the best song in the beef and scared the absolute shit outta me. Meet the Grahams is 100% the best horrorcore song released this year.</p>`,
       `<p>And this is low because I liked it at first and is definitely the best song from Drake from the beef. Low bar but still. HEY THIS WORST LIST WAS SLIM PICKINGS MAN.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Boring dreck.</p>`,
       `<h4>8) Scared To Start by Michael Macargi</h4>`,
       `<img src="assets/posts/worst-2024/cover-deezer-10-0.jpg" alt="Scared To Start by Michael Macargi single cover art">`,
       `<p>Ok I think I deserve this.</p>`,
-      `<p>Insert picture</p>`,
+      `<img src="assets/posts/worst-2023-part-1/img1.jpg" alt="Selfie of the author passed out asleep, yet again">`,
+      `<hr class="page-break">`,
       `<p>Should've put this in a worse tier.</p>`,
 
       `<h4>7mindrill) Who by Jimin</h4>`,
@@ -1398,6 +1407,7 @@ const POSTS = [
       `<h4>5) Wild Ones by Jessie Murph ft. Jelly Roll</h4>`,
       `<img src="assets/posts/worst-2024/cover-deezer-19-0.jpg" alt="Wild Ones by Jessie Murph ft. Jelly Roll single cover art">`,
       `<p>This is gonna sound like a WILD take but maybe white women shouldn't do country rap. Just a thought. Especially ones that sound like a congested chipmunk, definitely the worst voice in po…</p>`,
+      `<hr class="page-break">`,
       `<p>OK WHAT THE FUCK WAS THIS.</p>`,
 
       `<h4>4) Slow It Down by Benson Boone</h4>`,
@@ -1410,6 +1420,7 @@ const POSTS = [
       `<p>He really went from First Ass to Second Ass.</p>`,
       `<p>He really went from First Class to Coach.<br>He's the second rapper to use whips and chains in his songs, first one being Drake.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Alright let's get to the worst 2 hits of the year, and will be the most controversial part of the list.</p>`,
       `<h4>2) Training Season by Dua Lipa</h4>`,
       `<img src="assets/posts/worst-2024/cover-deezer-29-0.jpg" alt="Training Season by Dua Lipa single cover art">`,
@@ -1593,19 +1604,23 @@ const POSTS = [
       `<h4>14. TGIF by GloRilla</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-31-0.jpg" alt="TGIF by GloRilla single cover art">`,
       `<p>I honestly have nothing else to say other than this can soundtrack an ad to make people get into the Army, the beat has some weirdly pitched horns that remind me of it.</p>`,
+      `<hr class="page-break">`,
       `<p>This is the third time I've seen a pop song named after a female singer, and the second time where the female singer in question was "featured".</p>`,
       `<h4>13. KEHLANI by Jordan Adetunji ft. KEHLANI</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-35-0.jpg" alt="KEHLANI by Jordan Adetunji ft. KEHLANI single cover art">`,
       `<p>The other times were Billie Eilish performing the song named after her on stage and... multiple songs named Doja, one being the biggest UK import in years(TERRIBLE song).</p>`,
       `<p>And like that song, this is drill... which I didn't expect. But again, this is just full of generic ass lyrics and an okay beat. That's it.</p>`,
+      `<hr class="page-break">`,
       `<p>This is at least way better than the last time I heard Jessie Murph?</p>`,
       `<h4>12. High Road by Koe Wetzel ft. Jessie Murph</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-40-0.jpg" alt="High Road by Koe Wetzel ft. Jessie Murph single cover art">`,
       `<p>There's an okay chorus melody, but what the fuck are the lyrics about this toxic, alcohol-and-drug-filled relationship about both parties taking the "high" road. The vocal chemistry is decent which is why it isn't any lower.</p>`,
+      `<hr class="page-break">`,
       `<p>I don't get this one.</p>`,
       `<h4>11. HOT TO GO! by Chappell Roan</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-44-0.jpg" alt="HOT TO GO! by Chappell Roan single cover art">`,
       `<p>It sucks, because I really, REALLY like Red Wine Supernova. But this is just lesbian Carry Out, that's it. She's comparing herself to... takeout, I think. The production is only alright too. I cannot defend this, it's another played-out food-sex metaphor. Can we compare other shit together please?</p>`,
+      `<hr class="page-break">`,
       `<p>Um. This song just... exists.</p>`,
       `<h4>10. WILDFLOWER by Billie Eilish</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-48-0.jpg" alt="WILDFLOWER by Billie Eilish single cover art">`,
@@ -1619,6 +1634,7 @@ const POSTS = [
       `<h4>8. Si Antes Tu Hubiera Conocido by KAROL G</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-56-0.jpg" alt="Si Antes Tu Hubiera Conocido by KAROL G single cover art">`,
       `<p>I really don't have much to say about this, but this is a pretty fun merengue song from KAROL G, a promising sign for her "comeback" after a relatively quiet 2023.</p>`,
+      `<hr class="page-break">`,
       `<p>Country is so huge right now, and Post Malone finally leaned into the pivot and released a whole album</p>`,
       `<h4>7. Pour Me A Drink by Post Malone ft. Blake Shelton</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-60-0.jpg" alt="Pour Me A Drink by Post Malone ft. Blake Shelton single cover art">`,
@@ -1640,6 +1656,7 @@ const POSTS = [
       `<img src="assets/posts/fall-2024/cover-deezer-74-0.jpg" alt="Please Please Please by Sabrina Carpenter single cover art">`,
       `<p>The shimmering instrumental, the breathy singing, the BEST USE OF THE F WORD THIS YEAR. Wow. This song is so goddamn good. Why the fuck didn't Jack Antonoff try harder on the Taylor Swift album.</p>`,
       `<p>The video has aged interestingly, I don't know if her and the Saltburn guy are broken up anymore.</p>`,
+      `<hr class="page-break">`,
       `<p>This should've been more popular than Lose Control.</p>`,
       `<h4>3. The Door by Teddy Swims</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-79-0.jpg" alt="The Door by Teddy Swims single cover art">`,
@@ -1647,6 +1664,7 @@ const POSTS = [
       `<h4>2. Die With A Smile by Bruno Mars ft. Lady Gaga</h4>`,
       `<img src="assets/posts/fall-2024/cover-deezer-82-0.jpg" alt="Die With A Smile by Bruno Mars ft. Lady Gaga single cover art">`,
       `<p>WOW, how has this not been a duet before. I'm reserving this for some other email I'll START making in a few months.</p>`,
+      `<hr class="page-break">`,
       `<p>For my number 1, I can only say one thing:</p>`,
       `<p>THEY'RE BACK.</p>`,
       `<h4>1. The Emptiness Machine by Linkin Park</h4>`,
@@ -2106,11 +2124,13 @@ const POSTS = [
       `<img src="assets/posts/best-2024/img2.jpg" alt="Screenshot of Water lyrics: 'Can you blow my mind? Set off my whole body'">`,
       `<p>Also, when she says the word "setttt" it actually just makes me smile, the rolling of a single letter just makes this song even cuter.</p>`,
 
+      `<hr class="page-break">`,
       `<p>SPEAKING of cute.</p>`,
       `<h4>14. Magnetic by ILLIT</h4>`,
       `<img src="assets/posts/best-2024/img3.jpg" alt="SUPER REAL ME EP cover art by ILLIT, featuring Magnetic">`,
       `<p>Probably one of the two simplest picks on the list. I listened to it a lot. It was addictive. That's mostly it. The youthful and bubbly vocals just fly on this synthy beat. From the few lyrics I do understand, the magnetism from the song's title is reflective of... I mean what did you expect. Fucking Coulomb's Law? NO, of course it's about a relationship, or a potential one. This is just so goddamn fun to listen.</p>`,
 
+      `<hr class="page-break">`,
       `<p>So now take the last two entries combined and... well.</p>`,
       `<p>She finally got me. She made it onto the list.</p>`,
       `<h4>13. Feather by Sabrina Carpenter</h4>`,
@@ -2118,12 +2138,14 @@ const POSTS = [
       `<p>(I can't believe this is the vinyl cover for this song)</p>`,
       `<p>And this is her ONLY entry. I think the reason why Please Please Please missed the list is the opening is too much after repeat listens. Oh and this song is just way better. The light and airiness of the instrumental with the lyrics being a fleeting relationship and being better off without it is weirdly positive and catchy. I just really the melodies and the experience of listening to it. This is a GREAT song to listen with headphones.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Andddd into the darkest-sounding song so far.</p>`,
       `<h4>12. CHIHIRO by Billie Eilish</h4>`,
       `<img src="assets/posts/best-2024/img5.jpg" alt="CHIHIRO by Billie Eilish single cover art">`,
       `<p>Shit, I just realized I might have to use this image lat... OK WHAT THE FUCK. THESE 4 SHADOWS NEED TO CALM THE FUCK DOWN PLEASE. LET ME FINISH THE GODDAMN LIST.</p>`,
       `<p>Anyways, this song might the first pop song in history to be inspired by Spirited Away. the most well-known Studio Ghibli movie. The title itself is the name of its protagonist, and Billie uses all these genius references to Spirited Away that tells me that she really valued this movie in her album, as themes of it bleed into all of the songs, but especially this song, where the darkly magical feel of the track is extremely apparent. She made such a concept of a song, and I feel bad now. I have it 12.</p>`,
 
+      `<hr class="page-break">`,
       `<p>AND I FEEL EVEN WORSE for putting this at 11. This is probably the fastest rise to superstardom in a while.</p>`,
       `<h4>11. Good Luck Babe! by Chappell Roan</h4>`,
       `<img src="assets/posts/best-2024/img6.jpg" alt="Good Luck Babe! by Chappell Roan single cover art">`,
@@ -2132,17 +2154,20 @@ const POSTS = [
       `<p>Ok that's a first.</p>`,
       `<p>This song is her only actual release of this year, too. And what a fucking song it is. An ex-partner that's suppressing her own queerness and the narrator cathartically letting her go is potent. And that goddamn BRIDGE man. HOLY. And having a song that made the VMAs relevant??? Chappell Roan is so goddamn talented to make an anthem of forced hetero relationships of a former lover this good. The fact this didn't make the top 10 is my fault.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Writing this ranking is 2025 when this song is inexplicably STILL in the top 15 is partly why I haven't wrote anything about this year. But the chart holding over this still brings me joy.</p>`,
       `<h4>10. Die With A Smile by Bruno Mars ft. Lady Gaga</h4>`,
       `<img src="assets/posts/best-2024/img8.jpg" alt="Die With A Smile by Lady Gaga and Bruno Mars single cover art">`,
       `<p>Of course this song is good, you have two of the most talented voices of the previous decade coming together to make the best "live like were dying" type of songs. It's somehow bombastic, yet quaint. Emotional, yet wistful. And somehow still holding up to personal overplay. The opening guitar riff has me gripped every damn time. The instrumental and vocals and lyrics aren't challenging or anything, it's pretty much THE simple pop song of this year. But DAMN can that still be good, from the greatest to do it previously as well.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Jesus Christ I still need to catch up with Stranger Things. Shit is gonna end soon and what, I'm just not doing it. Definitely not indicative of anything.</p>`,
       `<p>C'mon yall know where I am going with this.</p>`,
       `<h4>9. End Of Beginning by Djo</h4>`,
       `<img src="assets/posts/best-2024/img9.jpg" alt="End of Beginning by Djo single cover art">`,
       `<p>The glimmery, nostalgic-sounding song just hit, honestly. Joe Keery, or "Steve from Stranger Things" really wrote a song about being appreciative and wanting the past back, after physically being away from it for a while. Hm, it's almost like it kinda spoke to me, being even a mere few hours away from home at college. Also, it sounds great.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Time to get a monkey off my back from about a year ago, putting this not in the Excellent Tier immediately is wild in hindsight.</p>`,
       `<h4>8. Agora Hills by Doja Cat</h4>`,
       `<img src="assets/posts/best-2024/img10.jpg" alt="Agora Hills by Doja Cat single cover art">`,
@@ -2150,6 +2175,7 @@ const POSTS = [
       `<img src="assets/posts/best-2024/img11.jpg" alt="Screenshot of a headline: 'Doja Cat Addresses Controversial Alt-Right Comedian T-Shirt, Says She's Not a Political Person At All'">`,
       `<p>And it seems like her success is kind of getting to her. She tries to sabotage the song by singing in a "supposedly annoying" voice, but I feel like the contrast between her natural voice and the beat and this voice is genuinely very entertaining. The voicemails should NOT work. But no, in a song where they are trying to keep a relationship but don't want to because of their shared exhibitionist tendencies that sounds fucking magical is fucking magical. SHE IS TOO GOOD AT HER FUCKING JOB TO NOT BE SUCCESSFUL AND ITS TO HER OWN DETRIMENT.</p>`,
 
+      `<hr class="page-break">`,
       `<p>In any other year, this is the biggest triumph that a hip-hop artist has this year. It's not. For obvious reasons. Doesn't change that he finally, FINALLY got the pop crossover that I've wanted for years.</p>`,
       `<h4>7. Sticky AND Noid AND St. Chroma by Tyler, the Creator</h4>`,
       `<img src="assets/posts/best-2024/img12.jpg" alt="Photo of Tyler, the Creator from the Chromakopia era">`,
@@ -2158,11 +2184,13 @@ const POSTS = [
       `<img src="assets/posts/best-2024/img13.jpg" alt="Screenshot of a Sticky lyric: Nigga, give a fuck 'bout pronouns, I'm that nigga and that bitch">`,
       `<p>Is a line that ONLY Tyler can say and get away with it. Almost maes you forget about that random, stupid rumor that he and Jaden Smith were dating before he came out with IGOR.</p>`,
 
+      `<hr class="page-break">`,
       `<p>The other simple choice on the list.</p>`,
       `<h4>6. Luna by Feid and ATL Draco</h4>`,
       `<img src="assets/posts/best-2024/img14.jpg" alt="Luna by Feid and ATL Jacob single cover art">`,
       `<p>ATL Jacob created a great reggaeton beat that just exudes summer nights. It just sounds so warm and calm, and it came from a fucking hip-hop producer. That's kinda it, there isn't really any deep lyrical meaning as my enjoyment is very separate from that, it being in another language and all. That's all I need from this year. The song quality was so high overall and sometimes that's all that's needed. 2024 was just so great, but we're getting into the meat soon.</p>`,
 
+      `<hr class="page-break">`,
       `<p>[twister subsides] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH. [splat]</p>`,
       `<p>Ok jesus christ I was in that for HOW LONG. Why the FUCK is it almost the end of the charting year, lazy FUCK. ANYWAYS.</p>`,
       `<p>Country had an excellent landmark year last year. We had the biggest pop stars crossing over in Beyonce and Post Malone. A guy named SHABOOZEY got one of the biggest songs of the decade by sampling a CRUNK song in country(and also won't go the fuck away)... But of course the best coutnry artist had something in store.</p>`,
@@ -2175,12 +2203,14 @@ const POSTS = [
       `<p>And the other reason Luke Combs is one of the best artists working right now: his ability to write the most heart-wrenching, devastating shit ever. This ode to his brother moving out to the West, "where the wild things are", and eventually meeting up with him again years later and him saying he will never leave. But that's where everyone would get got, as the reminiscent instrumental cuts out and the first two lines of the chorus hit, the instrumental picks back up... and you get hit with the swerve. His brother, in the song AND in real life, tragically passes away from a motorcycle accident, which completely flips the chorus lines on his head. Every subsequent listen of this song, having the knowledge the death happens, just kinda puts everything in perspective. This is genuinely the first song that has this unique type of replayability.</p>`,
       `<p>The versatility of this man is important to a country scene that's usually stale and not guilty replaying trends(see: the jelly roll of it all for the last 3 years[note: I do NOT hate jelly roll as an artist on principle, just his overexposure is getting a bit ridiculous]). I really look forward to what he does next.</p>`,
 
+      `<hr class="page-break">`,
       `<p>From two hits that just rock and rocked me into tears into a song that sounds like cotton candy.</p>`,
       `<h4>4. Igual Que Un Angel by Kali Uchis ft. Peso Pluma</h4>`,
       `<img src="assets/posts/best-2024/img17.jpg" alt="Orquídeas album cover art by Kali Uchis, featuring Igual Que Un Angel">`,
       `<p>NOW THIS is the easiest one to explain. Kali Uchis just has this warm and sultry voice over this heavenly instrumental. I feel like I'm floating through clouds.</p>`,
       `<p>And... that's kinda it. Peso Pluma is fine here. The entire appeal of the song is the sound; it's this high because it has stuck with me the entire year, and it's great. Another foreign-language song that just has a great sound.</p>`,
 
+      `<hr class="page-break">`,
       `<p>I honestly didn't expect this song to be this high. But yeah. Easily the best country hit of the year. Done by two women who may or may not be gay for each other.</p>`,
       `<h4>3. II Most Wanted by Beyonce ft. Miley Cyrus</h4>`,
       `<img src="assets/posts/best-2024/img18.jpg" alt="II Most Wanted single cover art by Beyoncé and Miley Cyrus">`,
@@ -2188,6 +2218,7 @@ const POSTS = [
       `<p>Uhhhhh alright.</p>`,
       `<p>This song is a very simple, stripped-back, guitar-driven anthem, with their vocals blended seamlessly. The vocal chemistry of Miley's rougher, rock-ish vocals and Beyonce's more clean vocals work really well off of each other.</p>`,
 
+      `<hr class="page-break">`,
       `<p>You know who was gonna be here eventually.</p>`,
       `<h4>2. Kendrick Lamar</h4>`,
       `<img src="assets/posts/best-2024/img19.jpg" alt="Portrait photo of Kendrick Lamar">`,
@@ -2279,6 +2310,7 @@ const POSTS = [
         <li><strong>GOT ME GEEKED</strong> by Denzel Curry</li>
       </ul>`,
 
+      `<hr class="no-split">`,
       `<h3>Albums</h3>`,
       `<ul>
         <li><strong>NO HANDS</strong> by Joey Valence & Brae</li>
@@ -2286,6 +2318,7 @@ const POSTS = [
         <li><strong>I LAY DOWN MY LIFE FOR YOU</strong> by JPEGmafia</li>
       </ul>`,
 
+      `<hr class="page-break">`,
       `<p>And what beat Kendrick, you may all be wondering. Honestly, this was the latest switch I could've made. I just liked a singular song better.</p>`,
       `<p>The best song from Billie Eilish.</p>`,
       `<p>Yup, this is that tool, in a sense.</p>`,

@@ -101,14 +101,16 @@ function renderPost(post) {
       flush();
       current.forceBreak = true;
     } else if (el.tagName === "HR" && el.classList.contains("no-split")) {
-      // The opposite marker: keeps the upcoming h4 (e.g. an unranked
-      // song-breakdown sub-heading inside one ranked entry) from starting
-      // its own page, folding it into the entry already in progress.
+      // The opposite marker: keeps the upcoming h3/h4 (e.g. an unranked
+      // song-breakdown sub-heading inside one ranked entry, or a bonus h3
+      // section like Albums) from starting its own page, folding it into
+      // the entry/page already in progress.
       suppressNextH4Flush = true;
     } else if (el.tagName === "H3") {
       currentTier = tierClassFor(el.textContent);
       if (currentTier) el.classList.add(currentTier);
-      flush();
+      if (!suppressNextH4Flush) flush();
+      suppressNextH4Flush = false;
       inMentions = /mention/i.test(el.textContent);
       current.push(el);
     } else if (el.tagName === "H4") {

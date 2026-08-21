@@ -1474,6 +1474,7 @@ const POSTS = [
       `<p>However, it's all just a front. You can kinda tell that since, all of this is happening in his mind, and it sounds like he is coping. The first verse and chorus talks about this idealistic, picturesque house and setting where he and his "baby" can never let go, and would live there and IS living there. The chorus lines, "You'd be mine in the shine of a front porch light" and "Still drunk on that feeling when I close my eyes" is pretty telling that it's all in his head, that he isn't in that relationship anymore, and is full of regret. The warmth of the song is also very effective, the memories feel like this blanket enveloping when all it's doing is preventing him from moving on. This is more blunt in the second verse, where he says he wouldn't miss her if he was in this perfect world, but alas.</p>`,
       `<p>This song just also sounds really good, also anchored by a rougher guitar solo that juxtaposes the softer guitar that led into the song, and it also closes the song, so maybe he is moving on from this perfect world. I could be ENTIRELY reading into this too much and maybe it's just a very good country song about a lost relationship. However, it's a very warm version of what it does, and warmth can be found in some of my favorite pop songs, like PROVENZA from 2022. Definitely the most simple song on the entire list, and that does not detract from it.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Some issues that I have had with my own review style is, I feel like I'm using the same vocabulary again and again. It works on the worst lists because, let's be real, yelling at these homogenous pop songs that are completely disposable do not deserve a lot of my effort. I also have no clue about songs that are more complex in their tone, and I can't really elaborate on that often. Hopefully it's time to change that.</p>`,
       `<p>This song is fucking HYPNOTIC, the entire piece feels like it's under a shimmer of...</p>`,
       `<h4>16. Moonlight by Kali Uchis</h4>`,
@@ -1485,6 +1486,7 @@ const POSTS = [
       `<p>This really is the "nightmare" version to the dreamlike Telepatia, where Uchis wants to figuratively (and literally) be intoxicated by the love shared in her relationship with someone. Moonlight's and Telepatia's pace is slow, but because of different reasons, and I love that it is that way for both songs, as one of them conveys the haziness of dreams, and the other conveys the haziness of potentially hallucenogenic substances. The fadeout at the end of both really ties both songs back too, and I love it.</p>`,
       `<p>However, these songs are too goddamn idealistic about their relationships, let's get into what happens if a relationship that goes extremely badly.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Rumors are a nasty thing, ain't it.</p>`,
       `<p>NO, not referencing the Lizzo song. JESUS CHRIST how that aged badly because of her own allegations (I should've known when she forced her dancers to take a pic with Chris Brown). Still cannot believe that slipped my mind creating the worst list. Her whole empowerment shtick is now COMPLETELY shit on because of it.</p>`,
       `<p>Where was I? Oh right. Let's take a song about a broken relationship that involves some sort of mysterious bad thing that happened and make it fucking garbage: "Truth About You" by Mitchell Tenpenny. This song would've been #2 if it qualified, but THANK GOD it didn't. It's a disgusting song that only focuses on his ex POTENTIALLY spreading rumors about him and he then THREATENS the girl to tell the truth about her if something bad gets out. He thinks it's some fucking macho thing to do, meanwhile he doesn't even hint at what she did wrong. The song is TRYING to trick me to think that the woman did something wrong, but there's no actual evidence pointing towards that. It only makes Tenpenny that much of a toxic SHITHEAD. It sounds MISERABLE. The only reason it even reached the airwaves is because his family laid the groundwork for Music Row in Nashville. He's a nepo baby.</p>`,
@@ -1495,6 +1497,7 @@ const POSTS = [
       `<p>Ah yes the song in question and why it's better than a nepo baby's toxic relationship anthem. Well first of all, it sounds good, really good in fact. Tenpenny was YELPING throughout that song over a sludge of an instrumental. Pearce has a BEAUTIFUL voice, accentuated by this light guitar that sounds like a harp from the Greek gods themselves. I haven't even noticed her wonderful voice in the only other hit she had from 2020: I Hope You're Happy Now with Lee Brice, which... I have a mouthful to say about and might talk about it in the future. Listen to that song if you want your heart fucking shattered, and that's because of Brice and the songwriting from Luke Combs.</p>`,
       `<p>This song has pretty much the same premise as the awfulness I've described above, where they both have dodged the rumor, but while Tenpenny threatens his partner by wanting to leak the rumor(if it's even fucking true or not), Pearce acknowledges that there are two sides to every story, and it's not even the main reason they broke up. There's a whole thing about how toxic relationships stay together because of the connection both parties want to build but that's another thing I'm not qualified to talk about either. However, Pearce never wants to even acknowledge the rumor, even though she said it could ruin him, but takes a completely mature route of not focusing what he did in the past, but what he didn't do to keep the relationship together. That's how you paint yourself as the bigger person, by focusing on the main downfalls of the relationship and moving on.</p>`,
 
+      `<hr class="page-break">`,
       `<p>SZA is so fucking good.</p>`,
       `<h4>14. Ghost In the Machine by SZA ft. Phoebe Bridgers</h4>`,
       `<img src="assets/posts/best-2023-part-3/img4.jpg" alt="SZA - Ghost In the Machine single artwork">`,
@@ -1505,6 +1508,7 @@ const POSTS = [
       `<p>This song is very cold, reflective of the coldness of the music industry, the interactions that SZA has had with surrounding artists, and the fact that striving for success drives you further away from the people around you, and that they need an escape...</p>`,
       `<p>Ok I SWEAR these 4 shadows are fucking with me, MOVING ON.</p>`,
 
+      `<hr class="page-break">`,
       `<p>I fucking hate TikTok and what it has devolved into. It's cool that it can truly make any song popular, but then that concept died in 2022 when the alphabet song astroturfed the shit out of everyone and became the most despised hit of that year.</p>`,
       `<p>Sometimes, what they push can be very magical, and what magic this was...</p>`,
       `<h4>13. Until I Found You by Stephen Sanchez ft. Em Beihold</h4>`,
@@ -1513,6 +1517,7 @@ const POSTS = [
       `<p>The reason it's up this high is very simple. This song at first hit me like a fucking missile in the gut. The appeal of this song. I can't lie, the chorus motif had me tearing up. Playing the instrumental after the second chorus to let the song just sit there is just... AHHHHH.</p>`,
       `<p>Definitely the simplest song of the entire ranking.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Ugh. I feel uncomfortable talking about this artist after what I know now. This song is beautiful.</p>`,
       `<h4>12. Golden Hour by JVKE</h4>`,
       `<img src="assets/posts/best-2023-part-3/img6.jpg" alt="JVKE - Golden Hour single artwork">`,
@@ -1524,6 +1529,7 @@ const POSTS = [
       `<p>Now the actually uncomfortable part. The AI controversy. There was like AI Drake and the Weeknd song called Heart on My Sleeve by an artist by Ghostwriter977. It was almost popular enough to chart, which would've set a HORRIBLE precedent for the music industry. Some internet sleuth had a shit ton of evidence to strongly suggest that JVKE was behind all of it. And that makes my liking of the song really icky. Not only because there may or may not be some sort of undertone of a white guy robbing the voices of two African-American artists, but there's something lost by having this beautiful, natural song made by a guy that artificially made another song. It ruins the immersion that I'm supposed to have.</p>`,
       `<p>It still doesn't take away the fact that it slowly rose up the chart to be a top 10 hit and I was excited for it. Ugh.</p>`,
 
+      `<hr class="page-break">`,
       `<p>The moment you all have been waiting for. Glazing Olivia Rodrigo.</p>`,
       `<h4>11. bad idea right? AND get him back! By Olivia Rodrigo</h4>`,
       `<img src="assets/posts/best-2023-part-3/cover-guts-spilled.jpg" alt="GUTS (spilled) album cover art by Olivia Rodrigo">`,
@@ -1531,6 +1537,7 @@ const POSTS = [
       `<p>Bad idea right?, though. Easily her best hit, better than good 4 u, drivers license, anything from SOUR that got it big. She's somehow bringing some rock back into the mainstream, which, THANK GOD. The whole commercial-core shit that spawned from whatever Imagine Dragons created really made rock limp and weak. Now I know that there were a few pop punk songs that were popular recently, AND THEY HAVE ALL BEEN GOOD. PLEASE BRING THIS SOUND BACK.</p>`,
       `<p>The song itself is a kick-ass pondering of whether she wants she hook back up with one of her exes and how it's probably it's not wise to do so, but just does it anyways, going out of her way too. She's trying to convince herself and her friends, but ultimately she knows she lying to everyone and knows it's a bad idea, but there's that lingering feeling that it might turn out okay(most likely no though). I fucking love Dan Nigro, he's so good at doing this shit.</p>`,
 
+      `<hr class="page-break">`,
       `<p>I've left talking about this song on the shelf for almost two years. Very punctual of me. I also thought this song was a lock for the top 5, and it probably should be, but I expanded the qualifications. Will I do this this year? FUCK no. It's a 52 week chart this time, but I will also be using the Global chart this year, which definitely includes old songs as well as shit that's popular not in the US. I might also use a slightly expanded year-end as the advent of streaming has torched the December charts.</p>`,
       `<p>All that I'm saying is, SELENA GOMEZ ACTIVELY IMPROVED A SONG. Like, by a SIGNIFICANT AMOUNT.</p>`,
       `<h4>10. Calm Down by Rema ft. Selena Gomez</h4>`,
@@ -2311,6 +2318,7 @@ const POSTS = [
       `<h4>Boy's A Liar Pt. 2 by PinkPanthress ft. Ice Spice</h4>`,
       `<img src="assets/posts/best-2023-part-5/img2.jpg" alt="Boy's A Liar Pt. 2 (Evan Pierini Remix) cover art by PinkPanthress ft. Ice Spice">`,
       `<p>This isn't an official cover, but it encapsulates what this song sounds like: an 8-bit Barbie game. The chiptune with the Jersey Club-esque bassline gives it such a unique and fresh, what this decade was desperately missing. And Pink's voice sounds really soft and bubbly, which is her usual shtick, but over this it sounds really good(as her voice pretty much compliment most of her own work). Somehow, the effortless cool of... fucking Ice Spice put this over the top. I honestly do not care that much about the lyrics because the sound is just that good and fresh and new. I might hammer this point a lot this segment.</p>`,
+      `<hr class="page-break">`,
       `<p>Speaking of fucking Ice Spice.</p>`,
       `<h4>Princess Diana by Nicki Minaj & Ice Spice</h4>`,
       `<img src="assets/posts/best-2023-part-5/img3.jpg" alt="Princess Diana by Nicki Minaj & Ice Spice single cover art">`,

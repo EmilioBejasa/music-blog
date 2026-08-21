@@ -46,6 +46,14 @@ function tierClassFor(headingText) {
 // countdown — e.g. a giant honorable-mentions dump where paging through
 // 100+ entries one at a time isn't worth it.
 const SINGLE_PAGE_TITLES = new Set([
+]);
+
+// Posts that click through one page per h3 section, each section still
+// flowing as a single page internally (its h4 sub-entries are NOT split
+// out into their own pages) — e.g. a post with HMs/Non-Eligibles/Albums
+// dumps that's too long for one page, but where each individual blurb
+// is too short to deserve its own click.
+const SECTION_PAGE_TITLES = new Set([
   "The Best Hit Songs of 2023... Part 4",
 ]);
 
@@ -119,6 +127,30 @@ function renderPost(post) {
 
   if (SINGLE_PAGE_TITLES.has(post.title)) {
     blocks.forEach(appendBlock);
+    return article;
+  }
+
+  if (SECTION_PAGE_TITLES.has(post.title)) {
+    // Regroup the h3/h4-split blocks back into one block per h3 section,
+    // so each section is a single flowing page instead of one page per h4.
+    // Anything before the first h3 (the post's intro) rides along with
+    // the first section; anything after the last h4 (an outro) already
+    // rode along with that h4's block from the split above.
+    const firstH3Idx = blocks.findIndex(b => b[0]?.tagName === "H3");
+    const intro = firstH3Idx > 0 ? blocks.slice(0, firstH3Idx).flat() : [];
+    const rest = firstH3Idx >= 0 ? blocks.slice(firstH3Idx) : blocks;
+    const sections = [];
+    for (const block of rest) {
+      if (block[0]?.tagName === "H3") sections.push([...block]);
+      else sections[sections.length - 1].push(...block);
+    }
+    if (intro.length && sections.length) sections[0].unshift(...intro);
+
+    if (sections.length > 1) {
+      bodyEl.appendChild(buildEntrySlideshow(sections));
+    } else {
+      (sections.length ? sections : [blocks.flat()]).forEach(appendBlock);
+    }
     return article;
   }
 

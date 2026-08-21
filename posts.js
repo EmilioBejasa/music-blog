@@ -1223,6 +1223,7 @@ const POSTS = [
       `<img src="assets/posts/best-2023-part-2/cover-deezer-4-0.jpg" alt="Standing Next To You by Jungkook single cover art">`,
       `<p>This is definitely the best hit out of all the solo careers, by a landslide. The brass laced throughout the entire song gets me MOVING, it's impossible to listen to this song while not dancing. It gives this early-2000s, Jamiroquai sort of vibe; this slick, tight groove is so fun to listen to. And Jungkook performing on top of this is perfection. And we're only at number 25, I found a lot of good shit this year.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Lil Nas X has kinda disappeared in the previous few years, which is honestly crazy to say considering the amount of hits pumped out from 2019 and 2021, all of them being very good. However, with his most recent song, J CHRIST, he somehow went back to the pure controversy-bait that his old hits had. He is a great marketer, don't get me wrong. But the song also has to be good on TOP of that. All the controversies were just a launchpad for his success. Just look at his previous hit.</p>`,
       `<h4>24. STAR WALKIN by Lil Nas X</h4>`,
       `<img src="assets/posts/best-2023-part-2/cover-deezer-7-0.jpg" alt="STAR WALKIN by Lil Nas X single cover art">`,
@@ -1235,25 +1236,29 @@ const POSTS = [
       `<p>Only he can say shit like this.</p>`,
       `<p>I also want to mention that the reception of this song in the League community specifically was negative. People didn't think this song was that good. Or, this was a song made by a black gay man, and the League community is EXTREMELY TOXIC. And they also have no taste in music, judging by the positive reception of the anthem after this one: GODS ft. NewJeans. This song is FUCKING AWFUL. They made some very good songs, but jesus christ, what is the chorus.</p>`,
 
+      `<hr class="page-break">`,
       `<p>WOW LOOK, a positive contribution from Travis Scott. It only took Metro Boomin and Young Thug to carry him. Never would I think that THugger would carry the Fortnite concert man but... yeah that's what we've come to.</p>`,
       `<h4>23. Trance by Metro Boomin ft. Travis Scott and Young Thug</h4>`,
       `<img src="assets/posts/best-2023-part-2/cover-deezer-17-0.jpg" alt="Trance by Metro Boomin ft. Travis Scott and Young Thug single cover art">`,
       `<p>This is mostly here because of the production. The soft bass pulsing is such addicting, and Young Thug and Travis Scott do very well on here, especially Young Thug. The lyrics here... kinda don't matter? There's not even a true chorus, and the structure here is pretty interesting, where there's an intro, Scott's verse, Thug's verse, the title line, and then it fades out. But the beat is really holding everything here, even the hi-hat balances out the wonky bass pattern.</p>`,
       `<p>Metro Boomin's 2023 was excellent, where his Heroes and Villains album was so successful, he did ANOTHER album, being the Across the Spiderverse soundtrack, which was also pretty good.</p>`,
 
+      `<hr class="page-break">`,
       `<p>From an immaculate vibe, to pretty sad, folky indie song. Yeah this list is very weird.</p>`,
       `<h4>22. ceilings by Lizzy McAlpine</h4>`,
       `<img src="assets/posts/best-2023-part-2/cover-deezer-21-0.jpg" alt="ceilings by Lizzy McAlpine single cover art">`,
       `<p>This is a strange song, mostly because of how vague it is. This by itself is kind of a red flag, just look at Someone You Loved by Lewis Capaldi, a song about his grandmother dying that took 6 months of rewriting to make it the most basic, standard breakup song ever.</p>`,
       `<p>But the strings in the production just evoked that emotion of wistfulness and somewhat deadness in her voice from the relationship that may or may not have happened. This entire song might have been happened in her own head, but it's still devastating nonetheless because it's so quiet, but then builds up to the end, to the twist. She either never had this relationship, or it ended and she is coping over it. The concept is super well done.</p>`,
 
+      `<hr class="page-break">`,
       `<p>As an asian, I really don't watch a lot of anime. I honestly don't know why that is considering most people I know watch it. There's one I did always want to watch, Oshi No Ko. It's about a celebrity singer and pressures that comes with it, and a singer like that in Japan is also known as an...</p>`,
       `<h4>21. IDOL by Yoasobi</h4>`,
-      `<img src="assets/posts/best-2023-part-2/cover-deezer-25-0.jpg" alt="IDOL by Yoasobi single cover art">`,
+      `<img src="assets/posts/best-2023-part-2/cover-idol-yoasobi.jpg" alt="IDOL by Yoasobi single cover art">`,
       `<p>This is the theme song for this anime. And it's fucking amazing. Outside of the US, this was the biggest hit this year, and it's not even particularly close. It exceeded 100 million YouTube views in a month, It debuted at #1 in Japan AND STAYED THERE FOR 5 MONTHS AFTER, it broke worldwide sales and streaming records set by FUCKING BTS. That's how widespread this was. It was extremely critically acclaimed, perfectly portraying the character in the show, shifting from the brooding rap verses to the pop-rock, hard bass style chorus.</p>`,
       `<p>And it deserves all these accolades and then some. There's a LOT in this song. It's pop, it's rock, it's EDM. It rapidly switches from pop to someone rapping over a trap-style hard bass as I've mentioned, it sounds like another Japanese artist, Ado, who does a lot of chaotic, wild shit in her songs but it is all put together really nicely.</p>`,
       `<p>I wish I can put this higher, but I feel like I respect this more than I love it. This is a song in another language that I truly do not understand, but the structure and style of the song are so good it deserves to be high. I could regret this placement(if I knew the lyrics and related to it this would be top 5 easily), but for now, this is a really damn good song.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Let's refer back to the most recent 2024 Summer Ranking(holy shit am I this far behind):</p>`,
       `<blockquote>"... Kane Brown's voice. I was REALLY getting around to him, with One Mississippi being one of the best hits in the 2020s, and [REDACTED] being a follow up to the bland Thank God."</blockquote>`,
       `<p>Well. here's the redacted song:</p>`,
@@ -1263,6 +1268,7 @@ const POSTS = [
       `<p>The concept of the song itself is just him wanting to be buried in his hometown, and he doesn't care about the other details of the actual funeral. But he makes it sound so grand with the chorus that goes HARD AS FUCK.</p>`,
       `<p>There's not really that much to it, just that Kane Brown should stop making newlywed country or fucking country EDM with Marshmello and make more shit like this.</p>`,
 
+      `<hr class="page-break">`,
       `<p>Um... she's still the worst female singer in the current pop industry?</p>`,
       `<h4>19. 10:35 by Tiesto ft. Tate McRae</h4>`,
       `<img src="assets/posts/best-2023-part-2/cover-deezer-37-0.jpg" alt="10:35 by Tiesto ft. Tate McRae single cover art">`,
@@ -1270,6 +1276,7 @@ const POSTS = [
       `<p>This song is supposed to be a transition from day to night, as 10:35 can be a time at day or night(or that's what Tiesto himself claims). This chorus where the rougher, Brazilian-bass style that Tiesto employed with McRae's smoother vocals creates a great juxtaposition and overall vibe of the songs.</p>`,
       `<p>Most of the songs are hard to write about... they're kind of self-evidently great and the background info isn't interesting as it usually would be. Somehow the League of Legends anthem had the most background to talk about...</p>`,
 
+      `<hr class="page-break">`,
       `<p>Where the actual fuck did this come from? This was released in the SAME WEEK as that worst hit of all time that I mentioned.</p>`,
       `<h4>18. Johnny Dang by That Mexican OT ft. Paul Wall and Drodi</h4>`,
       `<img src="assets/posts/best-2023-part-2/img2.jpg" alt="Johnny Dang single cover art by That Mexican OT ft. Paul Wall and Drodi">`,
